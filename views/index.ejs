@@ -563,13 +563,19 @@
             const card = document.getElementById(`ex-card-${idx}`);
             const input = document.getElementById(`ex-input-${idx}`);
             const feedback = document.getElementById(`ex-feedback-${idx}`);
-            const userVal = input.value.trim().toLowerCase();
-            const correctVal = exercisesData[idx].answer.toLowerCase();
+            
+            const rawUserVal = input.value.trim();
+            const correctVal = exercisesData[idx].answer.trim();
+
+            // Eğer doğru cevap "Sie" ise tam eşleşme (büyük/küçük harf duyarlı) ara, 
+            // diğerlerinde küçük harf kontrolü yap.
+            const userVal = correctVal === "Sie" ? rawUserVal : rawUserVal.toLowerCase();
+            const targetVal = correctVal === "Sie" ? correctVal : correctVal.toLowerCase();
 
             feedback.classList.remove('hidden', 'text-emerald-700', 'text-rose-700');
             card.classList.remove('border-slate-200', 'border-emerald-300', 'bg-emerald-50/40', 'border-rose-300', 'bg-rose-50/40');
 
-            if (userVal === correctVal) {
+            if (userVal === targetVal) {
                 feedback.innerText = `✅ Doğru! (${exercisesData[idx].answer})`;
                 feedback.classList.add('text-emerald-700');
                 card.classList.add('border-emerald-300', 'bg-emerald-50/40');
