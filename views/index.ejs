@@ -590,6 +590,11 @@
 
         // Ders Sonu Sınavı & İstatistikler
         function selectQuizOption(qIdx, optIdx) {
+    // Eğer bu soru daha önce cevaplandıysa, yeni şık seçimine izin verme (sabitle)
+            if (userQuizAnswers[qIdx] !== undefined) {
+                return;
+            }
+
             userQuizAnswers[qIdx] = quizQuestions[qIdx].options[optIdx];
             renderQuiz();
             updateQuizStatsAndCharts();
