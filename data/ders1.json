@@ -5,8 +5,8 @@
   "book": "Menschen A1",
   "summary": {
     "dialogs": [
-      { "q": "Wie heißt du? / Wie heißen Sie?", "a": "Ich heiße Muhammet. / Ich heiße Cansu.", "tr": "Adın ne? / Adınız ne? (Samimi / Resmî)" },
-      { "q": "Wer bist du? / Wer sind Sie?", "a": "Ich bin Muhammet.", "tr": "Sen kimsin? / Siz kimsiniz?" },
+      { "q": "Wie heißt du? / Wie heißen Sie?", "a": "Ich heiße Ali. / Ich heiße Ayşe.", "tr": "Adın ne? / Adınız ne? (Samimi / Resmî)" },
+      { "q": "Wer bist du? / Wer sind Sie?", "a": "Ich bin Ali.", "tr": "Sen kimsin? / Siz kimsiniz?" },
       { "q": "Woher kommst du? / Woher kommen Sie?", "a": "Ich komme aus der Türkei. / Ich komme aus Bursa.", "tr": "Nerelisin? / Nerelisiniz? (Türkei 'die' artikeli aldığı için 'aus der Türkei' olur)" },
       { "q": "Wo wohnst du? / Wo wohnen Sie?", "a": "Ich wohne in der Türkei. / Ich wohne in Bursa.", "tr": "Nerede ikamet ediyorsun / yaşıyorsun?" },
       { "q": "Welche Sprache sprichst du? / sprechen Sie?", "a": "Ich spreche Türkisch, Englisch und ein bisschen Deutsch. / Ich spreche nur Türkisch.", "tr": "Hangi dili konuşuyorsun(uz)?" },
@@ -115,7 +115,7 @@
     { "cat": "tanisma", "q": "'Hangi dili konuşuyorsun?' sorusu nasıl sorulur?", "a": "Welche Sprache sprichst du?", "exp": "Cevap: Ich spreche Türkisch, Englisch und ein bisschen Deutsch." }
   ],
   "exercises": [
-    { "sentence": "Wie _____ du? - Ich heiße Cansu.", "answer": "heißt", "hint": "heißen fiili (du)" },
+    { "sentence": "Wie _____ du? - Ich heiße Ayşe.", "answer": "heißt", "hint": "heißen fiili (du)" },
     { "sentence": "Woher _____ Sie? - Ich komme aus Bursa.", "answer": "kommen", "hint": "kommen fiili (Sie - resmî)" },
     { "sentence": "Ich komme aus _____ Türkei.", "answer": "der", "hint": "Türkei için kullanılan artikel" },
     { "sentence": "Welche Sprache _____ du?", "answer": "sprichst", "hint": "sprechen fiili (du)" },
