@@ -1,0 +1,356 @@
+{
+  "id": 1,
+  "title": "1. Hafta: Tanışma, Cümle/Soru Tipleri, Doch Kuralı, İyelik Zamirleri, Meslekler ve Sayılar",
+  "week": 1,
+  "date": "02.11.2026 - 07.11.2026",
+  "book": "Menschen A1 (Modul 1)",
+  "summary": {
+    "dialogs": [
+      { "q": "Wie heißt du? / Wie heißen Sie?", "a": "Ich heiße Muhammet Can. / Ich heiße Cansu.", "tr": "Adın ne? / Adınız ne? (Samimi / Resmî)" },
+      { "q": "Wer bist du? / Wer sind Sie?", "a": "Ich bin Muhammet Can.", "tr": "Sen kimsin? / Siz kimsiniz?" },
+      { "q": "Wie geht es dir? / Wie geht es Ihnen? / Wie geht's?", "a": "Sehr gut, danke! Und dir? / Super! / Es geht. / Nicht so gut.", "tr": "Nasılsın? / Nasılsınız? / Naber?" },
+      { "q": "Woher kommst du? / Woher kommen Sie?", "a": "Ich komme aus der Türkei. / Ich komme aus Bursa.", "tr": "Nerelisin? / Nerelisiniz? ('Türkei' 'die' artikeli aldığı için 'aus der Türkei' olur)" },
+      { "q": "Wo wohnst du? / Wo lebst du?", "a": "Ich wohne in der Türkei. / Ich lebe in Bursa.", "tr": "Nerede oturuyorsun / yaşıyorsun?" },
+      { "q": "Welche Sprache sprichst du?", "a": "Ich spreche Türkisch, Englisch und ein bisschen Deutsch.", "tr": "Hangi dili konuşuyorsun?" },
+      { "q": "Wie alt bist du? / Wie alt sind Sie?", "a": "Ich bin 22 Jahre alt. / Ich bin 26 Jahre alt.", "tr": "Kaç yaşındasın(ız)?" },
+      { "q": "Was bist du von Beruf? / Was sind Sie von Beruf?", "a": "Ich arbeite als Grafikdesignerin / Programmierer.", "tr": "Mesleğin(iz) nedir? (Meslek söylerken 'als' kullanılır)" },
+      { "q": "Was machst du beruflich? / Was machen Sie beruflich?", "a": "Ich arbeite bei Vivaclub / Bosch.", "tr": "Mesleki olarak ne yapıyorsun(uz)? (Şirket/Kurum için 'bei' kullanılır)" },
+      { "q": "Bist du verheiratet?", "a": "Nein, ich bin single / ledig. (Ja, ich bin verheiratet.)", "tr": "Evli misin? (Hayır, bekarım / Evet, evliyim)" },
+      { "q": "Hast du Kinder?", "a": "Nein, ich habe keine Kinder. / Ja, ich habe zwei Kinder.", "tr": "Çocuğun var mı? (İsim olumsuzluğunda 'kein/keine' kullanılır)" },
+      { "q": "Kommst du heute ins Kino?", "a": "Ja, ich komme heute ins Kino. / Nein, ich komme nicht.", "tr": "Bugün sinemaya geliyor musun? (Düz Ja/Nein sorusu)" },
+      { "q": "Kommst du heute NICHT ins Kino?", "a": "Doch, ich komme heute ins Kino! / Nein, ich komme nicht.", "tr": "Bugün sinemaya GELMİYOR musun? (Olumsuz soruya olumlu itiraz = DOCH!)" },
+      { "q": "Möchtest du keinen Kuchen essen?", "a": "Doch, ich möchte Kuchen essen! / Nein, ich möchte keinen Kuchen.", "tr": "Pasta yemek istemiyor musun? (İstiyorsak: 'Doch!', istemiyorsak: 'Nein!')" },
+      { "q": "Was ist das? / Wer ist das?", "a": "Das ist das Handy. / Das ist mein Bruder (meine Schwester).", "tr": "Bu nedir? (Cansız/Nesne) / Bu kimdir? (Canlı/Kişi)" }
+    ],
+    "grammar_topics": [
+      {
+        "title": "1. Soru Tipleri: W-Fragen ve Ja/Nein-Fragen",
+        "content": "• W-Frage (Soru Kelimeli): Soru kelimesi (Wer, Wie, Woher, Wo, Was) 1. sırada, çekimli fiil daima 2. sıradadır. (Örn: 'Woher [1] kommst [2] du?')\n• Ja/Nein-Frage (Fiille Başlayan): Fiil 1. sıraya gelir, özne 2. sıradadır. (Örn: 'Kommst [1] du [2] heute ins Kino?'). Cevap 'Ja' ya da 'Nein' ile başlar."
+      },
+      {
+        "title": "2. Kritik Kural: 'Doch' Yanıtı (Olumsuz Soruya Karşı Çıkma)",
+        "content": "Almancada içinde 'nicht' veya 'kein' olan olumsuz bir soru sorulduğunda:\n1. Eğer soruya İTİRAZ edip 'Hayır, tam aksine geliyorum / istiyorum' diyecekseniz TÜRKÇEDEKİ GİBİ 'Evet' (Ja) DENMEZ! 'DOCH' denir.\n• Soru: 'Kommst du nicht?' (Gelmiyor musun?)\n  -> Cevap olumluysa: 'Doch, ich komme!' (Yo / Bilakis, geliyorum!)\n  -> Cevap olumsuzsa: 'Nein, ich komme nicht.' (Hayır, gelmiyorum.)"
+      },
+      {
+        "title": "3. İyelik Belirteçleri (Possessivartikel: mein, dein, sein, ihr...)",
+        "content": "• ich -> mein (benim) | du -> dein (senin) | er -> sein (onun-erkek) | sie -> ihr (onun-kadın) | es -> sein (onun-nötr)\n• wir -> unser (bizim) | ihr -> euer (sizin) | sie -> ihr (onların) | Sie -> Ihr (Sizin-resmî)\nKURAL: İsim 'der' veya 'das' ise ek gelmez (mein Bruder, mein Handy, mein Buch).\nİsim 'die' (dişil veya çoğul) ise sonuna '-e' eklenir (meine Schwester, meine Mutter, meine Tasche, meine Kinder)."
+      },
+      {
+        "title": "4. Meslek ve Mekan Edatları (als, bei, in)",
+        "content": "• als: Meslek unvanı belirtirken kullanılır. ('Ich arbeite als Grafikdesignerin / als Programmierer.')\n• bei: Yanında çalışılan kurum, firma veya işveren için kullanılır. ('Ich arbeite bei Bosch / bei Vivaclub.')\n• in: Yaşanılan şehir/ülke için kullanılır. ('Ich lebe in Bursa / Ich wohne in Berlin.')"
+      }
+    ],
+    "pronouns": [
+      { "de": "ich", "tr": "ben", "poss": "mein / meine", "note": "Fiil köküne '-e' gelir" },
+      { "de": "du", "tr": "sen", "poss": "dein / deine", "note": "Fiil köküne '-st' gelir" },
+      { "de": "er", "tr": "o (eril - der)", "poss": "sein / seine", "note": "Fiil köküne '-t' gelir" },
+      { "de": "sie", "tr": "o (dişil - die)", "poss": "ihr / ihre", "note": "Fiil köküne '-t' gelir" },
+      { "de": "es", "tr": "o (nötr - das)", "poss": "sein / seine", "note": "Fiil köküne '-t' gelir" },
+      { "de": "wir", "tr": "biz", "poss": "unser / unsere", "note": "Fiil mastar '-en' kalır" },
+      { "de": "ihr", "tr": "siz (arkadaş grubu)", "poss": "euer / eure ⚠️", "note": "Fiil köküne '-t' gelir ('eure'de e harfi kayar)" },
+      { "de": "sie", "tr": "onlar", "poss": "ihr / ihre", "note": "Fiil mastar '-en' kalır" },
+      { "de": "Sie", "tr": "Siz (resmî)", "poss": "Ihr / Ihre", "note": "Daima büyük harfle yazılır" }
+    ],
+    "numbers": [
+      { "num": "1", "de": "eins" }, { "num": "2", "de": "zwei" }, { "num": "3", "de": "drei" }, { "num": "4", "de": "vier" }, { "num": "5", "de": "fünf" },
+      { "num": "6", "de": "sechs" }, { "num": "7", "de": "sieben" }, { "num": "8", "de": "acht" }, { "num": "9", "de": "neun" }, { "num": "10", "de": "zehn" },
+      { "num": "11", "de": "elf" }, { "num": "12", "de": "zwölf" }, { "num": "13", "de": "dreizehn" }, { "num": "14", "de": "vierzehn" }, { "num": "15", "de": "fünfzehn" },
+      { "num": "16", "de": "sechzehn ⚠️ ('s' düşer)" }, { "num": "17", "de": "siebzehn ⚠️ ('en' düşer)" }, { "num": "18", "de": "achtzehn" }, { "num": "19", "de": "neunzehn" }, { "num": "20", "de": "zwanzig" },
+      { "num": "21", "de": "einundzwanzig" }, { "num": "22", "de": "zweiundzwanzig" }, { "num": "23", "de": "dreiundzwanzig" }, { "num": "24", "de": "vierundzwanzig" }, { "num": "25", "de": "fünfundzwanzig" },
+      { "num": "26", "de": "sechsundzwanzig" }, { "num": "27", "de": "siebenundzwanzig" }, { "num": "28", "de": "achtundzwanzig" }, { "num": "29", "de": "neunundzwanzig" }, { "num": "30", "de": "dreißig ⚠️ ('ß' ile)" },
+      { "num": "31", "de": "einunddreißig" }, { "num": "32", "de": "zweiunddreißig" }, { "num": "33", "de": "dreiunddreißig" }, { "num": "34", "de": "vierunddreißig" }, { "num": "35", "de": "fünfunddreißig" },
+      { "num": "36", "de": "sechsunddreißig" }, { "num": "37", "de": "siebenunddreißig" }, { "num": "38", "de": "achtunddreißig" }, { "num": "39", "de": "neununddreißig" }, { "num": "40", "de": "vierzig" },
+      { "num": "41", "de": "einundvierzig" }, { "num": "42", "de": "zweiundvierzig" }, { "num": "43", "de": "dreiundvierzig" }, { "num": "44", "de": "vierundvierzig" }, { "num": "45", "de": "fünfundvierzig" },
+      { "num": "46", "de": "sechsundvierzig" }, { "num": "47", "de": "siebenundvierzig" }, { "num": "48", "de": "achtundvierzig" }, { "num": "49", "de": "neunundvierzig" }, { "num": "50", "de": "fünfzig" },
+      { "num": "51", "de": "einundfünfzig" }, { "num": "52", "de": "zweiundfünfzig" }, { "num": "53", "de": "dreiundfünfzig" }, { "num": "54", "de": "vierundfünfzig" }, { "num": "55", "de": "fünfundfünfzig" },
+      { "num": "56", "de": "sechsundfünfzig" }, { "num": "57", "de": "siebenundfünfzig" }, { "num": "58", "de": "achtundfünfzig" }, { "num": "59", "de": "neunundfünfzig" }, { "num": "60", "de": "sechzig ⚠️ ('s' düşer)" },
+      { "num": "61", "de": "einundsechzig" }, { "num": "62", "de": "zweiundsechzig" }, { "num": "63", "de": "dreiundsechzig" }, { "num": "64", "de": "vierundsechzig" }, { "num": "65", "de": "fünfundsechzig" },
+      { "num": "66", "de": "sechsundsechzig" }, { "num": "67", "de": "siebenundsechzig" }, { "num": "68", "de": "achtundsechzig" }, { "num": "69", "de": "neunundsechzig" }, { "num": "70", "de": "siebzig ⚠️ ('en' düşer)" },
+      { "num": "71", "de": "einundsiebzig" }, { "num": "72", "de": "zweiundsiebzig" }, { "num": "73", "de": "dreiundsiebzig" }, { "num": "74", "de": "vierundsiebzig" }, { "num": "75", "de": "fünfundsiebzig" },
+      { "num": "76", "de": "sechsundsiebzig" }, { "num": "77", "de": "siebenundsiebzig" }, { "num": "78", "de": "achtundsiebzig" }, { "num": "79", "de": "neunundsiebzig" }, { "num": "80", "de": "achtzig" },
+      { "num": "81", "de": "einundachtzig" }, { "num": "82", "de": "zweiundachtzig" }, { "num": "83", "de": "dreiundachtzig" }, { "num": "84", "de": "vierundachtzig" }, { "num": "85", "de": "fünfundachtzig" },
+      { "num": "86", "de": "sechsundachtzig" }, { "num": "87", "de": "siebenundachtzig" }, { "num": "88", "de": "achtundachtzig" }, { "num": "89", "de": "neunundachtzig" }, { "num": "90", "de": "neunzig" },
+      { "num": "91", "de": "einundneunzig" }, { "num": "92", "de": "zweiundneunzig" }, { "num": "93", "de": "dreiundneunzig" }, { "num": "94", "de": "vierundneunzig" }, { "num": "95", "de": "fünfundneunzig" },
+      { "num": "96", "de": "sechsundneunzig" }, { "num": "97", "de": "siebenundneunzig" }, { "num": "98", "de": "achtundneunzig" }, { "num": "99", "de": "neunundneunzig" }, { "num": "100", "de": "einhundert" }
+    ],
+    "notes": [
+      "Defter Notu Düzeltmesi: 'Ich bin arbeite als' değil; ya 'Ich bin Grafikdesignerin' ya da 'Ich arbeite als Grafikdesignerin' denir.",
+      "Defter Notu Düzeltmesi: 'Mahtest du Keinen Kuchen essen?' notundaki fiil 'Möchtest du...' (istemek / möchten) fiilidir.",
+      "Kritik Kural (DOCH): Olumsuz bir soruya ('Kommst du nicht?') 'Hayır, bilakis geliyorum' demek için kesinlikle 'Ja' denmez, 'Doch!' denir.",
+      "İyelik Kuralı: Artikel 'der' ve 'das' olan isimlerde 'mein, dein, sein, ihr', artikel 'die' veya çoğul olanlarda '-e' eklenerek 'meine, deine, seine, ihre' olur."
+    ]
+  },
+  "verbs": [
+    {
+      "name": "sein", "tr": "olmak", "type": "Çok Düzensiz",
+      "conj": { "ich": "bin", "du": "bist", "er": "ist", "wir": "sind", "ihr": "seid", "sie": "sind" }
+    },
+    {
+      "name": "haben", "tr": "sahip olmak", "type": "Düzensiz (b düşer)",
+      "conj": { "ich": "habe", "du": "hast", "er": "hat", "wir": "haben", "ihr": "habt", "sie": "haben" }
+    },
+    {
+      "name": "arbeiten", "tr": "çalışmak", "type": "Düzenli (t eklemeli)",
+      "conj": { "ich": "arbeite", "du": "arbeitest", "er": "arbeitet", "wir": "arbeiten", "ihr": "arbeitet", "sie": "arbeiten" }
+    },
+    {
+      "name": "leben", "tr": "yaşamak", "type": "Düzenli",
+      "conj": { "ich": "lebe", "du": "lebst", "er": "lebt", "wir": "leben", "ihr": "lebt", "sie": "leben" }
+    },
+    {
+      "name": "wohnen", "tr": "ikamet etmek", "type": "Düzenli",
+      "conj": { "ich": "wohne", "du": "wohnst", "er": "wohnt", "wir": "wohnen", "ihr": "wohnt", "sie": "wohnen" }
+    },
+    {
+      "name": "kommen", "tr": "gelmek", "type": "Düzenli",
+      "conj": { "ich": "komme", "du": "kommst", "er": "kommt", "wir": "kommen", "ihr": "kommt", "sie": "kommen" }
+    },
+    {
+      "name": "sprechen", "tr": "konuşmak", "type": "Düzensiz (e -> i)",
+      "conj": { "ich": "spreche", "du": "sprichst", "er": "spricht", "wir": "sprechen", "ihr": "sprecht", "sie": "sprechen" }
+    },
+    {
+      "name": "lernen", "tr": "öğrenmek", "type": "Düzenli",
+      "conj": { "ich": "lerne", "du": "lernst", "er": "lernt", "wir": "lernen", "ihr": "lernt", "sie": "lernen" }
+    },
+    {
+      "name": "heißen", "tr": "adı olmak", "type": "Düzenli (ß kuralı)",
+      "conj": { "ich": "heiße", "du": "heißt", "er": "heißt", "wir": "heißen", "ihr": "heißt", "sie": "heißen" }
+    },
+    {
+      "name": "machen", "tr": "yapmak", "type": "Düzenli",
+      "conj": { "ich": "mache", "du": "machst", "er": "macht", "wir": "machen", "ihr": "macht", "sie": "machen" }
+    },
+    {
+      "name": "möchten", "tr": "istemek (kibar)", "type": "Modal Çekimli",
+      "conj": { "ich": "möchte", "du": "möchtest", "er": "möchte", "wir": "möchten", "ihr": "möchtet", "sie": "möchten" }
+    },
+    {
+      "name": "essen", "tr": "yemek yemek", "type": "Düzensiz (e -> i)",
+      "conj": { "ich": "esse", "du": "isst", "er": "isst", "wir": "essen", "ihr": "esst", "sie": "essen" }
+    }
+  ],
+  "dictionary": [
+    { "de": "verheiratet", "tr": "Evli", "cat": "Medeni Durum & Aile" },
+    { "de": "ledig / single", "tr": "Bekar", "cat": "Medeni Durum & Aile" },
+    { "de": "das Kind / die Kinder", "tr": "Çocuk / Çocuklar", "cat": "Medeni Durum & Aile" },
+    { "de": "die Schwester", "tr": "Kız kardeş / Abla (die)", "cat": "Medeni Durum & Aile" },
+    { "de": "der Bruder", "tr": "Erkek kardeş / Abi (der)", "cat": "Medeni Durum & Aile" },
+    { "de": "die Mutter", "tr": "Anne (die)", "cat": "Medeni Durum & Aile" },
+    { "de": "die Freundin", "tr": "Kız arkadaş (die)", "cat": "Medeni Durum & Aile" },
+    { "de": "der Beruf", "tr": "Meslek (der)", "cat": "Meslek & Çalışma" },
+    { "de": "beruflich", "tr": "Mesleki olarak / İşle ilgili", "cat": "Meslek & Çalışma" },
+    { "de": "die Lehrerin / der Lehrer", "tr": "Kadın öğretmen / Erkek öğretmen", "cat": "Meslek & Çalışma" },
+    { "de": "die Schülerin / der Schüler", "tr": "Kız öğrenci / Erkek öğrenci", "cat": "Meslek & Çalışma" },
+    { "de": "die Grafikdesignerin", "tr": "Kadın grafik tasarımcı", "cat": "Meslek & Çalışma" },
+    { "de": "arbeiten als ...", "tr": "... olarak çalışmak (meslek)", "cat": "Meslek & Çalışma" },
+    { "de": "arbeiten bei ...", "tr": "... şirketinde çalışmak (firma)", "cat": "Meslek & Çalışma" },
+    { "de": "das Buch", "tr": "Kitap (das)", "cat": "Eşyalar & Nesneler" },
+    { "de": "der Computer", "tr": "Bilgisayar (der)", "cat": "Eşyalar & Nesneler" },
+    { "de": "der Apfel", "tr": "Elma (der)", "cat": "Eşyalar & Nesneler" },
+    { "de": "die Tasche", "tr": "Çanta (die)", "cat": "Eşyalar & Nesneler" },
+    { "de": "das Fenster", "tr": "Pencere (das)", "cat": "Eşyalar & Nesneler" },
+    { "de": "das Handy", "tr": "Cep telefonu (das)", "cat": "Eşyalar & Nesneler" },
+    { "de": "die Jacke", "tr": "Ceket / Mont (die)", "cat": "Eşyalar & Nesneler" },
+    { "de": "der Kuchen", "tr": "Pasta / Kek (der)", "cat": "Eşyalar & Nesneler" },
+    { "de": "das Kino", "tr": "Sinema (das)", "cat": "Eşyalar & Nesneler" },
+    { "de": "doch", "tr": "Aksine, bilakis (Olumsuz soruya olumlu itiraz)", "cat": "Gramer & Kalıplar" },
+    { "de": "aber", "tr": "Ama / Fakat", "cat": "Gramer & Kalıplar" },
+    { "de": "nicht", "tr": "Değil (Fiil ve sıfat olumsuzluğu)", "cat": "Gramer & Kalıplar" },
+    { "de": "kein / keine", "tr": "Hiç / Yok (İsim olumsuzluğu)", "cat": "Gramer & Kalıplar" },
+    { "de": "Hallo!", "tr": "Merhaba!", "cat": "Begrüßung (Selamlaşma)" },
+    { "de": "Guten Tag!", "tr": "İyi günler!", "cat": "Begrüßung (Selamlaşma)" },
+    { "de": "Guten Abend!", "tr": "İyi akşamlar!", "cat": "Begrüßung (Selamlaşma)" },
+    { "de": "Grüß dich!", "tr": "Selam sana! (Samimi)", "cat": "Begrüßung (Selamlaşma)" },
+    { "de": "Herzlich willkommen!", "tr": "Gönülden hoş geldiniz!", "cat": "Begrüßung (Selamlaşma)" },
+    { "de": "Sehr erfreut!", "tr": "Çok memnun oldum!", "cat": "Begrüßung (Selamlaşma)" },
+    { "de": "Auf Wiedersehen!", "tr": "Hoşça kalın! (Yüz yüze)", "cat": "Abschied (Vedalaşma)" },
+    { "de": "Auf Wiederhören!", "tr": "Hoşça kalın! (Telefonda)", "cat": "Abschied (Vedalaşma)" },
+    { "de": "Gute Nacht!", "tr": "İyi geceler!", "cat": "Abschied (Vedalaşma)" },
+    { "de": "Tschüss! / Tschau!", "tr": "Bay bay!", "cat": "Abschied (Vedalaşma)" },
+    { "de": "Bis morgen!", "tr": "Yarın görüşürüz!", "cat": "Abschied (Vedalaşma)" },
+    { "de": "Bis gleich!", "tr": "Birazdan görüşürüz!", "cat": "Abschied (Vedalaşma)" },
+    { "de": "Bis später!", "tr": "Sonra görüşürüz!", "cat": "Abschied (Vedalaşma)" },
+    { "de": "Mach's gut!", "tr": "Kendine iyi bak!", "cat": "Abschied (Vedalaşma)" }
+  ],
+  "flashcards": [
+    { "cat": "doch", "q": "'Kommst du nicht ins Kino?' (Sinemaya gelmiyor musun?) sorusuna 'Bilakis, geliyorum!' nasıl denir?", "a": "Doch, ich komme ins Kino!", "exp": "Almancada olumsuz soruya olumlu yanıt verirken 'Ja' kullanılmaz; kural olarak 'Doch' kullanılır." },
+    { "cat": "doch", "q": "'Kommst du nicht?' sorusuna 'Hayır, gelmiyorum' demek için ne kullanılır?", "a": "Nein, ich komme nicht.", "exp": "Olumsuz soruya cevap da olumsuzsa normal şekilde 'Nein' kullanılır." },
+    { "cat": "doch", "q": "'Möchtest du keinen Kuchen essen?' sorusuna pasta yemek istiyorsak nasıl başlarız?", "a": "Doch, ich möchte Kuchen essen.", "exp": "Soru 'keinen Kuchen' ile olumsuz sorulduğu için pasta yemek istediğimizde 'Doch' ile başlarız." },
+    { "cat": "iyelik", "q": "'mein' ve 'meine' arasındaki fark nedir?", "a": "mein (der/das için) - meine (die ve çoğullar için)", "exp": "Örn: mein Bruder (der), mein Handy (das), meine Schwester (die), meine Kinder (çoğul)." },
+    { "cat": "iyelik", "q": "'Buch' kelimesinin artikeli 'das' ise 'benim kitabım' nasıl denir?", "a": "mein Buch", "exp": "Artikel 'das' olduğu için ek almaz, 'mein' kalır." },
+    { "cat": "iyelik", "q": "'Tasche' kelimesinin artikeli 'die' ise 'senin çantan' nasıl denir?", "a": "deine Tasche", "exp": "Artikel 'die' olduğu için iyelik eki '-e' alır: deine." },
+    { "cat": "iyelik", "q": "'ihr' şahsının (siz çoğul) iyelik formu 'der' artikelinde ve 'die' artikelinde nasıldır?", "a": "euer (der/das) / eure (die)", "exp": "Dikkat: 'die' artikelinde '-e' gelirken 'euer' kelimesindeki ortadaki 'e' düşer: eure Schwester." },
+    { "cat": "meslek", "q": "Meslek söylerken hangi edat kullanılır? (Örn: Öğretmen olarak çalışıyorum)", "a": "als (Ich arbeite als Lehrerin / Lehrer)", "exp": "Mesleklerde 'als' kullanılır. 'Ich bin arbeite als' YANLIŞTIR; 'Ich arbeite als' DOĞRUDUR." },
+    { "cat": "meslek", "q": "Çalıştığımız şirketi/firmayı söylerken hangi edat kullanılır?", "a": "bei (Ich arbeite bei Bosch / Vivaclub)", "exp": "Şirket ve kurum isimlerinin önünde daima 'bei' edatı gelir." },
+    { "cat": "meslek", "q": "'Mesleğiniz nedir?' sorusu Almancada resmî ve samimi nasıl sorulur?", "a": "Was sind Sie von Beruf? / Was bist du von Beruf?", "exp": "Ayrıca 'Was machen Sie beruflich?' kalıbı da çok yaygındır." },
+    { "cat": "medeni", "q": "'Bist du verheiratet?' sorusuna 'Hayır, bekarım' cevabı nasıl verilir?", "a": "Nein, ich bin ledig (single).", "exp": "verheiratet = evli, ledig = bekar." },
+    { "cat": "soru", "q": "Evet/Hayır (Ja/Nein) sorularında çekimli fiil cümlenin neresinde yer alır?", "a": "1. Sırada (En başta)", "exp": "Örnek: 'Lernst du Deutsch?' veya 'Kommst du heute?'" },
+    { "cat": "soru", "q": "W-Fragen (soru kelimeli soru) cümlelerinde fiil kaçıncı sıradadır?", "a": "2. Sırada", "exp": "Örnek: 'Woher [1] kommst [2] du?' veya 'Was [1] ist [2] das?'" },
+    { "cat": "sayilar", "q": "16, 17, 60 ve 70 sayılarının kök istisnası nedir?", "a": "sechzehn (16), siebzehn (17), sechzig (60), siebzig (70)", "exp": "6'daki 's' ve 7'deki '-en' ekleri bu sayılarda düşer." },
+    { "cat": "sayilar", "q": "30 sayısı diğer onluklardan (40, 50, 60...) nasıl ayrılır?", "a": "dreißig ('-ßig' ile biter)", "exp": "Diğer onluklar '-zig' ile biterken 30 sayısı 'ß' ile 'dreißig' olarak yazılır." },
+    { "cat": "tanisma", "q": "Telefonu kapatırken hangi veda kalıbı söylenir?", "a": "Auf Wiederhören!", "exp": "Telefonda işitmek (hören) fiili olduğundan 'Auf Wiederhören' denir." }
+  ],
+  "exercises": [
+    { "sentence": "Kommst du heute nicht ins Kino? - _____, ich komme! (Olumlu itiraz)", "answer": "Doch", "hint": "Olumsuz soruya 'evet bilakis' yanıtı" },
+    { "sentence": "Das ist _____ Schwester. (die Schwester / benim)", "answer": "meine", "hint": "die artikeli için 'mein' sonuna ek gelir" },
+    { "sentence": "Das ist _____ Computer. (der Computer / benim)", "answer": "mein", "hint": "der artikeli için ek gelmez" },
+    { "sentence": "Das ist _____ Buch. (das Buch / senin)", "answer": "dein", "hint": "das artikeli için 'dein' kalır" },
+    { "sentence": "Ich arbeite _____ Lehrerin.", "answer": "als", "hint": "Meslek belirten edat" },
+    { "sentence": "Ich arbeite _____ Bosch.", "answer": "bei", "hint": "Firma belirten edat" },
+    { "sentence": "Ich lebe _____ Bursa.", "answer": "in", "hint": "Şehir belirten edat" },
+    { "sentence": "Was _____ du von Beruf?", "answer": "bist", "hint": "sein fiili (du)" },
+    { "sentence": "Bist du verheiratet? - Nein, ich bin _____.", "answer": "ledig", "hint": "Bekar (veya single)" },
+    { "sentence": "Hast du Kinder? - Nein, ich habe _____ Kinder.", "answer": "keine", "hint": "Çoğul isim olumsuzluğu (kein/keine)" },
+    { "sentence": "_____ du heute ins Kino? (kommen)", "answer": "Kommst", "hint": "Ja/Nein sorusu, cümle başı büyük harf" },
+    { "sentence": "Ich komme aus _____ Türkei.", "answer": "der", "hint": "Türkei kelimesinin artikeli Dativ'de der olur" },
+    { "sentence": "Welche Sprache _____ du?", "answer": "sprichst", "hint": "sprechen fiili (du) - e->i değişimi" },
+    { "sentence": "Er _____ nur Türkisch.", "answer": "spricht", "hint": "sprechen fiili (er)" },
+    { "sentence": "Auf _____! (Telefonda vedalaşırken)", "answer": "Wiederhören", "hint": "Telefonda veda" },
+    { "sentence": "16 sayısının Almanca yazılışı: _____", "answer": "sechzehn", "hint": "Dikkat: 's' düşer" },
+    { "sentence": "30 sayısının Almanca yazılışı: _____", "answer": "dreißig", "hint": "Dikkat: 'ß' kullanılır" },
+    { "sentence": "Das ist _____ Jacke. (die Jacke / onun - erkek)", "answer": "seine", "hint": "er -> sein, die için -e eklenir" }
+  ],
+  "quiz": [
+    {
+      "q": "\"Kommst du nicht zum Deutschkurs?\" (Almanca kursuna gelmiyor musun?) sorusuna 'Bilakis, geliyorum!' demek için hangisiyle başlanır?",
+      "options": ["Ja, ich komme.", "Doch, ich komme.", "Nein, ich komme.", "Nicht, ich komme."],
+      "correct": "Doch, ich komme.",
+      "cat": "Doch Kuralı",
+      "exp": "Almancada olumsuz soruya (nicht/kein) olumlu itirazda bulunurken 'Ja' değil 'Doch' kullanılır."
+    },
+    {
+      "q": "\"Lernst du kein Deutsch?\" (Almanca öğrenmiyor musun?) sorusuna 'Hayır, öğrenmiyorum' diyeceksek ne deriz?",
+      "options": ["Doch, ich lerne nicht.", "Nein, ich lerne nicht.", "Ja, ich lerne nicht.", "Kein, ich lerne."],
+      "correct": "Nein, ich lerne nicht.",
+      "cat": "Doch Kuralı",
+      "exp": "Olumsuz soruya cevabımız da olumsuzsa normal şekilde 'Nein' ile başlarız."
+    },
+    {
+      "q": "\"Schwester\" (kız kardeş) kelimesinin artikeli 'die' olduğuna göre \"Benim kız kardeşim\" nasıl söylenir?",
+      "options": ["mein Schwester", "meine Schwester", "meinen Schwester", "meiner Schwester"],
+      "correct": "meine Schwester",
+      "cat": "İyelik Zamirleri",
+      "exp": "Artikel 'die' olduğunda iyelik belirtecinin sonuna '-e' gelir: meine Schwester."
+    },
+    {
+      "q": "\"Handy\" (telefon) kelimesinin artikeli 'das' olduğuna göre \"Senin telefonun\" nasıl söylenir?",
+      "options": ["deine Handy", "dein Handy", "deines Handy", "deinem Handy"],
+      "correct": "dein Handy",
+      "cat": "İyelik Zamirleri",
+      "exp": "Artikel 'der' ve 'das' olan isimlerde ek gelmez: dein Handy."
+    },
+    {
+      "q": "\"Ich arbeite _____ Grafikdesignerin.\" cümlesindeki boşluğa meslek belirttiği için hangi edat gelmelidir?",
+      "options": ["bei", "in", "als", "von"],
+      "correct": "als",
+      "cat": "Edatlar (als/bei/in)",
+      "exp": "Meslek ve unvan belirtirken daima 'als' edatı kullanılır (als Lehrerin, als Grafikdesignerin)."
+    },
+    {
+      "q": "\"Ich arbeite _____ Vivaclub.\" cümlesindeki boşluğa şirket/firma belirttiği için hangi edat gelmelidir?",
+      "options": ["in", "bei", "als", "aus"],
+      "correct": "bei",
+      "cat": "Edatlar (als/bei/in)",
+      "exp": "Kurum, iş yeri ve şirket isimlerinin önünde 'bei' edatı kullanılır."
+    },
+    {
+      "q": "\"Bist du verheiratet?\" sorusunun anlamı nedir ve 'ledig' ne demektir?",
+      "options": ["Çalışıyor musun? / İşsiz", "Evli misin? / Bekar", "Öğrenci misin? / Mezun", "Nerelisin? / Yabancı"],
+      "correct": "Evli misin? / Bekar",
+      "cat": "Kelime & Kalıp",
+      "exp": "verheiratet = evli, ledig (single) = bekar demektir."
+    },
+    {
+      "q": "\"Hast du Kinder?\" sorusuna \"Hayır, hiç çocuğum yok\" yanıtı nasıl verilir?",
+      "options": ["Nein, ich habe nicht Kinder.", "Nein, ich habe keine Kinder.", "Nein, ich bin kein Kinder.", "Doch, ich habe keine Kinder."],
+      "correct": "Nein, ich habe keine Kinder.",
+      "cat": "Gramer (kein/nicht)",
+      "exp": "İsimlerin olumsuzluğunda 'nicht' değil 'kein / keine' kullanılır. Çoğul isim olduğu için 'keine Kinder' olur."
+    },
+    {
+      "q": "Evet/Hayır sorularında (Ja/Nein-Frage) fiilin sırası nedir?",
+      "options": ["En sonda", "2. sırada", "1. sırada (en başta)", "Özneden hemen sonra"],
+      "correct": "1. sırada (en başta)",
+      "cat": "Cümle Yapısı",
+      "exp": "Ja/Nein soruları doğrudan fiille başlar: 'Kommst du heute ins Kino?'"
+    },
+    {
+      "q": "\"Sprechen\" (konuşmak) fiilinin 'du' ve 'er' çekimleri sırasıyla hangisidir?",
+      "options": ["sprechst / sprecht", "sprichst / spricht", "spricht / sprichst", "spreche / sprechen"],
+      "correct": "sprichst / spricht",
+      "cat": "Fiil Çekimleri",
+      "exp": "Sprechen düzensizdir; 2. ve 3. tekil şahıslarda kökteki 'e' -> 'i'ye dönüşür."
+    },
+    {
+      "q": "\"er\" (o - erkek) zamirinin iyelik hâli (onun) hangisidir?",
+      "options": ["ihr", "sein", "dein", "mein"],
+      "correct": "sein",
+      "cat": "İyelik Zamirleri",
+      "exp": "er -> sein (onun - erkek), sie -> ihr (onun - kadın)."
+    },
+    {
+      "q": "Almancada \"16\" ve \"17\" sayılarının yazılışındaki ortak kural nedir?",
+      "options": ["Kök harfleri düşer (sechzehn / siebzehn)", "Sonlarına '-zig' gelir", "Tamamen düzensizdirler", "Aralarına 'und' gelir"],
+      "correct": "Kök harfleri düşer (sechzehn / siebzehn)",
+      "cat": "Sayılar",
+      "exp": "6 (sechs)'teki 's' düşerek sechzehn, 7 (sieben)'deki 'en' düşerek siebzehn olur."
+    },
+    {
+      "q": "Almancada \"30\" sayısı diğer onluklardan farklı olarak nasıl yazılır?",
+      "options": ["dreizig", "dreissig", "dreißig", "dreizehn"],
+      "correct": "dreißig",
+      "cat": "Sayılar",
+      "exp": "Diğer onluklar (vierzig, fünfzig...) '-zig' alırken 30 sayısı '-ßig' ile yazılır."
+    },
+    {
+      "q": "\"Möchtest du keinen Kuchen essen?\" sorusuna 'Bilakis, pasta yemek istiyorum' yanıtı nasıl verilir?",
+      "options": ["Ja, ich möchte Kuchen essen.", "Doch, ich möchte Kuchen essen.", "Nein, ich möchte Kuchen essen.", "Nicht, ich möchte Kuchen essen."],
+      "correct": "Doch, ich möchte Kuchen essen.",
+      "cat": "Doch Kuralı",
+      "exp": "Olumsuz soruya pozitif karşılık verirken daima 'Doch' kullanılır."
+    },
+    {
+      "q": "\"ihr\" (siz - samimi çoğul) zamirinin 'die' artikelli bir kelime önündeki iyelik formu hangisidir?",
+      "options": ["euere", "eure", "ihre", "unsere"],
+      "correct": "eure",
+      "cat": "İyelik Zamirleri",
+      "exp": "euer kelimesine -e eklenirken ortadaki 'e' harfi düşer ve 'eure' olur (Örn: eure Schwester)."
+    },
+    {
+      "q": "Telefonu kapatırken hangi 'Hoşça kalın' kalıbı kullanılır?",
+      "options": ["Auf Wiedersehen!", "Auf Wiederhören!", "Guten Abend!", "Grüß dich!"],
+      "correct": "Auf Wiederhören!",
+      "cat": "Kelime & Kalıp",
+      "exp": "Telefonda duyma odaklı konuşulduğu için 'hören' köklü 'Auf Wiederhören' denir."
+    },
+    {
+      "q": "\"Ich komme aus _____ Türkei.\" cümlesinde boşluğa ne gelmelidir?",
+      "options": ["der", "die", "das", "dem"],
+      "correct": "der",
+      "cat": "Gramer",
+      "exp": "'Türkei' artikeli 'die' olan bir ülkedir ve 'aus' edatından sonra Dativ'e dönüşerek 'der' olur."
+    },
+    {
+      "q": "\"Was machst du beruflich?\" sorusuna verilecek en uygun yanıt hangisidir?",
+      "options": ["Ich komme aus Bursa.", "Ich bin 22 Jahre alt.", "Ich arbeite als Grafikdesignerin.", "Mir geht es gut, danke."],
+      "correct": "Ich arbeite als Grafikdesignerin.",
+      "cat": "Meslek & Çalışma",
+      "exp": "Soru mesleki olarak ne yapıldığını sormaktadır; cevap meslek belirtmelidir."
+    },
+    {
+      "q": "\"45\" sayısının Almanca yazılışı hangisidir?",
+      "options": ["vierzigundfünf", "fünfundvierzig", "vierzigfünf", "fünfvierzig"],
+      "correct": "fünfundvierzig",
+      "cat": "Sayılar",
+      "exp": "Almancada önce birler basamağı (fünf), sonra 'und', sonra onlar basamağı (vierzig) gelir."
+    },
+    {
+      "q": "\"Das ist mein Bruder.\" cümlesinde 'Bruder' yerine 'Mutter' gelirse cümle nasıl değişir?",
+      "options": ["Das ist mein Mutter.", "Das ist meine Mutter.", "Das ist meiner Mutter.", "Das ist meins Mutter."],
+      "correct": "Das ist meine Mutter.",
+      "cat": "İyelik Zamirleri",
+      "exp": "Mutter 'die' artikelinde olduğu için iyelik eki '-e' alır (meine Mutter)."
+    }
+  ]
+}

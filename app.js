@@ -7,27 +7,37 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// data/ klasöründeki tüm JSON dosyalarını otomatik oku ve sırala
-function getLessonsData() {
+// data/ klasöründeki tüm JSON dosyalarını (hafta1.json, hafta2.json...) otomatik oku
+function getWeeksData() {
   const dataDir = path.join(__dirname, 'data');
+  if (!fs.existsSync(dataDir)) {
+    return [];
+  }
   const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
   
-  const lessons = files.map(file => {
+  const weeks = files.map(file => {
     const rawData = fs.readFileSync(path.join(dataDir, file), 'utf-8');
     return JSON.parse(rawData);
   });
 
-  return lessons.sort((a, b) => a.id - b.id);
+  return weeks.sort((a, b) => a.id - b.id);
 }
 
 app.get('/', (req, res) => {
-  const lessonsData = getLessonsData();
-  const lessonId = parseInt(req.query.ders) || lessonsData[0].id;
-  const currentLesson = lessonsData.find(l => l.id === lessonId) || lessonsData[0];
+  const weeksData = getWeeksData();
+  if (weeksData.length === 0) {
+    return res.send("data/ klasöründe henüz hafta verisi bulunamadı.");
+  }
+  
+  // Hem ?hafta=1 hem de ?ders=1 desteklenir
+  const weekId = parseInt(req.query.hafta) || parseInt(req.query.ders) || weeksData[0].id;
+  const currentWeek = weeksData.find(w => w.id === weekId) || weeksData[0];
 
   res.render('index', {
-    lessons: lessonsData,
-    lesson: currentLesson
+    weeks: weeksData,
+    week: currentWeek,
+    lessons: weeksData,
+    lesson: currentWeek
   });
 });
 
