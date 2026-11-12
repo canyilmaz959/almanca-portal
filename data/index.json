@@ -1,0 +1,14 @@
+{
+  "weeks": [
+    {
+      "id": 1,
+      "file": "hafta1.json",
+      "shortTitle": "1. Hafta: Tanışma, Doch, İyelik & Sayılar"
+    },
+    {
+      "id": 2,
+      "file": "hafta2.json",
+      "shortTitle": "2. Hafta: Artikeller, Çoğul, Mobilya & Fiyatlar"
+    }
+  ]
+}

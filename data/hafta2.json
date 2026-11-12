@@ -70,44 +70,164 @@
       }
     ],
     "pronouns": [
-      { "de": "Nominativ (der / die / das)", "tr": "Yalın Hâl (Özne)", "poss": "ein / eine / ein", "note": "Das ist der Tisch. / Das ist ein Stuhl." },
-      { "de": "Akkusativ (den / die / das)", "tr": "Belirtme -i Hâli (Nesne)", "poss": "einen / eine / ein", "note": "Ich kaufe den Tisch / einen Stuhl." },
-      { "de": "Dativ (dem / der / dem)", "tr": "Yönelme/Bulunma -e/-de Hâli", "poss": "einem / einer / einem", "note": "Ich helfe dem Mann / der Frau." },
-      { "de": "Plural Nominativ (die)", "tr": "Çoğul Yalın Hâl", "poss": "- (yok) / keine", "note": "Das sind Stühle. / Keine Stühle." },
-      { "de": "Plural Akkusativ (die)", "tr": "Çoğul Belirtme Hâli", "poss": "- (yok) / keine", "note": "Ich kaufe Stühle / keine Stühle." },
-      { "de": "Plural Dativ (den + -n)", "tr": "Çoğul Yönelme Hâli", "poss": "- (yok) / keinen", "note": "İsim sonuna '-n' gelir: den Kindern" }
+      {
+        "de": "Nominativ (der / die / das)",
+        "tr": "Yalın Hâl (Özne)",
+        "poss": "ein / eine / ein",
+        "note": "Das ist der Tisch. / Das ist ein Stuhl."
+      },
+      {
+        "de": "Akkusativ (den / die / das)",
+        "tr": "Belirtme -i Hâli (Nesne)",
+        "poss": "einen / eine / ein",
+        "note": "Ich kaufe den Tisch / einen Stuhl."
+      },
+      {
+        "de": "Dativ (dem / der / dem)",
+        "tr": "Yönelme/Bulunma -e/-de Hâli",
+        "poss": "einem / einer / einem",
+        "note": "Ich helfe dem Mann / der Frau."
+      },
+      {
+        "de": "Plural Nominativ (die)",
+        "tr": "Çoğul Yalın Hâl",
+        "poss": "- (yok) / keine",
+        "note": "Das sind Stühle. / Keine Stühle."
+      },
+      {
+        "de": "Plural Akkusativ (die)",
+        "tr": "Çoğul Belirtme Hâli",
+        "poss": "- (yok) / keine",
+        "note": "Ich kaufe Stühle / keine Stühle."
+      },
+      {
+        "de": "Plural Dativ (den + -n)",
+        "tr": "Çoğul Yönelme Hâli",
+        "poss": "- (yok) / keinen",
+        "note": "İsim sonuna '-n' gelir: den Kindern"
+      }
     ],
     "numbers": [
-      { "num": "100", "de": "(ein)hundert" },
-      { "num": "101", "de": "einhunderteins" },
-      { "num": "115", "de": "einhundertfünfzehn" },
-      { "num": "120", "de": "einhundertzwanzig" },
-      { "num": "148", "de": "einhundertachtundvierzig" },
-      { "num": "200", "de": "zweihundert" },
-      { "num": "256", "de": "zweihundertsechsundfünfzig" },
-      { "num": "300", "de": "dreihundert" },
-      { "num": "316", "de": "dreihundertsechzehn ⚠️" },
-      { "num": "400", "de": "vierhundert" },
-      { "num": "500", "de": "fünfhundert" },
-      { "num": "600", "de": "sechshundert" },
-      { "num": "700", "de": "siebenhundert" },
-      { "num": "800", "de": "achthundert" },
-      { "num": "900", "de": "neunhundert" },
-      { "num": "999", "de": "neunhundertneunundneunzig" },
-      { "num": "1.000", "de": "(ein)tausend" },
-      { "num": "1.250", "de": "eintausendzweihundertfünfzig" },
-      { "num": "2.000", "de": "zweitausend" },
-      { "num": "3.470", "de": "dreitausendvierhundertsiebzig ⚠️" },
-      { "num": "5.000", "de": "fünftausend" },
-      { "num": "10.000", "de": "zehntausend" },
-      { "num": "25.000", "de": "fünfundzwanzigtausend" },
-      { "num": "50.000", "de": "fünfzigtausend" },
-      { "num": "100.000", "de": "einhunderttausend" },
-      { "num": "250.000", "de": "zweihundertfünfzigtausend" },
-      { "num": "500.000", "de": "fünfhunderttausend" },
-      { "num": "750.000", "de": "siebenhundertfünfzigtausend" },
-      { "num": "1.000.000", "de": "eine Million ⚠️ (Büyük ve ayrı)" },
-      { "num": "2.000.000", "de": "zwei Millionen ⚠️" }
+      {
+        "num": "100",
+        "de": "(ein)hundert"
+      },
+      {
+        "num": "101",
+        "de": "einhunderteins"
+      },
+      {
+        "num": "115",
+        "de": "einhundertfünfzehn"
+      },
+      {
+        "num": "120",
+        "de": "einhundertzwanzig"
+      },
+      {
+        "num": "148",
+        "de": "einhundertachtundvierzig"
+      },
+      {
+        "num": "200",
+        "de": "zweihundert"
+      },
+      {
+        "num": "256",
+        "de": "zweihundertsechsundfünfzig"
+      },
+      {
+        "num": "300",
+        "de": "dreihundert"
+      },
+      {
+        "num": "316",
+        "de": "dreihundertsechzehn ⚠️"
+      },
+      {
+        "num": "400",
+        "de": "vierhundert"
+      },
+      {
+        "num": "500",
+        "de": "fünfhundert"
+      },
+      {
+        "num": "600",
+        "de": "sechshundert"
+      },
+      {
+        "num": "700",
+        "de": "siebenhundert"
+      },
+      {
+        "num": "800",
+        "de": "achthundert"
+      },
+      {
+        "num": "900",
+        "de": "neunhundert"
+      },
+      {
+        "num": "999",
+        "de": "neunhundertneunundneunzig"
+      },
+      {
+        "num": "1.000",
+        "de": "(ein)tausend"
+      },
+      {
+        "num": "1.250",
+        "de": "eintausendzweihundertfünfzig"
+      },
+      {
+        "num": "2.000",
+        "de": "zweitausend"
+      },
+      {
+        "num": "3.470",
+        "de": "dreitausendvierhundertsiebzig ⚠️"
+      },
+      {
+        "num": "5.000",
+        "de": "fünftausend"
+      },
+      {
+        "num": "10.000",
+        "de": "zehntausend"
+      },
+      {
+        "num": "25.000",
+        "de": "fünfundzwanzigtausend"
+      },
+      {
+        "num": "50.000",
+        "de": "fünfzigtausend"
+      },
+      {
+        "num": "100.000",
+        "de": "einhunderttausend"
+      },
+      {
+        "num": "250.000",
+        "de": "zweihundertfünfzigtausend"
+      },
+      {
+        "num": "500.000",
+        "de": "fünfhunderttausend"
+      },
+      {
+        "num": "750.000",
+        "de": "siebenhundertfünfzigtausend"
+      },
+      {
+        "num": "1.000.000",
+        "de": "eine Million ⚠️ (Büyük ve ayrı)"
+      },
+      {
+        "num": "2.000.000",
+        "de": "zwei Millionen ⚠️"
+      }
     ],
     "notes": [
       "Defter Notu Düzeltmesi: 'brifmarke' -> 'die Briefmarke' (ie ile), 'Biespielen' -> 'Beispiele' (ei ile), 'schölft' -> 'schläft' (schlafen fiili du/er çekiminde a->ä olur).",
@@ -118,330 +238,884 @@
   },
   "verbs": [
     {
-      "name": "kosten", "tr": "fiyatı olmak / tutmak", "type": "Düzenli (Tekil/Çoğul odaklı)",
-      "conj": { "ich": "koste", "du": "kostest", "er": "kostet", "wir": "kosten", "ihr": "kostet", "sie": "kosten" }
+      "name": "kosten",
+      "tr": "fiyatı olmak / tutmak",
+      "type": "Düzenli (Tekil/Çoğul odaklı)",
+      "conj": {
+        "ich": "koste",
+        "du": "kostest",
+        "er": "kostet",
+        "wir": "kosten",
+        "ihr": "kostet",
+        "sie": "kosten"
+      }
     },
     {
-      "name": "kaufen", "tr": "satın almak (+Akkusativ)", "type": "Düzenli",
-      "conj": { "ich": "kaufe", "du": "kaufst", "er": "kauft", "wir": "kaufen", "ihr": "kauft", "sie": "kaufen" }
+      "name": "kaufen",
+      "tr": "satın almak (+Akkusativ)",
+      "type": "Düzenli",
+      "conj": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie": "kaufen"
+      }
     },
     {
-      "name": "brauchen", "tr": "ihtiyaç duymak (+Akkusativ)", "type": "Düzenli",
-      "conj": { "ich": "brauche", "du": "brauchst", "er": "braucht", "wir": "brauchen", "ihr": "braucht", "sie": "brauchen" }
+      "name": "brauchen",
+      "tr": "ihtiyaç duymak (+Akkusativ)",
+      "type": "Düzenli",
+      "conj": {
+        "ich": "brauche",
+        "du": "brauchst",
+        "er": "braucht",
+        "wir": "brauchen",
+        "ihr": "braucht",
+        "sie": "brauchen"
+      }
     },
     {
-      "name": "finden", "tr": "bulmak / düşünmek (+Akkusativ)", "type": "Düzenli (d eklemeli)",
-      "conj": { "ich": "finde", "du": "findest", "er": "findet", "wir": "finden", "ihr": "findet", "sie": "finden" }
+      "name": "finden",
+      "tr": "bulmak / düşünmek (+Akkusativ)",
+      "type": "Düzenli (d eklemeli)",
+      "conj": {
+        "ich": "finde",
+        "du": "findest",
+        "er": "findet",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie": "finden"
+      }
     },
     {
-      "name": "schlafen", "tr": "uyumak", "type": "Düzensiz (a -> ä)",
-      "conj": { "ich": "schlafe", "du": "schläfst", "er": "schläft", "wir": "schlafen", "ihr": "schlaft", "sie": "schlafen" }
+      "name": "schlafen",
+      "tr": "uyumak",
+      "type": "Düzensiz (a -> ä)",
+      "conj": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie": "schlafen"
+      }
     },
     {
-      "name": "suchen", "tr": "aramak (+Akkusativ)", "type": "Düzenli",
-      "conj": { "ich": "suche", "du": "suchst", "er": "sucht", "wir": "suchen", "ihr": "sucht", "sie": "suchen" }
+      "name": "suchen",
+      "tr": "aramak (+Akkusativ)",
+      "type": "Düzenli",
+      "conj": {
+        "ich": "suche",
+        "du": "suchst",
+        "er": "sucht",
+        "wir": "suchen",
+        "ihr": "sucht",
+        "sie": "suchen"
+      }
     },
     {
-      "name": "bezahlen", "tr": "ödemek", "type": "Düzenli",
-      "conj": { "ich": "bezahle", "du": "bezahlst", "er": "bezahlt", "wir": "bezahlen", "ihr": "bezahlt", "sie": "bezahlen" }
+      "name": "bezahlen",
+      "tr": "ödemek",
+      "type": "Düzenli",
+      "conj": {
+        "ich": "bezahle",
+        "du": "bezahlst",
+        "er": "bezahlt",
+        "wir": "bezahlen",
+        "ihr": "bezahlt",
+        "sie": "bezahlen"
+      }
     },
     {
-      "name": "nehmen", "tr": "almak (+Akkusativ)", "type": "Düzensiz (e -> i / mm)",
-      "conj": { "ich": "nehme", "du": "nimmst", "er": "nimmt", "wir": "nehmen", "ihr": "nehmt", "sie": "nehmen" }
+      "name": "nehmen",
+      "tr": "almak (+Akkusativ)",
+      "type": "Düzensiz (e -> i / mm)",
+      "conj": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "sie": "nehmen"
+      }
     }
   ],
   "dictionary": [
-    { "de": "der Stuhl / die Stühle", "tr": "Sandalye / Sandalyeler", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "der Tisch / die Tische", "tr": "Masa / Masalar", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "das Bett / die Betten", "tr": "Yatak / Yataklar", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "das Sofa / die Sofas", "tr": "Koltuk / Kanepe", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "der Schrank / die Schränke", "tr": "Dolap / Dolaplar", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "die Lampe / die Lampen", "tr": "Lamba / Lambalar", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "der Sessel / die Sessel", "tr": "Tekli koltuk / Berjer", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "das Regal / die Regale", "tr": "Raf / Kitaplık", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "der Teppich / die Teppiche", "tr": "Halı / Halılar", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "das Kissen / die Kissen", "tr": "Yastık / Yastıklar", "cat": "Mobilyalar & Ev Eşyası" },
-    { "de": "groß", "tr": "Büyük", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "klein", "tr": "Küçük", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "lang", "tr": "Uzun", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "kurz", "tr": "Kısa", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "teuer", "tr": "Pahalı", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "billig", "tr": "Ucuz", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "günstig", "tr": "Uygun fiyatlı / Ekonomik", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "neu / alt", "tr": "Yeni / Eski", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "schön / hässlich", "tr": "Güzel / Çirkin", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "interessant", "tr": "İlginç / İlgi çekici", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "rot", "tr": "Kırmızı", "cat": "Sıfatlar (Adjektive)" },
-    { "de": "der Preis / die Preise", "tr": "Fiyat / Fiyatlar", "cat": "Fiyat & Alışveriş" },
-    { "de": "Was kostet das? / Wie viel kostet das?", "tr": "Bu ne kadar?", "cat": "Fiyat & Alışveriş" },
-    { "de": "Der Preis ist ... / Das kostet ...", "tr": "Bunun fiyatı ... / ... tutuyor", "cat": "Fiyat & Alışveriş" },
-    { "de": "der Schlüssel / die Schlüssel", "tr": "Anahtar / Anahtarlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "das Formular / die Formulare", "tr": "Form / Formlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "die Briefmarke / die Briefmarken", "tr": "Posta pulu / Posta pulları", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "der Vogel / die Vögel", "tr": "Kuş / Kuşlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "der Arm / die Arme", "tr": "Kol / Kollar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "der Bus / die Busse", "tr": "Otobüs / Otobüsler", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "das Tal / die Täler", "tr": "Vadi / Vadiler", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "die Frau / die Frauen", "tr": "Kadın / Kadınlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "die Wiese / die Wiesen", "tr": "Çayır, çimen / Çayırlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "der Mensch / die Menschen", "tr": "İnsan / İnsanlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "der Bär / die Bären", "tr": "Ayı / Ayılar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "der Affe / die Affen", "tr": "Maymun / Maymunlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "die Arbeit / die Arbeiten", "tr": "İş / İşler", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "die Regel / die Regeln", "tr": "Kural / Kurallar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "die Tochter / die Töchter", "tr": "Kız evlat / Kız evlatlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "das Jahr / die Jahre", "tr": "Yıl / Yıllar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "das Bein / die Beine", "tr": "Bacak / Bacaklar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "das Blatt / die Blätter", "tr": "Kağıt, yaprak / Kağıtlar", "cat": "Defterdeki İsimler (Tekil/Çoğul)" },
-    { "de": "der Hund / die Hunde", "tr": "Köpek / Köpekler", "cat": "Defterdeki İsimler (Tekil/Çoğul)" }
+    {
+      "de": "der Stuhl / die Stühle",
+      "tr": "Sandalye / Sandalyeler",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "der Tisch / die Tische",
+      "tr": "Masa / Masalar",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "das Bett / die Betten",
+      "tr": "Yatak / Yataklar",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "das Sofa / die Sofas",
+      "tr": "Koltuk / Kanepe",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "der Schrank / die Schränke",
+      "tr": "Dolap / Dolaplar",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "die Lampe / die Lampen",
+      "tr": "Lamba / Lambalar",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "der Sessel / die Sessel",
+      "tr": "Tekli koltuk / Berjer",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "das Regal / die Regale",
+      "tr": "Raf / Kitaplık",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "der Teppich / die Teppiche",
+      "tr": "Halı / Halılar",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "das Kissen / die Kissen",
+      "tr": "Yastık / Yastıklar",
+      "cat": "Mobilyalar & Ev Eşyası"
+    },
+    {
+      "de": "groß",
+      "tr": "Büyük",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "klein",
+      "tr": "Küçük",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "lang",
+      "tr": "Uzun",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "kurz",
+      "tr": "Kısa",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "teuer",
+      "tr": "Pahalı",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "billig",
+      "tr": "Ucuz",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "günstig",
+      "tr": "Uygun fiyatlı / Ekonomik",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "neu / alt",
+      "tr": "Yeni / Eski",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "schön / hässlich",
+      "tr": "Güzel / Çirkin",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "interessant",
+      "tr": "İlginç / İlgi çekici",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "rot",
+      "tr": "Kırmızı",
+      "cat": "Sıfatlar (Adjektive)"
+    },
+    {
+      "de": "der Preis / die Preise",
+      "tr": "Fiyat / Fiyatlar",
+      "cat": "Fiyat & Alışveriş"
+    },
+    {
+      "de": "Was kostet das? / Wie viel kostet das?",
+      "tr": "Bu ne kadar?",
+      "cat": "Fiyat & Alışveriş"
+    },
+    {
+      "de": "Der Preis ist ... / Das kostet ...",
+      "tr": "Bunun fiyatı ... / ... tutuyor",
+      "cat": "Fiyat & Alışveriş"
+    },
+    {
+      "de": "der Schlüssel / die Schlüssel",
+      "tr": "Anahtar / Anahtarlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "das Formular / die Formulare",
+      "tr": "Form / Formlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "die Briefmarke / die Briefmarken",
+      "tr": "Posta pulu / Posta pulları",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "der Vogel / die Vögel",
+      "tr": "Kuş / Kuşlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "der Arm / die Arme",
+      "tr": "Kol / Kollar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "der Bus / die Busse",
+      "tr": "Otobüs / Otobüsler",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "das Tal / die Täler",
+      "tr": "Vadi / Vadiler",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "die Frau / die Frauen",
+      "tr": "Kadın / Kadınlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "die Wiese / die Wiesen",
+      "tr": "Çayır, çimen / Çayırlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "der Mensch / die Menschen",
+      "tr": "İnsan / İnsanlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "der Bär / die Bären",
+      "tr": "Ayı / Ayılar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "der Affe / die Affen",
+      "tr": "Maymun / Maymunlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "die Arbeit / die Arbeiten",
+      "tr": "İş / İşler",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "die Regel / die Regeln",
+      "tr": "Kural / Kurallar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "die Tochter / die Töchter",
+      "tr": "Kız evlat / Kız evlatlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "das Jahr / die Jahre",
+      "tr": "Yıl / Yıllar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "das Bein / die Beine",
+      "tr": "Bacak / Bacaklar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "das Blatt / die Blätter",
+      "tr": "Kağıt, yaprak / Kağıtlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    },
+    {
+      "de": "der Hund / die Hunde",
+      "tr": "Köpek / Köpekler",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)"
+    }
   ],
   "flashcards": [
-    { "cat": "kasus", "q": "Nominativ'den Akkusativ'e geçerken hangi artikel değişir?", "a": "Sadece eril artikel değişir: der -> den | ein -> einen | kein -> keinen", "exp": "Dişil (die/eine/keine), nötr (das/ein/kein) ve çoğul (die/keine) Akkusativ'de aynı kalır." },
-    { "cat": "kasus", "q": "Dativ (-e/-de hâli) çekiminde der, die ve das artikelleri neye dönüşür?", "a": "der -> dem | die -> der | das -> dem", "exp": "Belirsiz artikellerde ise: einem (der/das) ve einer (die) olur." },
-    { "cat": "kasus", "q": "Çoğul (Plural) isimlerde belirsiz artikel (ein/eine) nasıl kullanılır?", "a": "Çoğulda belirsiz artikel KULLANILMAZ (-). Olumsuzu 'keine' olur.", "exp": "Örnek: Tekil 'ein Formular', Çoğul 'Formulare', Olumsuz Çoğul 'keine Formulare'." },
-    { "cat": "plural", "q": "'der Stuhl' (sandalye) ve 'der Schrank' (dolap) kelimelerinin çoğulları nasıldır?", "a": "die Stühle / die Schränke", "exp": "Her ikisi de kökte Umlaut (u->ü, a->ä) ve sonuna '-e' eki alır." },
-    { "cat": "plural", "q": "'das Buch' (kitap) ve 'das Blatt' (kağıt/yaprak) çoğul hâlleri nelerdir?", "a": "die Bücher / die Blätter", "exp": "Kökte Umlaut (u->ü, a->ä) ve sonuna '-er' eki alırlar." },
-    { "cat": "plural", "q": "'die Lehrerin' ve 'die Ärztin' gibi kadın mesleklerin çoğul eki nedir?", "a": "-nen (die Lehrerinnen / die Ärztinnen)", "exp": "Sonu '-in' ile biten tüm dişil meslekler çoğulda '-nen' alır." },
-    { "cat": "plural", "q": "'das Sofa' ve 'das Auto' kelimeleri çoğulda hangi eki alır?", "a": "-s (die Sofas / die Autos)", "exp": "Sesli harfle biten veya yabancı kökenli kelimeler genellikle '-s' çoğul eki alır." },
-    { "cat": "fiyat", "q": "Tekil ve çoğul eşyaların fiyatını sorarken 'kosten' fiili nasıl çekimlenir?", "a": "Tekil: Was kostet der Tisch? | Çoğul: Was kosten die Tische?", "exp": "Tekil 3. şahısta 'kostet', çoğulda 'kosten' kullanılır." },
-    { "cat": "fiyat", "q": "'Uygun fiyatlı' ve 'Ucuz' kelimelerinin Almanca karşılıkları nelerdir?", "a": "günstig (uygun fiyatlı/ekonomik) | billig (ucuz)", "exp": "Zıt anlamlısı: teuer (pahalı)." },
-    { "cat": "sifat", "q": "'Büyük / Küçük' ve 'Uzun / Kısa' sıfatlarının Almanca karşılıkları nelerdir?", "a": "groß / klein — lang / kurz", "exp": "Örnek: Der Tisch ist groß und lang. Der Stuhl ist klein." },
-    { "cat": "sayilar", "q": "1.000.000 sayısının Almanca doğru yazılışı nasıldır? Diğer sayılardan farkı nedir?", "a": "eine Million (Büyük harfle ve ayrı yazılır)", "exp": "1.000.000'a kadar sayılar bitişik yazılırken 'Million' isim olduğu için ayrı ve büyük harfle yazılır." },
-    { "cat": "sayilar", "q": "2.450 sayısının Almanca okunuşu ve yazılışı nasıldır?", "a": "zweitausendvierhundertfünfzig", "exp": "Binlik (zweitausend) + Yüzlük (vierhundert) + Onluk (fünfzig) bitişik yazılır." },
-    { "cat": "cumle", "q": "'Der Hund schläft' (Köpek uyuyor) cümlesinin çoğul hâli nasıldır?", "a": "Die Hunde schlafen.", "exp": "Özne çoğul (die Hunde) olduğunda fiil de çoğul mastar hâline (schlafen) döner." },
-    { "cat": "cumle", "q": "'Ich kaufe _____ Schrank.' (der Schrank) cümlesinde boşluğa ne gelir?", "a": "den (veya einen)", "exp": "'kaufen' fiili Akkusativ gerektirir ve 'der Schrank' -> 'den Schrank' olur." },
-    { "cat": "mobilya", "q": "'Yatak', 'Dolap', 'Koltuk' ve 'Halı' kelimelerinin artikelli Almanca karşılıkları nelerdir?", "a": "das Bett, der Schrank, das Sofa, der Teppich", "exp": "Mobilya artikellerini birlikte ezberlemek Akkusativ çekimlerinde büyük kolaylık sağlar." },
-    { "cat": "plural", "q": "'der Vogel' (kuş) ve 'die Tochter' (kız evlat) çoğul hâlleri nasıldır?", "a": "die Vögel / die Töchter", "exp": "Sonuna ek almazlar, sadece kökteki 'o' harfi Umlaut alarak 'ö' olur." }
+    {
+      "cat": "kasus",
+      "q": "Nominativ'den Akkusativ'e geçerken hangi artikel değişir?",
+      "a": "Sadece eril artikel değişir: der -> den | ein -> einen | kein -> keinen",
+      "exp": "Dişil (die/eine/keine), nötr (das/ein/kein) ve çoğul (die/keine) Akkusativ'de aynı kalır."
+    },
+    {
+      "cat": "kasus",
+      "q": "Dativ (-e/-de hâli) çekiminde der, die ve das artikelleri neye dönüşür?",
+      "a": "der -> dem | die -> der | das -> dem",
+      "exp": "Belirsiz artikellerde ise: einem (der/das) ve einer (die) olur."
+    },
+    {
+      "cat": "kasus",
+      "q": "Çoğul (Plural) isimlerde belirsiz artikel (ein/eine) nasıl kullanılır?",
+      "a": "Çoğulda belirsiz artikel KULLANILMAZ (-). Olumsuzu 'keine' olur.",
+      "exp": "Örnek: Tekil 'ein Formular', Çoğul 'Formulare', Olumsuz Çoğul 'keine Formulare'."
+    },
+    {
+      "cat": "plural",
+      "q": "'der Stuhl' (sandalye) ve 'der Schrank' (dolap) kelimelerinin çoğulları nasıldır?",
+      "a": "die Stühle / die Schränke",
+      "exp": "Her ikisi de kökte Umlaut (u->ü, a->ä) ve sonuna '-e' eki alır."
+    },
+    {
+      "cat": "plural",
+      "q": "'das Buch' (kitap) ve 'das Blatt' (kağıt/yaprak) çoğul hâlleri nelerdir?",
+      "a": "die Bücher / die Blätter",
+      "exp": "Kökte Umlaut (u->ü, a->ä) ve sonuna '-er' eki alırlar."
+    },
+    {
+      "cat": "plural",
+      "q": "'die Lehrerin' ve 'die Ärztin' gibi kadın mesleklerin çoğul eki nedir?",
+      "a": "-nen (die Lehrerinnen / die Ärztinnen)",
+      "exp": "Sonu '-in' ile biten tüm dişil meslekler çoğulda '-nen' alır."
+    },
+    {
+      "cat": "plural",
+      "q": "'das Sofa' ve 'das Auto' kelimeleri çoğulda hangi eki alır?",
+      "a": "-s (die Sofas / die Autos)",
+      "exp": "Sesli harfle biten veya yabancı kökenli kelimeler genellikle '-s' çoğul eki alır."
+    },
+    {
+      "cat": "fiyat",
+      "q": "Tekil ve çoğul eşyaların fiyatını sorarken 'kosten' fiili nasıl çekimlenir?",
+      "a": "Tekil: Was kostet der Tisch? | Çoğul: Was kosten die Tische?",
+      "exp": "Tekil 3. şahısta 'kostet', çoğulda 'kosten' kullanılır."
+    },
+    {
+      "cat": "fiyat",
+      "q": "'Uygun fiyatlı' ve 'Ucuz' kelimelerinin Almanca karşılıkları nelerdir?",
+      "a": "günstig (uygun fiyatlı/ekonomik) | billig (ucuz)",
+      "exp": "Zıt anlamlısı: teuer (pahalı)."
+    },
+    {
+      "cat": "sifat",
+      "q": "'Büyük / Küçük' ve 'Uzun / Kısa' sıfatlarının Almanca karşılıkları nelerdir?",
+      "a": "groß / klein — lang / kurz",
+      "exp": "Örnek: Der Tisch ist groß und lang. Der Stuhl ist klein."
+    },
+    {
+      "cat": "sayilar",
+      "q": "1.000.000 sayısının Almanca doğru yazılışı nasıldır? Diğer sayılardan farkı nedir?",
+      "a": "eine Million (Büyük harfle ve ayrı yazılır)",
+      "exp": "1.000.000'a kadar sayılar bitişik yazılırken 'Million' isim olduğu için ayrı ve büyük harfle yazılır."
+    },
+    {
+      "cat": "sayilar",
+      "q": "2.450 sayısının Almanca okunuşu ve yazılışı nasıldır?",
+      "a": "zweitausendvierhundertfünfzig",
+      "exp": "Binlik (zweitausend) + Yüzlük (vierhundert) + Onluk (fünfzig) bitişik yazılır."
+    },
+    {
+      "cat": "cumle",
+      "q": "'Der Hund schläft' (Köpek uyuyor) cümlesinin çoğul hâli nasıldır?",
+      "a": "Die Hunde schlafen.",
+      "exp": "Özne çoğul (die Hunde) olduğunda fiil de çoğul mastar hâline (schlafen) döner."
+    },
+    {
+      "cat": "cumle",
+      "q": "'Ich kaufe _____ Schrank.' (der Schrank) cümlesinde boşluğa ne gelir?",
+      "a": "den (veya einen)",
+      "exp": "'kaufen' fiili Akkusativ gerektirir ve 'der Schrank' -> 'den Schrank' olur."
+    },
+    {
+      "cat": "mobilya",
+      "q": "'Yatak', 'Dolap', 'Koltuk' ve 'Halı' kelimelerinin artikelli Almanca karşılıkları nelerdir?",
+      "a": "das Bett, der Schrank, das Sofa, der Teppich",
+      "exp": "Mobilya artikellerini birlikte ezberlemek Akkusativ çekimlerinde büyük kolaylık sağlar."
+    },
+    {
+      "cat": "plural",
+      "q": "'der Vogel' (kuş) ve 'die Tochter' (kız evlat) çoğul hâlleri nasıldır?",
+      "a": "die Vögel / die Töchter",
+      "exp": "Sonuna ek almazlar, sadece kökteki 'o' harfi Umlaut alarak 'ö' olur."
+    }
   ],
   "exercises": [
-    { "sentence": "Ich brauche _____ Schlüssel. (der Schlüssel / belirsiz artikel + Akkusativ)", "answer": "einen", "hint": "der -> Akkusativ'de einen olur" },
-    { "sentence": "Hast du _____ Briefmarke? (die Briefmarke / belirsiz artikel)", "answer": "eine", "hint": "die artikeli Akkusativ'de değişmez" },
-    { "sentence": "Nein, ich habe _____ Formular. (das Formular / olumsuz)", "answer": "kein", "hint": "das artikeli Akkusativ'de kein kalır" },
-    { "sentence": "Wir haben _____ Kinder. (die Kinder / çoğul olumsuz)", "answer": "keine", "hint": "Çoğulda olumsuzluk keine ile yapılır" },
-    { "sentence": "Ich kaufe _____ Tisch. (der Tisch / belirli artikel + Akkusativ)", "answer": "den", "hint": "kaufen fiili Akkusativ alır: der -> den" },
-    { "sentence": "Was _____ das Sofa? (kosten - tekil)", "answer": "kostet", "hint": "das Sofa tekil olduğu için -t alır" },
-    { "sentence": "Wie viel _____ die Stühle? (kosten - çoğul)", "answer": "kosten", "hint": "die Stühle çoğul olduğu için -en alır" },
-    { "sentence": "Das Bett kostet 2.000 Euro. Das ist sehr _____! (pahalı)", "answer": "teuer", "hint": "ucuz/uygun kelimesinin zıttı" },
-    { "sentence": "Der Preis ist 15 Euro. Das ist sehr _____! (uygun fiyatlı)", "answer": "günstig", "hint": "ekonomik / uygun anlamındaki sıfat" },
-    { "sentence": "Der Schrank ist nicht klein, er ist _____! (büyük)", "answer": "groß", "hint": "klein sıfatının zıttı" },
-    { "sentence": "Der Tisch ist nicht kurz, er ist _____! (uzun)", "answer": "lang", "hint": "kurz sıfatının zıttı" },
-    { "sentence": "Tekil: der Stuhl -> Çoğul: die _____", "answer": "Stühle", "hint": "u -> ü olur ve -e eklenir" },
-    { "sentence": "Tekil: das Buch -> Çoğul: die _____", "answer": "Bücher", "hint": "u -> ü olur ve -er eklenir" },
-    { "sentence": "Tekil: die Lehrerin -> Çoğul: die _____", "answer": "Lehrerinnen", "hint": "Sonuna -nen eklenir" },
-    { "sentence": "Tekil: der Hund schläft. -> Çoğul: Die Hunde _____.", "answer": "schlafen", "hint": "Çoğul öznede fiil mastar kalır" },
-    { "sentence": "Tekil: Die Lampe ist neu. -> Çoğul: Die Lampen _____ neu.", "answer": "sind", "hint": "sein fiilinin çoğul çekimi" },
-    { "sentence": "Dativ dönüşümü: der Mann -> _____ Mann", "answer": "dem", "hint": "der artikeli Dativ'de dem olur" },
-    { "sentence": "Dativ dönüşümü: die Frau -> _____ Frau", "answer": "der", "hint": "die artikeli Dativ'de der olur" },
-    { "sentence": "500 sayısının Almanca yazılışı: _____", "answer": "fünfhundert", "hint": "5 ve 100 birleşimi" },
-    { "sentence": "1.000 sayısının Almanca yazılışı: _____", "answer": "eintausend", "hint": "1 ve 1000 birleşimi" }
+    {
+      "sentence": "Ich brauche _____ Schlüssel. (der Schlüssel / belirsiz artikel + Akkusativ)",
+      "answer": "einen",
+      "hint": "der -> Akkusativ'de einen olur"
+    },
+    {
+      "sentence": "Hast du _____ Briefmarke? (die Briefmarke / belirsiz artikel)",
+      "answer": "eine",
+      "hint": "die artikeli Akkusativ'de değişmez"
+    },
+    {
+      "sentence": "Nein, ich habe _____ Formular. (das Formular / olumsuz)",
+      "answer": "kein",
+      "hint": "das artikeli Akkusativ'de kein kalır"
+    },
+    {
+      "sentence": "Wir haben _____ Kinder. (die Kinder / çoğul olumsuz)",
+      "answer": "keine",
+      "hint": "Çoğulda olumsuzluk keine ile yapılır"
+    },
+    {
+      "sentence": "Ich kaufe _____ Tisch. (der Tisch / belirli artikel + Akkusativ)",
+      "answer": "den",
+      "hint": "kaufen fiili Akkusativ alır: der -> den"
+    },
+    {
+      "sentence": "Was _____ das Sofa? (kosten - tekil)",
+      "answer": "kostet",
+      "hint": "das Sofa tekil olduğu için -t alır"
+    },
+    {
+      "sentence": "Wie viel _____ die Stühle? (kosten - çoğul)",
+      "answer": "kosten",
+      "hint": "die Stühle çoğul olduğu için -en alır"
+    },
+    {
+      "sentence": "Das Bett kostet 2.000 Euro. Das ist sehr _____! (pahalı)",
+      "answer": "teuer",
+      "hint": "ucuz/uygun kelimesinin zıttı"
+    },
+    {
+      "sentence": "Der Preis ist 15 Euro. Das ist sehr _____! (uygun fiyatlı)",
+      "answer": "günstig",
+      "hint": "ekonomik / uygun anlamındaki sıfat"
+    },
+    {
+      "sentence": "Der Schrank ist nicht klein, er ist _____! (büyük)",
+      "answer": "groß",
+      "hint": "klein sıfatının zıttı"
+    },
+    {
+      "sentence": "Der Tisch ist nicht kurz, er ist _____! (uzun)",
+      "answer": "lang",
+      "hint": "kurz sıfatının zıttı"
+    },
+    {
+      "sentence": "Tekil: der Stuhl -> Çoğul: die _____",
+      "answer": "Stühle",
+      "hint": "u -> ü olur ve -e eklenir"
+    },
+    {
+      "sentence": "Tekil: das Buch -> Çoğul: die _____",
+      "answer": "Bücher",
+      "hint": "u -> ü olur ve -er eklenir"
+    },
+    {
+      "sentence": "Tekil: die Lehrerin -> Çoğul: die _____",
+      "answer": "Lehrerinnen",
+      "hint": "Sonuna -nen eklenir"
+    },
+    {
+      "sentence": "Tekil: der Hund schläft. -> Çoğul: Die Hunde _____.",
+      "answer": "schlafen",
+      "hint": "Çoğul öznede fiil mastar kalır"
+    },
+    {
+      "sentence": "Tekil: Die Lampe ist neu. -> Çoğul: Die Lampen _____ neu.",
+      "answer": "sind",
+      "hint": "sein fiilinin çoğul çekimi"
+    },
+    {
+      "sentence": "Dativ dönüşümü: der Mann -> _____ Mann",
+      "answer": "dem",
+      "hint": "der artikeli Dativ'de dem olur"
+    },
+    {
+      "sentence": "Dativ dönüşümü: die Frau -> _____ Frau",
+      "answer": "der",
+      "hint": "die artikeli Dativ'de der olur"
+    },
+    {
+      "sentence": "500 sayısının Almanca yazılışı: _____",
+      "answer": "fünfhundert",
+      "hint": "5 ve 100 birleşimi"
+    },
+    {
+      "sentence": "1.000 sayısının Almanca yazılışı: _____",
+      "answer": "eintausend",
+      "hint": "1 ve 1000 birleşimi"
+    }
   ],
   "quiz": [
     {
       "q": "\"Ich kaufe _____ Stuhl.\" (der Stuhl) cümlesinde 'kaufen' fiili Akkusativ gerektirdiğine göre boşluğa ne gelmelidir?",
-      "options": ["der", "den", "dem", "des"],
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "des"
+      ],
       "correct": "den",
       "cat": "Artikeller (Kasus)",
       "exp": "Eril (der) artikel Akkusativ (-i hâli) durumunda 'den' olur: Ich kaufe den Stuhl."
     },
     {
       "q": "\"Hast du _____ Schlüssel?\" (der Schlüssel - anahtar) sorusunda belirsiz artikel nasıl kullanılmalıdır?",
-      "options": ["ein", "eine", "einen", "einem"],
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "einem"
+      ],
       "correct": "einen",
       "cat": "Artikeller (Kasus)",
       "exp": "'haben' fiili Akkusativ alır; 'ein Schlüssel' Akkusativ'de 'einen Schlüssel' olur."
     },
     {
       "q": "\"Brauchst du _____ Formular?\" (das Formular) sorusuna 'Hayır, forma ihtiyacım yok' cevabı nasıl verilir?",
-      "options": ["Nein, ich brauche keinen Formular.", "Nein, ich brauche kein Formular.", "Nein, ich brauche keine Formular.", "Nein, ich brauche nicht Formular."],
+      "options": [
+        "Nein, ich brauche keinen Formular.",
+        "Nein, ich brauche kein Formular.",
+        "Nein, ich brauche keine Formular.",
+        "Nein, ich brauche nicht Formular."
+      ],
       "correct": "Nein, ich brauche kein Formular.",
       "cat": "Artikeller (Kasus)",
       "exp": "Nötr (das) artikelli isimlerin olumsuzluğu Nominativ ve Akkusativ'de 'kein' olarak kalır."
     },
     {
       "q": "Aşağıdakilerden hangisi 'die Briefmarke' (posta pulu) kelimesinin ÇOĞUL (Plural) ve OLUMSUZ hâlidir?",
-      "options": ["kein Briefmarke", "keinen Briefmarken", "keine Briefmarken", "eine Briefmarken"],
+      "options": [
+        "kein Briefmarke",
+        "keinen Briefmarken",
+        "keine Briefmarken",
+        "eine Briefmarken"
+      ],
       "correct": "keine Briefmarken",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Çoğulda 'Briefmarke' sonuna '-n' alır (Briefmarken) ve olumsuz artikel daima 'keine' olur."
     },
     {
       "q": "Dativ (-e/-de hâli) çekiminde 'der', 'die' ve 'das' artikelleri sırasıyla hangilerine dönüşür?",
-      "options": ["den / die / das", "dem / der / dem", "des / der / des", "dem / den / dem"],
+      "options": [
+        "den / die / das",
+        "dem / der / dem",
+        "des / der / des",
+        "dem / den / dem"
+      ],
       "correct": "dem / der / dem",
       "cat": "Artikeller (Kasus)",
       "exp": "Dativ'de eril (der) -> dem, dişil (die) -> der, nötr (das) -> dem olarak değişir."
     },
     {
       "q": "\"der Stuhl\" (sandalye) kelimesinin doğru çoğul (Plural) hâli hangisidir?",
-      "options": ["die Stuhle", "die Stühle", "die Stuhlen", "die Stühler"],
+      "options": [
+        "die Stuhle",
+        "die Stühle",
+        "die Stuhlen",
+        "die Stühler"
+      ],
       "correct": "die Stühle",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Stuhl çoğul yapılırken kökteki 'u' Umlaut (ü) alır ve sonuna '-e' gelir: die Stühle."
     },
     {
       "q": "\"das Buch\" (kitap) ve \"das Blatt\" (kağıt) kelimelerinin çoğul hâlleri hangi seçenekte doğru verilmiştir?",
-      "options": ["die Buche / die Blatte", "die Bücher / die Blätter", "die Buchs / die Blatts", "die Büchen / die Blätten"],
+      "options": [
+        "die Buche / die Blatte",
+        "die Bücher / die Blätter",
+        "die Buchs / die Blatts",
+        "die Büchen / die Blätten"
+      ],
       "correct": "die Bücher / die Blätter",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Her iki kelime de çoğulda Umlaut ve '-er' eki alır: die Bücher, die Blätter."
     },
     {
       "q": "\"die Ärztin\" (kadın doktor) ve \"die Lehrerin\" (kadın öğretmen) kelimelerinin çoğul eki nedir?",
-      "options": ["-en (die Ärztinen)", "-nen (die Ärztinnen)", "-s (die Ärztins)", "-er (die Ärztiner)"],
+      "options": [
+        "-en (die Ärztinen)",
+        "-nen (die Ärztinnen)",
+        "-s (die Ärztins)",
+        "-er (die Ärztiner)"
+      ],
       "correct": "-nen (die Ärztinnen)",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Sonu '-in' ile biten tüm dişil meslek ve kişi isimleri çoğulda '-nen' eki alır."
     },
     {
       "q": "\"der Vogel\" (kuş) ve \"die Tochter\" (kız evlat) kelimeleri çoğul yapılırken nasıl değişir?",
-      "options": ["Ek almazlar, sadece Umlaut alırlar (die Vögel / die Töchter)", "Sonlarına '-en' gelir", "Sonlarına '-s' gelir", "Hiç değişmezler"],
+      "options": [
+        "Ek almazlar, sadece Umlaut alırlar (die Vögel / die Töchter)",
+        "Sonlarına '-en' gelir",
+        "Sonlarına '-s' gelir",
+        "Hiç değişmezler"
+      ],
       "correct": "Ek almazlar, sadece Umlaut alırlar (die Vögel / die Töchter)",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Bu kelimeler ek almadan sadece kök sesli harflerinin incelmesiyle (o -> ö) çoğul olur."
     },
     {
       "q": "\"das Sofa\" (koltuk) ve \"das Auto\" (araba) kelimelerinin çoğulları hangisidir?",
-      "options": ["die Sofen / die Auten", "die Sofas / die Autos", "die Sofa / die Auto", "die Sofä / die Autö"],
+      "options": [
+        "die Sofen / die Auten",
+        "die Sofas / die Autos",
+        "die Sofa / die Auto",
+        "die Sofä / die Autö"
+      ],
       "correct": "die Sofas / die Autos",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Sesli harfle biten yabancı kökenli kelimeler çoğulda '-s' eki alır."
     },
     {
       "q": "\"Der Hund schläft.\" (Köpek uyuyor) cümlesinin çoğul (Plural) hâli aşağıdakilerden hangisidir?",
-      "options": ["Die Hund schlafen.", "Die Hunde schläft.", "Die Hunde schlafen.", "Die Hünde schlafen."],
+      "options": [
+        "Die Hund schlafen.",
+        "Die Hunde schläft.",
+        "Die Hunde schlafen.",
+        "Die Hünde schlafen."
+      ],
       "correct": "Die Hunde schlafen.",
       "cat": "Tekil -> Çoğul Cümle",
       "exp": "Hund çoğulda 'die Hunde' olur, özne çoğul olduğu için fiil de '-en' ekli hâline (schlafen) döner."
     },
     {
       "q": "\"Die Lampe ist neu.\" cümlesi çoğula çevrildiğinde hangisi doğru olur?",
-      "options": ["Die Lampen ist neu.", "Die Lampen sind neu.", "Die Lampes sind neue.", "Die Lampe sind neu."],
+      "options": [
+        "Die Lampen ist neu.",
+        "Die Lampen sind neu.",
+        "Die Lampes sind neue.",
+        "Die Lampe sind neu."
+      ],
       "correct": "Die Lampen sind neu.",
       "cat": "Tekil -> Çoğul Cümle",
       "exp": "Lampe -> die Lampen olur; 'ist' fiili çoğulda 'sind' olarak çekimlenir, cümle sonundaki sıfat (neu) değişmez."
     },
     {
       "q": "\"Was _____ die Tische?\" (Masalar ne kadar?) sorusunda boşluğa hangi fiil çekimi gelmelidir?",
-      "options": ["kostet", "kosten", "kostest", "koste"],
+      "options": [
+        "kostet",
+        "kosten",
+        "kostest",
+        "koste"
+      ],
       "correct": "kosten",
       "cat": "Fiyat & Alışveriş",
       "exp": "'die Tische' çoğul olduğu için 'kosten' fiili çoğul çekimiyle (kosten) kullanılır."
     },
     {
       "q": "\"Wie viel _____ das Bett?\" (Yatak ne kadar?) sorusunda boşluğa hangisi gelmelidir?",
-      "options": ["kosten", "kostet", "kostest", "koste"],
+      "options": [
+        "kosten",
+        "kostet",
+        "kostest",
+        "koste"
+      ],
       "correct": "kostet",
       "cat": "Fiyat & Alışveriş",
       "exp": "'das Bett' tekil 3. şahıs (es) olduğu için 'kostet' kullanılır."
     },
     {
       "q": "Alışverişte 'pahalı', 'ucuz' ve 'uygun fiyatlı' sıfatlarının sırasıyla Almanca karşılıkları hangisidir?",
-      "options": ["billig / teuer / groß", "teuer / billig / günstig", "günstig / teuer / billig", "teuer / kurz / klein"],
+      "options": [
+        "billig / teuer / groß",
+        "teuer / billig / günstig",
+        "günstig / teuer / billig",
+        "teuer / kurz / klein"
+      ],
       "correct": "teuer / billig / günstig",
       "cat": "Sıfatlar & Mobilya",
       "exp": "teuer = pahalı, billig = ucuz, günstig = uygun fiyatlı / ekonomik."
     },
     {
       "q": "'Büyük - Küçük' ve 'Uzun - Kısa' zıt sıfat çiftleri hangi seçenekte doğru verilmiştir?",
-      "options": ["groß - klein / lang - kurz", "lang - klein / groß - kurz", "alt - neu / teuer - billig", "klein - kurz / groß - lang"],
+      "options": [
+        "groß - klein / lang - kurz",
+        "lang - klein / groß - kurz",
+        "alt - neu / teuer - billig",
+        "klein - kurz / groß - lang"
+      ],
       "correct": "groß - klein / lang - kurz",
       "cat": "Sıfatlar & Mobilya",
       "exp": "groß (büyük) <-> klein (küçük), lang (uzun) <-> kurz (kısa)."
     },
     {
       "q": "Aşağıdaki mobilya ve artikeli eşleştirmelerinden hangisi DOĞRUDUR?",
-      "options": ["das Stuhl", "der Bett", "der Schrank", "die Sofa"],
+      "options": [
+        "das Stuhl",
+        "der Bett",
+        "der Schrank",
+        "die Sofa"
+      ],
       "correct": "der Schrank",
       "cat": "Sıfatlar & Mobilya",
       "exp": "Doğru artikeller: der Stuhl, das Bett, der Schrank, das Sofa."
     },
     {
       "q": "\"345\" sayısının Almanca doğru yazılışı hangisidir?",
-      "options": ["dreihundertvierzigundfünf", "dreihundertfünfundvierzig", "dreihundertfünfvierzig", "dreitausendfünfundvierzig"],
+      "options": [
+        "dreihundertvierzigundfünf",
+        "dreihundertfünfundvierzig",
+        "dreihundertfünfvierzig",
+        "dreitausendfünfundvierzig"
+      ],
       "correct": "dreihundertfünfundvierzig",
       "cat": "Büyük Sayılar",
       "exp": "Önce yüzlük (dreihundert), sonra birler basamağı (fünf), araya 'und' ve onlar basamağı (vierzig) bitişik yazılır."
     },
     {
       "q": "\"1.000.000\" (Bir milyon) sayısının Almanca doğru yazılışı hangisidir?",
-      "options": ["einmillion", "eine Million", "eintausendtausend", "ein Million"],
+      "options": [
+        "einmillion",
+        "eine Million",
+        "eintausendtausend",
+        "ein Million"
+      ],
       "correct": "eine Million",
       "cat": "Büyük Sayılar",
       "exp": "'Million' dişil (die) bir isim olduğu için 'eine Million' şeklinde ayrı ve büyük harfle yazılır."
     },
     {
       "q": "\"2.716\" sayısının Almanca doğru yazılışı hangi seçenekte verilmiştir?",
-      "options": ["zweitausendsiebenhundertsechszehn", "zweitausendsiebenhundertsechzehn", "zweitausendsiebhundertsechzehn", "zweihundertsiebentausendsechzehn"],
+      "options": [
+        "zweitausendsiebenhundertsechszehn",
+        "zweitausendsiebenhundertsechzehn",
+        "zweitausendsiebhundertsechzehn",
+        "zweihundertsiebentausendsechzehn"
+      ],
       "correct": "zweitausendsiebenhundertsechzehn",
       "cat": "Büyük Sayılar",
       "exp": "700 = siebenhundert (sadece 70 'siebzig'dir), 16 = sechzehn ('s' düşer). Birleşimi: zweitausendsiebenhundertsechzehn."
     },
     {
       "q": "\"Ich suche _____ Lampe.\" (die Lampe) cümlesinde boşluğa belirsiz artikel olarak ne gelmelidir?",
-      "options": ["ein", "einen", "eine", "einer"],
+      "options": [
+        "ein",
+        "einen",
+        "eine",
+        "einer"
+      ],
       "correct": "eine",
       "cat": "Artikeller (Kasus)",
       "exp": "'die Lampe' dişil olduğu için Akkusativ'de 'eine Lampe' olarak kalır."
     },
     {
       "q": "\"der Mensch\" (insan) ve \"der Bär\" (ayı) kelimelerinin çoğul hâlleri hangisidir?",
-      "options": ["die Mensche / die Bäre", "die Menschen / die Bären", "die Menschs / die Bärs", "die Mensch / die Bär"],
+      "options": [
+        "die Mensche / die Bäre",
+        "die Menschen / die Bären",
+        "die Menschs / die Bärs",
+        "die Mensch / die Bär"
+      ],
       "correct": "die Menschen / die Bären",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Bu isimler (n-Deklination grubu) çoğulda '-en' eki alır: die Menschen, die Bären."
     },
     {
       "q": "\"Das Sofa kostet 850 Euro. Das ist _____!\" (Çok uygun fiyatlı!) boşluğuna hangisi gelir?",
-      "options": ["sehr teuer", "sehr günstig", "sehr kurz", "sehr klein"],
+      "options": [
+        "sehr teuer",
+        "sehr günstig",
+        "sehr kurz",
+        "sehr klein"
+      ],
       "correct": "sehr günstig",
       "cat": "Fiyat & Alışveriş",
       "exp": "Fiyatın ekonomik ve uygun olduğunu belirtmek için 'günstig' sıfatı kullanılır."
     },
     {
       "q": "Çoğul (Plural) bir ismin önünde belirsiz artikel kullanmak istersek ne yazarız?",
-      "options": ["ein", "eine", "einen", "Hiçbir şey yazmayız (artikelsiz kullanılır)"],
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "Hiçbir şey yazmayız (artikelsiz kullanılır)"
+      ],
       "correct": "Hiçbir şey yazmayız (artikelsiz kullanılır)",
       "cat": "Artikeller (Kasus)",
       "exp": "Almancada çoğul isimlerin belirsiz artikeli yoktur: 'Das sind Stühle.' (Bunlar sandalyelerdir.)"
     },
     {
       "q": "\"100.000\" sayısının Almanca karşılığı nedir?",
-      "options": ["eintausendhundert", "einhunderttausend", "eine Million", "zehntausend"],
+      "options": [
+        "eintausendhundert",
+        "einhunderttausend",
+        "eine Million",
+        "zehntausend"
+      ],
       "correct": "einhunderttausend",
       "cat": "Büyük Sayılar",
       "exp": "100 (einhundert) + 1.000 (tausend) = einhunderttausend."
     },
     {
       "q": "\"Der Apfel ist rot.\" cümlesinin çoğul hâli aşağıdakilerden hangisidir?",
-      "options": ["Die Apfel sind rot.", "Die Äpfel sind rot.", "Die Äpfel ist rot.", "Die Äpfeln sind rote."],
+      "options": [
+        "Die Apfel sind rot.",
+        "Die Äpfel sind rot.",
+        "Die Äpfel ist rot.",
+        "Die Äpfeln sind rote."
+      ],
       "correct": "Die Äpfel sind rot.",
       "cat": "Tekil -> Çoğul Cümle",
       "exp": "'der Apfel' çoğulda Umlaut alarak 'die Äpfel' olur ve 'ist' fiili 'sind' olarak çekimlenir."
     },
     {
       "q": "\"der Tisch\" (masa) kelimesinin çoğulu aşağıdakilerden hangisidir?",
-      "options": ["die Tische", "die Tischs", "die Tischen", "die Tischer"],
+      "options": [
+        "die Tische",
+        "die Tischs",
+        "die Tischen",
+        "die Tischer"
+      ],
       "correct": "die Tische",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Tek heceli eril isimlerin çoğu gibi 'Tisch' sonuna '-e' alır: die Tische."
     },
     {
       "q": "\"Ich finde _____ Teppich sehr schön.\" (der Teppich - halı) cümlesinde boşluğa ne gelir?",
-      "options": ["der", "den", "dem", "die"],
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "die"
+      ],
       "correct": "den",
       "cat": "Artikeller (Kasus)",
       "exp": "'finden' fiili Akkusativ alır; 'der Teppich' -> 'den Teppich' olur."
     },
     {
       "q": "\"das Kind\" (çocuk) ve \"das Tal\" (vadi) kelimelerinin çoğul hâlleri hangisidir?",
-      "options": ["die Kinder / die Täler", "die Kinde / die Tale", "die Kinds / die Tals", "die Kindern / die Tälern"],
+      "options": [
+        "die Kinder / die Täler",
+        "die Kinde / die Tale",
+        "die Kinds / die Tals",
+        "die Kindern / die Tälern"
+      ],
       "correct": "die Kinder / die Täler",
       "cat": "Çoğul Yapma (Plural)",
       "exp": "Tek heceli nötr isimlerin pek çoğu '-er' veya '¨-er' ekiyle çoğul olur: die Kinder, die Täler."
     },
     {
       "q": "\"999.999\" sayısından hemen sonra gelen \"1.000.000\" sayısı nasıl ifade edilir?",
-      "options": ["eintausendtausend", "eine Million", "zehn hunderttausend", "ein Million"],
+      "options": [
+        "eintausendtausend",
+        "eine Million",
+        "zehn hunderttausend",
+        "ein Million"
+      ],
       "correct": "eine Million",
       "cat": "Büyük Sayılar",
       "exp": "1.000.000 = eine Million."
