@@ -2,7 +2,7 @@
 
 **Menschen A1** ders kitabı ve haftalık kurs notları temel alınarak geliştirilmiş; mobil uyumlu, sunucusuz (statik) ve interaktif Almanca öğrenme portalı.
 
-🔗 **Canlı Önizleme:** [https://kullaniciadin.github.io/almanca-portal/](https://kullaniciadin.github.io/almanca-portal/)
+🔗 **Canlı Önizleme:** [https://canyilmaz959.github.io/almanca-portal/](https://canyilmaz959.github.io/almanca-portal)
 
 ---
 
