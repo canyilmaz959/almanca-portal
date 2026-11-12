@@ -1,0 +1,726 @@
+{
+  "title": "Almanca A1 Genel Sözlük",
+  "total": 120,
+  "words": [
+    {
+      "de": "der Arzt / die Ärztin",
+      "tr": "Doktor (Erkek / Kadın - Umlaut alır)",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Lehrer / die Lehrerin",
+      "tr": "Öğretmen (Erkek / Kadın)",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Ingenieur / die Ingenieurin",
+      "tr": "Mühendis (Erkek / Kadın)",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Mechatroniker / die Mechatronikerin",
+      "tr": "Mekatronikçi / Tekniker",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Verkäufer / die Verkäuferin",
+      "tr": "Satış danışmanı / Tezgahtar",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Kellner / die Kellnerin",
+      "tr": "Garson (Erkek / Kadın)",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Koch / die Köchin",
+      "tr": "Aşçı (Kadın formunda o->ö olur)",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Anwalt / die Anwältin",
+      "tr": "Avukat (Kadın formunda a->ä olur)",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Schüler / die Schülerin",
+      "tr": "Okul öğrencisi (İlkokul / Lise)",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Student / die Studentin",
+      "tr": "Üniversite öğrencisi",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "arbeitslos",
+      "tr": "İşsiz",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Rentner / die Rentnerin",
+      "tr": "Emekli (in Rente = emeklilikte)",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "die Ausbildung",
+      "tr": "Meslek eğitimi / Çıraklık",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "der Beruf / beruflich",
+      "tr": "Meslek / Mesleki olarak",
+      "cat": "Meslekler & İş",
+      "week": 1
+    },
+    {
+      "de": "verheiratet",
+      "tr": "Evli",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "ledig / single",
+      "tr": "Bekar",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "das Kind / die Kinder",
+      "tr": "Çocuk / Çocuklar",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "die Schwester",
+      "tr": "Kız kardeş / Abla (die)",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "der Bruder",
+      "tr": "Erkek kardeş / Abi (der)",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "die Mutter / der Vater",
+      "tr": "Anne / Baba",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "der Kollege / die Kollegin",
+      "tr": "İş arkadaşı (Erkek / Kadın)",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "der Freund / die Freundin",
+      "tr": "Arkadaş / Dost (Erkek / Kadın)",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "das Buch",
+      "tr": "Kitap (das)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "der Computer",
+      "tr": "Bilgisayar (der)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "der Apfel",
+      "tr": "Elma (der)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "die Tasche",
+      "tr": "Çanta (die)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "das Fenster",
+      "tr": "Pencere (das)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "das Handy",
+      "tr": "Cep telefonu (das)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "die Jacke",
+      "tr": "Ceket / Mont (die)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "das Kino",
+      "tr": "Sinema (das)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "der Kaffee",
+      "tr": "Kahve (der)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "der Kuchen",
+      "tr": "Pasta / Kek (der)",
+      "cat": "Eşyalar & Nesneler",
+      "week": 1
+    },
+    {
+      "de": "doch",
+      "tr": "Aksine, bilakis (Olumsuz soruya pozitif itiraz)",
+      "cat": "Gramer & Kalıplar",
+      "week": 1
+    },
+    {
+      "de": "aber",
+      "tr": "Ama / Fakat",
+      "cat": "Gramer & Kalıplar",
+      "week": 1
+    },
+    {
+      "de": "nicht",
+      "tr": "Değil (Fiil/sıfat olumsuzluğu)",
+      "cat": "Gramer & Kalıplar",
+      "week": 1
+    },
+    {
+      "de": "kein / keine",
+      "tr": "Hiç / Yok (İsim olumsuzluğu)",
+      "cat": "Gramer & Kalıplar",
+      "week": 1
+    },
+    {
+      "de": "Hallo! / Guten Tag!",
+      "tr": "Merhaba! / İyi günler!",
+      "cat": "Begrüßung (Selamlaşma)",
+      "week": 1
+    },
+    {
+      "de": "Guten Abend!",
+      "tr": "İyi akşamlar!",
+      "cat": "Begrüßung (Selamlaşma)",
+      "week": 1
+    },
+    {
+      "de": "Auf Wiedersehen!",
+      "tr": "Hoşça kalın! (Yüz yüze)",
+      "cat": "Abschied (Vedalaşma)",
+      "week": 1
+    },
+    {
+      "de": "Auf Wiederhören!",
+      "tr": "Hoşça kalın! (Telefonda veda)",
+      "cat": "Abschied (Vedalaşma)",
+      "week": 1
+    },
+    {
+      "de": "Bis morgen! / Tschüss!",
+      "tr": "Yarın görüşürüz! / Bay bay!",
+      "cat": "Abschied (Vedalaşma)",
+      "week": 1
+    },
+    {
+      "de": "Mach's gut!",
+      "tr": "Kendine iyi bak!",
+      "cat": "Abschied (Vedalaşma)",
+      "week": 1
+    },
+    {
+      "de": "der Stuhl / die Stühle",
+      "tr": "Sandalye / Sandalyeler",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "der Tisch / die Tische",
+      "tr": "Masa / Masalar",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "das Bett / die Betten",
+      "tr": "Yatak / Yataklar",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "das Sofa / die Sofas",
+      "tr": "Koltuk / Kanepe",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "der Schrank / die Schränke",
+      "tr": "Dolap / Dolaplar",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "die Lampe / die Lampen",
+      "tr": "Lamba / Lambalar",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "der Sessel / die Sessel",
+      "tr": "Tekli koltuk / Berjer",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "das Regal / die Regale",
+      "tr": "Raf / Kitaplık",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "der Teppich / die Teppiche",
+      "tr": "Halı / Halılar",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "das Kissen / die Kissen",
+      "tr": "Yastık / Yastıklar",
+      "cat": "Mobilyalar & Ev Eşyası",
+      "week": 2
+    },
+    {
+      "de": "groß",
+      "tr": "Büyük",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "klein",
+      "tr": "Küçük",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "lang",
+      "tr": "Uzun",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "kurz",
+      "tr": "Kısa",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "teuer",
+      "tr": "Pahalı",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "billig",
+      "tr": "Ucuz",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "günstig",
+      "tr": "Uygun fiyatlı / Ekonomik",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "neu / alt",
+      "tr": "Yeni / Eski",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "schön / hässlich",
+      "tr": "Güzel / Çirkin",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "interessant",
+      "tr": "İlginç / İlgi çekici",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "rot",
+      "tr": "Kırmızı",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "der Preis / die Preise",
+      "tr": "Fiyat / Fiyatlar",
+      "cat": "Fiyat & Alışveriş",
+      "week": 2
+    },
+    {
+      "de": "Was kostet das? / Wie viel kostet das?",
+      "tr": "Bu ne kadar?",
+      "cat": "Fiyat & Alışveriş",
+      "week": 2
+    },
+    {
+      "de": "Der Preis ist ... / Das kostet ...",
+      "tr": "Bunun fiyatı ... / ... tutuyor",
+      "cat": "Fiyat & Alışveriş",
+      "week": 2
+    },
+    {
+      "de": "der Schlüssel / die Schlüssel",
+      "tr": "Anahtar / Anahtarlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "das Formular / die Formulare",
+      "tr": "Form / Formlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "die Briefmarke / die Briefmarken",
+      "tr": "Posta pulu / Posta pulları",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "der Vogel / die Vögel",
+      "tr": "Kuş / Kuşlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "der Arm / die Arme",
+      "tr": "Kol / Kollar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "der Bus / die Busse",
+      "tr": "Otobüs / Otobüsler",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "das Tal / die Täler",
+      "tr": "Vadi / Vadiler",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "die Frau / die Frauen",
+      "tr": "Kadın / Kadınlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "die Wiese / die Wiesen",
+      "tr": "Çayır, çimen / Çayırlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "der Mensch / die Menschen",
+      "tr": "İnsan / İnsanlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "der Bär / die Bären",
+      "tr": "Ayı / Ayılar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "der Affe / die Affen",
+      "tr": "Maymun / Maymunlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "die Arbeit / die Arbeiten",
+      "tr": "İş / İşler",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "die Regel / die Regeln",
+      "tr": "Kural / Kurallar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "die Tochter / die Töchter",
+      "tr": "Kız evlat / Kız evlatlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "das Jahr / die Jahre",
+      "tr": "Yıl / Yıllar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "das Bein / die Beine",
+      "tr": "Bacak / Bacaklar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "das Blatt / die Blätter",
+      "tr": "Kağıt, yaprak / Kağıtlar",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "der Hund / die Hunde",
+      "tr": "Köpek / Köpekler",
+      "cat": "Defterdeki İsimler (Tekil/Çoğul)",
+      "week": 2
+    },
+    {
+      "de": "der Stift / die Stifte",
+      "tr": "Kalem / Kalemler",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "der Kugelschreiber (der Kuli)",
+      "tr": "Tükenmez kalem / Pilot kalem",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "die Brille / die Brillen",
+      "tr": "Gözlük / Gözlükler",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "das Buch / die Bücher",
+      "tr": "Kitap / Kitaplar",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "die Wasserflasche / die Wasserflaschen",
+      "tr": "Su şişesi / Matara",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "das Feuerzeug / die Feuerzeuge",
+      "tr": "Çakmak / Çakmaklar",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "der Fotoapparat / die Kamera",
+      "tr": "Fotoğraf makinesi / Kamera",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "die Kette / die Ketten",
+      "tr": "Kolye / Zincir",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "die Tasche / die Taschen",
+      "tr": "Çanta / Çantalar",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "die Uhr / die Uhren",
+      "tr": "Saat / Kol saati / Duvar saati",
+      "cat": "Günlük Eşyalar & Aksesuar",
+      "week": 2
+    },
+    {
+      "de": "das Holz (aus Holz)",
+      "tr": "Tahta / Ahşap (tahtadan)",
+      "cat": "Malzemeler & Şekiller",
+      "week": 2
+    },
+    {
+      "de": "das Papier (aus Papier)",
+      "tr": "Kağıt (kağıttan)",
+      "cat": "Malzemeler & Şekiller",
+      "week": 2
+    },
+    {
+      "de": "das Metall (aus Metall)",
+      "tr": "Metal (metalden)",
+      "cat": "Malzemeler & Şekiller",
+      "week": 2
+    },
+    {
+      "de": "das Glas (aus Glas)",
+      "tr": "Cam / Bardak (camdan)",
+      "cat": "Malzemeler & Şekiller",
+      "week": 2
+    },
+    {
+      "de": "das Plastik (aus Plastik)",
+      "tr": "Plastik (plastikten)",
+      "cat": "Malzemeler & Şekiller",
+      "week": 2
+    },
+    {
+      "de": "eckig",
+      "tr": "Köşeli / Kare-Dikdörtgen biçimli",
+      "cat": "Malzemeler & Şekiller",
+      "week": 2
+    },
+    {
+      "de": "rund",
+      "tr": "Yuvarlak / Dairesel",
+      "cat": "Malzemeler & Şekiller",
+      "week": 2
+    },
+    {
+      "de": "oval",
+      "tr": "Oval",
+      "cat": "Malzemeler & Şekiller",
+      "week": 2
+    },
+    {
+      "de": "die Farbe / die Farben",
+      "tr": "Renk / Renkler",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "schwarz / weiß",
+      "tr": "Siyah / Beyaz",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "blau / grün",
+      "tr": "Mavi / Yeşil",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "gelb / orange",
+      "tr": "Sarı / Turuncu",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "braun / grau",
+      "tr": "Kahverengi / Gri",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "lila / rosa",
+      "tr": "Mor / Pembe",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "sportlich",
+      "tr": "Sportif",
+      "cat": "Sıfatlar (Adjektive)",
+      "week": 2
+    },
+    {
+      "de": "beraten / die Beratung",
+      "tr": "Danışmanlık vermek / Danışmanlık",
+      "cat": "Fiyat & Alışveriş",
+      "week": 2
+    },
+    {
+      "de": "bekommen / erhalten",
+      "tr": "Elde etmek / Almak / Teslim almak",
+      "cat": "Fiyat & Alışveriş",
+      "week": 2
+    },
+    {
+      "de": "gehören / zusammengehören",
+      "tr": "Ait olmak / Birbirine ait olmak",
+      "cat": "Fiyat & Alışveriş",
+      "week": 2
+    },
+    {
+      "de": "Wie spät ist es? / Wie viel Uhr ist es?",
+      "tr": "Saat kaç?",
+      "cat": "Saatler & Zaman (Uhrzeit)",
+      "week": 2
+    },
+    {
+      "de": "die Stunde / die Stunden",
+      "tr": "Saat (60 dakikalık zaman dilimi)",
+      "cat": "Saatler & Zaman (Uhrzeit)",
+      "week": 2
+    },
+    {
+      "de": "die Minute / die Sekunde",
+      "tr": "Dakika / Saniye",
+      "cat": "Saatler & Zaman (Uhrzeit)",
+      "week": 2
+    },
+    {
+      "de": "halb (z.B. halb neun = 08:30)",
+      "tr": "Buçuk (Bir sonraki saatle söylenir)",
+      "cat": "Saatler & Zaman (Uhrzeit)",
+      "week": 2
+    },
+    {
+      "de": "Viertel nach / Viertel vor",
+      "tr": "Çeyrek geçe / Çeyrek kala",
+      "cat": "Saatler & Zaman (Uhrzeit)",
+      "week": 2
+    },
+    {
+      "de": "kurz nach / kurz vor",
+      "tr": "Biraz geçe / Az kala",
+      "cat": "Saatler & Zaman (Uhrzeit)",
+      "week": 2
+    },
+    {
+      "de": "um ... Uhr",
+      "tr": "Saat ...'da (Örn: um 10 Uhr)",
+      "cat": "Saatler & Zaman (Uhrzeit)",
+      "week": 2
+    }
+  ]
+}

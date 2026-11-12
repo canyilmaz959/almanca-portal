@@ -17,9 +17,8 @@
     <header class="bg-indigo-700 text-white shadow-lg sticky top-0 z-50 w-full">
         <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 gap-2.5 w-full">
-                <!-- Logo & Başlık -->
+                <!-- Logo & SVG Almanya Bayrağı -->
                 <div class="flex items-center space-x-2.5 min-w-0">
-                    <!-- bayrak eklendi-->
                     <svg class="w-8 h-6 rounded shadow-sm shrink-0 border border-white/20" viewBox="0 0 5 3" xmlns="http://www.w3.org/2000/svg">
                         <rect width="5" height="3" y="0" fill="#000"/>
                         <rect width="5" height="2" y="1" fill="#D00"/>
@@ -48,7 +47,7 @@
                     🔄 Fiil Rehberi (<span id="count-verbs">0</span>)
                 </button>
                 <button onclick="switchTab('dictionary')" class="nav-btn px-3 py-2 rounded-lg transition-colors hover:bg-indigo-600 text-indigo-100 whitespace-nowrap shrink-0" id="nav-dictionary">
-                    📖 Sözlük (<span id="count-dict">0</span>)
+                    📖 Genel Sözlük (<span id="count-dict">0</span>)
                 </button>
                 <button onclick="switchTab('flashcards')" class="nav-btn px-3 py-2 rounded-lg transition-colors hover:bg-indigo-600 text-indigo-100 whitespace-nowrap shrink-0" id="nav-flashcards">
                     🎴 Kartlar (<span id="count-cards">0</span>)
@@ -151,15 +150,15 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6" id="verb-grid"></div>
         </section>
 
-        <!-- SEKME 3: SÖZLÜK -->
+        <!-- SEKME 3: GENEL SÖZLÜK (sozluk.json) -->
         <section id="tab-dictionary" class="tab-content hidden space-y-5 sm:space-y-6">
             <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div>
-                    <h1 class="text-lg sm:text-2xl font-bold text-slate-900">Dersteki Kelimeler & Kalıplar Sözlüğü</h1>
-                    <p class="text-slate-600 text-xs sm:text-sm">Hafta boyunca işlenen tüm kelimeler ve kalıplar.</p>
+                    <h1 class="text-lg sm:text-2xl font-bold text-slate-900">Genel Almanca - Türkçe Sözlük</h1>
+                    <p class="text-slate-600 text-xs sm:text-sm">Tüm haftalarda işlenen kelimeler ve kalıplar (Türkçe İ/ı/İnsan/insan duyarlı arama).</p>
                 </div>
-                <div class="w-full sm:w-72">
-                    <input type="text" id="dict-search" oninput="renderDictionary()" placeholder="Almanca veya Türkçe kelime ara..." class="w-full px-3.5 py-2 border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <div class="w-full sm:w-80 relative">
+                    <input type="text" id="dict-search" oninput="renderDictionary()" placeholder="Almanca veya Türkçe ara (ör: insan, stuhl)..." class="w-full px-3.5 py-2 border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
                 </div>
             </div>
 
@@ -312,7 +311,7 @@
         let currentWeekData = null;
 
         let verbsData = [];
-        let dictData = [];
+        let globalDictData = []; // Genel sozluk.json verisi
         let allFlashcards = [];
         let exercisesData = [];
         let quizQuestions = [];
@@ -324,13 +323,13 @@
             medeni: '💍 Medeni Durum',
             soru: '❓ Soru Tipleri',
             tanisma: '👋 Tanışma & Kalıp',
-            sayilar: '🔢 Sayılar',
+            sayilar: '🔢 Sayılar & Saatler',
             kasus: '📌 Artikeller (Kasus)',
             plural: '📚 Çoğul (Plural)',
             fiyat: '💶 Fiyat & Alışveriş',
-            sifat: '🎨 Sıfatlar',
+            sifat: '🎨 Sıfat & Malzeme',
             cumle: '✍️ Cümle Dönüşümü',
-            mobilya: '🛋️ Mobilyalar'
+            mobilya: '🛋️ Mobilya & Eşyalar'
         };
 
         let currentCardIndex = 0;
@@ -342,20 +341,38 @@
         let doughnutChartInstance = null;
         let barChartInstance = null;
 
-        // Sayfa Yüklendiğinde data/index.json Dosyasını Çek
+        // Türkçe ve Almanca karakter duyarsız arama normalizasyonu (İnsan -> insan, Işık -> ışık, Straße -> strasse)
+        function normalizeSearchText(str) {
+            if (!str) return '';
+            return str
+                .toLocaleLowerCase('tr-TR')
+                .replace(/ß/g, 'ss')
+                .trim();
+        }
+
+        // Sayfa Yüklendiğinde Hem data/index.json Hem de data/sozluk.json Dosyalarını Çek
         document.addEventListener('DOMContentLoaded', async () => {
             try {
-                const res = await fetch('./data/index.json');
-                if (!res.ok) throw new Error('index.json okunamadı');
-                const indexJson = await res.json();
+                const [indexRes, dictRes] = await Promise.all([
+                    fetch('./data/index.json'),
+                    fetch('./data/sozluk.json')
+                ]);
+
+                if (!indexRes.ok) throw new Error('index.json okunamadı');
+                const indexJson = await indexRes.json();
                 weeksIndex = indexJson.weeks || [];
+
+                if (dictRes.ok) {
+                    const dictJson = await dictRes.json();
+                    globalDictData = dictJson.words || [];
+                }
 
                 const selectEl = document.getElementById('week-select');
                 selectEl.innerHTML = weeksIndex.map(w => `
                     <option value="${w.file}">${w.shortTitle}</option>
                 `).join('');
 
-                // URL'de ?hafta=2 varsa onu aç, yoksa en son haftayı veya ilk haftayı aç
+                // URL'de ?hafta=2 varsa onu aç, yoksa en son haftayı aç
                 const urlParams = new URLSearchParams(window.location.search);
                 const requestedId = parseInt(urlParams.get('hafta'));
                 const targetWeek = weeksIndex.find(w => w.id === requestedId) || weeksIndex[weeksIndex.length - 1] || weeksIndex[0];
@@ -388,7 +405,6 @@
                 window.history.replaceState({}, '', newUrl);
 
                 verbsData = currentWeekData.verbs || [];
-                dictData = currentWeekData.dictionary || [];
                 allFlashcards = currentWeekData.flashcards || [];
                 exercisesData = currentWeekData.exercises || [];
                 quizQuestions = currentWeekData.quiz || [];
@@ -397,7 +413,6 @@
                 currentCardIndex = 0;
                 filteredCards = [...allFlashcards];
                 isFlipped = false;
-                currentDictCat = 'all';
                 userQuizAnswers = {};
                 currentQuizFilter = 'all';
 
@@ -416,13 +431,11 @@
                 let trimmed = line.trim();
                 if (!trimmed) return '';
 
-                // Tırnak içindeki Almanca örnekleri belirginleştir
                 let formatted = trimmed
                     .replace(/'([^']+)'/g, '<span class="font-semibold text-indigo-700 bg-indigo-50/90 px-1.5 py-0.5 rounded">\'$1\'</span>')
                     .replace(/(HATA UYARISI:|KRİTİK KURAL:|KURAL:)/g, '<span class="inline-block font-bold text-rose-700 bg-rose-100 px-1.5 py-0.5 rounded text-[11px] uppercase tracking-wide mr-1">$1</span>')
                     .replace(/->|→/g, '<span class="text-amber-600 font-bold mx-1">→</span>');
 
-                // Ana madde işareti (•)
                 if (trimmed.startsWith('•')) {
                     formatted = formatted.replace(/^•\s*/, '');
                     return `<div class="flex items-start gap-2 pt-0.5">
@@ -431,7 +444,6 @@
                             </div>`;
                 }
 
-                // Alt madde işareti (-)
                 if (trimmed.startsWith('-')) {
                     formatted = formatted.replace(/^-\s*/, '');
                     return `<div class="flex items-start gap-2 pl-4 text-slate-600">
@@ -440,7 +452,6 @@
                             </div>`;
                 }
 
-                // Düz açıklama satırı
                 return `<p class="text-slate-700">${formatted}</p>`;
             }).join('');
         }
@@ -449,7 +460,7 @@
             // Üst Bilgi ve Sayaçlar
             document.getElementById('header-subtitle').innerText = `${currentWeekData.book} • ${currentWeekData.date}`;
             document.getElementById('count-verbs').innerText = verbsData.length;
-            document.getElementById('count-dict').innerText = dictData.length;
+            document.getElementById('count-dict').innerText = globalDictData.length;
             document.getElementById('count-cards').innerText = allFlashcards.length;
             document.getElementById('count-ex').innerText = exercisesData.length;
             document.getElementById('count-quiz').innerText = quizQuestions.length;
@@ -474,7 +485,7 @@
                 notesBox.classList.add('hidden');
             }
 
-            // Gramer Kartları
+            // Gramer Kartları (Okunaklı & Boşluksuz Düzen)
             const topics = currentWeekData.summary?.grammar_topics || [];
             document.getElementById('grammar-topics-grid').innerHTML = topics.map(g => `
                 <div class="bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-200 flex flex-col justify-start">
@@ -541,15 +552,14 @@
             document.getElementById('verb-search').value = '';
             renderVerbs(verbsData);
 
-            // 3. Sözlük Kategorileri ve Listesi
-            document.getElementById('dict-search').value = '';
-            const dictCategories = [...new Set(dictData.map(item => item.cat))];
+            // 3. Genel Sözlük Kategorileri ve Listesi (sozluk.json)
+            const dictCategories = [...new Set(globalDictData.map(item => item.cat))];
             document.getElementById('dict-cat-buttons').innerHTML = `
-                <button onclick="setDictCat('all', this)" class="dict-cat-btn px-3 py-1.5 rounded-full bg-indigo-600 text-white font-semibold transition">
-                    Tümü (${dictData.length})
+                <button onclick="setDictCat('all', this)" class="dict-cat-btn px-3 py-1.5 rounded-full ${currentDictCat === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-200 text-slate-700'} font-semibold transition">
+                    Tümü (${globalDictData.length})
                 </button>
                 ${dictCategories.map(cat => `
-                    <button onclick="setDictCat('${cat.replace(/'/g, "\'")}', this)" class="dict-cat-btn px-3 py-1.5 rounded-full bg-slate-200 text-slate-700 font-semibold hover:bg-slate-300 transition">
+                    <button onclick="setDictCat('${cat.replace(/'/g, "\\'")}', this)" class="dict-cat-btn px-3 py-1.5 rounded-full ${currentDictCat === cat ? 'bg-indigo-600 text-white' : 'bg-slate-200 text-slate-700'} font-semibold hover:bg-slate-300 transition">
                         ${cat}
                     </button>
                 `).join('')}
@@ -599,7 +609,7 @@
             }
         }
 
-        // Fiil Rehberi
+        // Fiil Rehberi (Türkçe/Almanca küçük-büyük harf duyarsız arama)
         function renderVerbs(verbs) {
             const grid = document.getElementById('verb-grid');
             if (verbs.length === 0) {
@@ -630,11 +640,14 @@
         }
 
         function searchVerbs() {
-            const q = document.getElementById('verb-search').value.toLowerCase();
-            renderVerbs(verbsData.filter(v => v.name.toLowerCase().includes(q) || v.tr.toLowerCase().includes(q)));
+            const q = normalizeSearchText(document.getElementById('verb-search').value);
+            renderVerbs(verbsData.filter(v =>
+                normalizeSearchText(v.name).includes(q) ||
+                normalizeSearchText(v.tr).includes(q)
+            ));
         }
 
-        // Sözlük
+        // Genel Sözlük (Türkçe 'İ/ı/İnsan/insan' büyük-küçük harf uyumlu arama)
         function setDictCat(cat, btnEl) {
             currentDictCat = cat;
             document.querySelectorAll('.dict-cat-btn').forEach(b => {
@@ -647,10 +660,13 @@
         }
 
         function renderDictionary() {
-            const q = (document.getElementById('dict-search')?.value || '').toLowerCase();
-            const filtered = dictData.filter(item => {
+            const q = normalizeSearchText(document.getElementById('dict-search')?.value || '');
+            const filtered = globalDictData.filter(item => {
                 const matchCat = currentDictCat === 'all' || item.cat === currentDictCat;
-                const matchQ = item.de.toLowerCase().includes(q) || item.tr.toLowerCase().includes(q);
+                const matchQ = !q ||
+                    normalizeSearchText(item.de).includes(q) ||
+                    normalizeSearchText(item.tr).includes(q) ||
+                    normalizeSearchText(item.cat).includes(q);
                 return matchCat && matchQ;
             });
 
@@ -663,7 +679,10 @@
             grid.innerHTML = filtered.map(item => `
                 <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:border-indigo-300 transition flex flex-col justify-between">
                     <div>
-                        <span class="text-[11px] font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded inline-block">${item.cat}</span>
+                        <div class="flex items-center justify-between gap-2">
+                            <span class="text-[11px] font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded inline-block">${item.cat}</span>
+                            ${item.week ? `<span class="text-[10px] font-bold text-slate-400 bg-slate-100 px-2 py-0.5 rounded">${item.week}. Hafta</span>` : ''}
+                        </div>
                         <h4 class="text-sm sm:text-base font-bold text-slate-900 mt-2">${item.de}</h4>
                     </div>
                     <p class="text-xs sm:text-sm text-slate-600 mt-1 font-medium">${item.tr}</p>
