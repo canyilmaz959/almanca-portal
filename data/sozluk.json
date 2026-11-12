@@ -87,50 +87,92 @@
       "week": 1
     },
     {
-      "de": "verheiratet",
-      "tr": "Evli",
+      "de": "die Familie / die Familien",
+      "tr": "Aile / Aileler",
       "cat": "Medeni Durum & Aile",
       "week": 1
     },
     {
-      "de": "ledig / single",
-      "tr": "Bekar",
+      "de": "die Eltern (Plural)",
+      "tr": "Ebeveynler (Anne ve baba)",
       "cat": "Medeni Durum & Aile",
       "week": 1
     },
     {
-      "de": "das Kind / die Kinder",
-      "tr": "Çocuk / Çocuklar",
+      "de": "die Geschwister (Plural)",
+      "tr": "Kardeşler (Kız ve erkek kardeşler)",
       "cat": "Medeni Durum & Aile",
       "week": 1
     },
     {
-      "de": "die Schwester",
-      "tr": "Kız kardeş / Abla (die)",
+      "de": "die Tochter / die Töchter",
+      "tr": "Kız evlat / Kız evlatlar",
       "cat": "Medeni Durum & Aile",
       "week": 1
     },
     {
-      "de": "der Bruder",
-      "tr": "Erkek kardeş / Abi (der)",
+      "de": "der Sohn / die Söhne",
+      "tr": "Erkek evlat / Oğul",
       "cat": "Medeni Durum & Aile",
       "week": 1
     },
     {
-      "de": "die Mutter / der Vater",
-      "tr": "Anne / Baba",
+      "de": "die Großeltern (Plural)",
+      "tr": "Büyükanne ve büyükbaba",
       "cat": "Medeni Durum & Aile",
       "week": 1
     },
     {
-      "de": "der Kollege / die Kollegin",
-      "tr": "İş arkadaşı (Erkek / Kadın)",
+      "de": "die Großmutter (die Oma)",
+      "tr": "Büyükanne / Babaanne / Anneanne",
       "cat": "Medeni Durum & Aile",
       "week": 1
     },
     {
-      "de": "der Freund / die Freundin",
-      "tr": "Arkadaş / Dost (Erkek / Kadın)",
+      "de": "der Großvater (der Opa)",
+      "tr": "Büyükbaba / Dede",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "das Enkelkind / die Enkelkinder",
+      "tr": "Torun / Torunlar (der Enkel / die Enkelin)",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "der Onkel / die Tante",
+      "tr": "Amca, dayı / Teyze, hala",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "der Cousin / die Cousine",
+      "tr": "Erkek kuzen / Kız kuzen",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "der Neffe / die Nichte",
+      "tr": "Erkek yeğen / Kız yeğen",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "der Ehemann / die Ehefrau",
+      "tr": "Koca (Eş) / Karı (Eş)",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "der Partner / die Partnerin",
+      "tr": "Partner / Hayat arkadaşı",
+      "cat": "Medeni Durum & Aile",
+      "week": 1
+    },
+    {
+      "de": "geschieden / verwitwet",
+      "tr": "Boşanmış / Dul",
       "cat": "Medeni Durum & Aile",
       "week": 1
     },
@@ -621,38 +663,98 @@
       "week": 2
     },
     {
-      "de": "die Farbe / die Farben",
-      "tr": "Renk / Renkler",
+      "de": "rot",
+      "tr": "Kırmızı",
       "cat": "Renkler (Die Farben)",
       "week": 2
     },
     {
-      "de": "schwarz / weiß",
-      "tr": "Siyah / Beyaz",
+      "de": "schwarz",
+      "tr": "Siyah",
       "cat": "Renkler (Die Farben)",
       "week": 2
     },
     {
-      "de": "blau / grün",
-      "tr": "Mavi / Yeşil",
+      "de": "weiß",
+      "tr": "Beyaz",
       "cat": "Renkler (Die Farben)",
       "week": 2
     },
     {
-      "de": "gelb / orange",
-      "tr": "Sarı / Turuncu",
+      "de": "blau",
+      "tr": "Mavi",
       "cat": "Renkler (Die Farben)",
       "week": 2
     },
     {
-      "de": "braun / grau",
-      "tr": "Kahverengi / Gri",
+      "de": "grün",
+      "tr": "Yeşil",
       "cat": "Renkler (Die Farben)",
       "week": 2
     },
     {
-      "de": "lila / rosa",
-      "tr": "Mor / Pembe",
+      "de": "gelb",
+      "tr": "Sarı",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "orange",
+      "tr": "Turuncu",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "braun",
+      "tr": "Kahverengi",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "grau",
+      "tr": "Gri",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "lila / violett",
+      "tr": "Mor / Eflatun",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "rosa / pink",
+      "tr": "Açık pembe / Koyu pembe (Fuşya)",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "türkis",
+      "tr": "Turkuaz",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "beige",
+      "tr": "Bej / Krem",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "gold / silber",
+      "tr": "Altın rengi / Gümüş rengi",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "hell- / dunkel- (z.B. hellblau, dunkelgrün)",
+      "tr": "Açık- / Koyu- (Örn: açık mavi, koyu yeşil)",
+      "cat": "Renkler (Die Farben)",
+      "week": 2
+    },
+    {
+      "de": "bunt",
+      "tr": "Renkli / Rengarenk",
       "cat": "Renkler (Die Farben)",
       "week": 2
     },

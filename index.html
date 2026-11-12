@@ -151,7 +151,7 @@
             <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div>
                     <h1 class="text-lg sm:text-2xl font-bold text-slate-900">Genel Almanca - Türkçe Sözlük</h1>
-                    <p class="text-slate-600 text-xs sm:text-sm">Tüm haftalarda işlenen kelimeler ve kalıplar (Türkçe İ/ı/İnsan/insan duyarlı arama).</p>
+                    <p class="text-slate-600 text-xs sm:text-sm">Tüm haftalarda işlenen kelimeler ve kalıplar.</p>
                 </div>
                 <div class="w-full sm:w-80 relative">
                     <input type="text" id="dict-search" oninput="renderDictionary()" placeholder="Almanca veya Türkçe ara (ör: insan, stuhl)..." class="w-full px-3.5 py-2 border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
@@ -307,7 +307,7 @@
         let currentWeekData = null;
 
         let verbsData = [];
-        let globalDictData = []; // Genel sozluk.json verisi
+        let globalDictData = [];
         let allFlashcards = [];
         let exercisesData = [];
         let quizQuestions = [];
@@ -337,12 +337,13 @@
         let doughnutChartInstance = null;
         let barChartInstance = null;
 
-        // Türkçe ve Almanca karakter duyarsız arama normalizasyonu (İnsan -> insan, Işık -> ışık, Straße -> strasse)
-        function normalizeSearchText(str) {
+        // Tüm arama ve alıştırma inputları için Türkçe + Almanca karakter duyarsız normalizasyon
+        function normalizeText(str) {
             if (!str) return '';
             return str
                 .toLocaleLowerCase('tr-TR')
                 .replace(/ß/g, 'ss')
+                .replace(/\s+/g, ' ')
                 .trim();
         }
 
@@ -368,7 +369,6 @@
                     <option value="${w.file}">${w.shortTitle}</option>
                 `).join('');
 
-                // URL'de ?hafta=2 varsa onu aç, yoksa en son haftayı aç
                 const urlParams = new URLSearchParams(window.location.search);
                 const requestedId = parseInt(urlParams.get('hafta'));
                 const targetWeek = weeksIndex.find(w => w.id === requestedId) || weeksIndex[weeksIndex.length - 1] || weeksIndex[0];
@@ -396,7 +396,6 @@
                 if (!res.ok) throw new Error(`${fileName} yüklenemedi`);
                 currentWeekData = await res.json();
 
-                // URL parametresini güncelle (sayfa yenilenmeden)
                 const newUrl = `${window.location.pathname}?hafta=${currentWeekData.id}`;
                 window.history.replaceState({}, '', newUrl);
 
@@ -405,7 +404,6 @@
                 exercisesData = currentWeekData.exercises || [];
                 quizQuestions = currentWeekData.quiz || [];
 
-                // Durumları sıfırla
                 currentCardIndex = 0;
                 filteredCards = [...allFlashcards];
                 isFlipped = false;
@@ -421,7 +419,6 @@
             }
         }
 
-        // Gramer metnini satır satır okunaklı ve vurgulu HTML'e dönüştürür
         function formatGrammarContent(rawText) {
             return rawText.split('\n').map(line => {
                 let trimmed = line.trim();
@@ -453,7 +450,6 @@
         }
 
         function renderAllSections() {
-            // Üst Bilgi ve Sayaçlar
             document.getElementById('header-subtitle').innerText = `${currentWeekData.book} • ${currentWeekData.date}`;
             document.getElementById('count-verbs').innerText = verbsData.length;
             document.getElementById('count-dict').innerText = globalDictData.length;
@@ -461,12 +457,10 @@
             document.getElementById('count-ex').innerText = exercisesData.length;
             document.getElementById('count-quiz').innerText = quizQuestions.length;
 
-            // 1. Konu Özeti
             document.getElementById('summary-book').innerText = currentWeekData.book;
             document.getElementById('summary-date').innerText = `📅 ${currentWeekData.date}`;
             document.getElementById('summary-title').innerText = currentWeekData.title;
 
-            // Notlar
             const notes = currentWeekData.summary?.notes || [];
             const notesBox = document.getElementById('notes-box');
             if (notes.length > 0) {
@@ -481,7 +475,6 @@
                 notesBox.classList.add('hidden');
             }
 
-            // Gramer Kartları (Okunaklı & Boşluksuz Düzen)
             const topics = currentWeekData.summary?.grammar_topics || [];
             document.getElementById('grammar-topics-grid').innerHTML = topics.map(g => `
                 <div class="bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-200 flex flex-col justify-start">
@@ -495,7 +488,6 @@
                 </div>
             `).join('');
 
-            // Diyaloglar
             const dialogs = currentWeekData.summary?.dialogs || [];
             const dialogsBox = document.getElementById('dialogs-box');
             if (dialogs.length > 0) {
@@ -511,7 +503,6 @@
                 dialogsBox.classList.add('hidden');
             }
 
-            // Zamirler / Hâller
             const pronouns = currentWeekData.summary?.pronouns || [];
             const pronounsBox = document.getElementById('pronouns-box');
             if (pronouns.length > 0) {
@@ -530,7 +521,6 @@
                 pronounsBox.classList.add('hidden');
             }
 
-            // Sayılar
             const numbers = currentWeekData.summary?.numbers || [];
             const numbersBox = document.getElementById('numbers-box');
             if (numbers.length > 0) {
@@ -544,11 +534,9 @@
                 numbersBox.classList.add('hidden');
             }
 
-            // 2. Fiiller
             document.getElementById('verb-search').value = '';
             renderVerbs(verbsData);
 
-            // 3. Genel Sözlük Kategorileri ve Listesi (sozluk.json)
             const dictCategories = [...new Set(globalDictData.map(item => item.cat))];
             document.getElementById('dict-cat-buttons').innerHTML = `
                 <button onclick="setDictCat('all', this)" class="dict-cat-btn px-3 py-1.5 rounded-full ${currentDictCat === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-200 text-slate-700'} font-semibold transition">
@@ -562,7 +550,6 @@
             `;
             renderDictionary();
 
-            // 4. Çalışma Kartları
             const fcCategories = [...new Set(allFlashcards.map(item => item.cat))];
             document.getElementById('fc-cat-buttons').innerHTML = `
                 <button onclick="filterCards('all', this)" class="fc-filter-btn px-3 py-1.5 rounded-full bg-indigo-600 text-white font-semibold transition">
@@ -576,10 +563,8 @@
             `;
             renderFlashcard();
 
-            // 5. Alıştırmalar
             renderExercises();
 
-            // 6. Sınav & Grafikler
             document.getElementById('stat-total').innerText = quizQuestions.length;
             document.getElementById('quiz-heading-count').innerText = quizQuestions.length;
             document.getElementById('stat-correct').innerText = '0';
@@ -589,7 +574,6 @@
             initCharts();
         }
 
-        // Sekme Değiştirme
         function switchTab(tabId) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
             document.getElementById(`tab-${tabId}`).classList.remove('hidden');
@@ -605,7 +589,7 @@
             }
         }
 
-        // Fiil Rehberi (Türkçe/Almanca küçük-büyük harf duyarsız arama)
+        // Fiil Rehberi (Büyük-küçük harf & Türkçe karakter duyarsız arama)
         function renderVerbs(verbs) {
             const grid = document.getElementById('verb-grid');
             if (verbs.length === 0) {
@@ -636,14 +620,14 @@
         }
 
         function searchVerbs() {
-            const q = normalizeSearchText(document.getElementById('verb-search').value);
+            const q = normalizeText(document.getElementById('verb-search').value);
             renderVerbs(verbsData.filter(v =>
-                normalizeSearchText(v.name).includes(q) ||
-                normalizeSearchText(v.tr).includes(q)
+                normalizeText(v.name).includes(q) ||
+                normalizeText(v.tr).includes(q)
             ));
         }
 
-        // Genel Sözlük (Türkçe 'İ/ı/İnsan/insan' büyük-küçük harf uyumlu arama)
+        // Genel Sözlük (Büyük-küçük harf & Türkçe İ/ı/İnsan/insan duyarsız arama)
         function setDictCat(cat, btnEl) {
             currentDictCat = cat;
             document.querySelectorAll('.dict-cat-btn').forEach(b => {
@@ -656,13 +640,13 @@
         }
 
         function renderDictionary() {
-            const q = normalizeSearchText(document.getElementById('dict-search')?.value || '');
+            const q = normalizeText(document.getElementById('dict-search')?.value || '');
             const filtered = globalDictData.filter(item => {
                 const matchCat = currentDictCat === 'all' || item.cat === currentDictCat;
                 const matchQ = !q ||
-                    normalizeSearchText(item.de).includes(q) ||
-                    normalizeSearchText(item.tr).includes(q) ||
-                    normalizeSearchText(item.cat).includes(q);
+                    normalizeText(item.de).includes(q) ||
+                    normalizeText(item.tr).includes(q) ||
+                    normalizeText(item.cat).includes(q);
                 return matchCat && matchQ;
             });
 
@@ -731,7 +715,7 @@
             renderFlashcard();
         }
 
-        // Boşluk Doldurma Alıştırmaları ('Sie' hariç küçük harf duyarlı)
+        // Boşluk Doldurma Alıştırmaları (Büyük-küçük harf duyarsız, ancak 'Sie / Ihnen / Ihr' nezaket zamirleri büyük harf duyarlı)
         function renderExercises() {
             const container = document.getElementById('exercises-container');
             container.innerHTML = exercisesData.map((ex, i) => `
@@ -767,21 +751,29 @@
             const input = document.getElementById(`ex-input-${idx}`);
             const feedback = document.getElementById(`ex-feedback-${idx}`);
             
-            const rawUserVal = input.value.trim();
-            const correctVal = exercisesData[idx].answer.trim();
+            const rawUserVal = input.value.replace(/\s+/g, ' ').trim();
+            const correctVal = exercisesData[idx].answer.replace(/\s+/g, ' ').trim();
 
-            const userVal = correctVal === "Sie" ? rawUserVal : rawUserVal.toLowerCase();
-            const targetVal = correctVal === "Sie" ? correctVal : correctVal.toLowerCase();
+            // Nezaket zamirleri (Sie, Ihnen, Ihr, Ihre) anlam farkı yarattığı için büyük-küçük harf kontrolüne tabidir; diğer tüm kelimelerde büyük/küçük harf fark etmez
+            const formalPronouns = ['Sie', 'Ihnen', 'Ihr', 'Ihre'];
+            const isFormalCaseSensitive = formalPronouns.includes(correctVal);
+
+            const isMatch = isFormalCaseSensitive
+                ? rawUserVal === correctVal
+                : normalizeText(rawUserVal) === normalizeText(correctVal);
 
             feedback.classList.remove('hidden', 'text-emerald-700', 'text-rose-700');
             card.classList.remove('border-slate-200', 'border-emerald-300', 'bg-emerald-50/40', 'border-rose-300', 'bg-rose-50/40');
 
-            if (userVal === targetVal) {
+            if (isMatch) {
                 feedback.innerText = `✅ Doğru! (${exercisesData[idx].answer})`;
                 feedback.classList.add('text-emerald-700');
                 card.classList.add('border-emerald-300', 'bg-emerald-50/40');
             } else {
-                feedback.innerText = `❌ Doğru yanıt: "${exercisesData[idx].answer}" olmalıydı.`;
+                const extraWarn = (isFormalCaseSensitive && rawUserVal.toLowerCase() === correctVal.toLowerCase())
+                    ? ` (Dikkat: Nezaket formu '${correctVal}' büyük harfle yazılmalıdır!)`
+                    : '';
+                feedback.innerText = `❌ Doğru yanıt: "${exercisesData[idx].answer}" olmalıydı.${extraWarn}`;
                 feedback.classList.add('text-rose-700');
                 card.classList.add('border-rose-300', 'bg-rose-50/40');
             }
@@ -795,11 +787,9 @@
             renderExercises();
         }
 
-        // Hafta Sonu Sınavı (Cevaplandıktan Sonra Kilitlenir)
+        // Hafta Sonu Sınavı
         function selectQuizOption(qIdx, optIdx) {
-            if (userQuizAnswers[qIdx] !== undefined) {
-                return;
-            }
+            if (userQuizAnswers[qIdx] !== undefined) return;
             userQuizAnswers[qIdx] = quizQuestions[qIdx].options[optIdx];
             renderQuiz();
             updateQuizStatsAndCharts();
