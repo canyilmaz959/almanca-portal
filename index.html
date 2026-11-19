@@ -778,6 +778,63 @@
             input.focus();
         }
 
+        // Ortak Ich / ich ve Sie / sie kural denetleyicisi
+        function validatePronounCasing(rawUserVal, correctVal, sentenceContext = '') {
+            const userTokens = rawUserVal.replace(/[.?!,]+$/g, '').split(/\s+/);
+            const targetTokens = correctVal.replace(/[.?!,]+$/g, '').split(/\s+/);
+
+            if (userTokens.length !== targetTokens.length) {
+                return { ok: false, warn: '' };
+            }
+
+            const formalPronouns = ['Sie', 'Ihnen', 'Ihr', 'Ihre'];
+
+            for (let i = 0; i < targetTokens.length; i++) {
+                const uWord = userTokens[i];
+                const tWord = targetTokens[i];
+
+                // 1. Nezaket zamirleri (Sie, Ihnen, Ihr, Ihre) her yerde büyük harf olmalı
+                if (formalPronouns.includes(tWord)) {
+                    if (uWord !== tWord) {
+                        return {
+                            ok: false,
+                            warn: ` (Dikkat: Nezaket formu '${tWord}' her zaman büyük harfle yazılmalıdır!)`
+                        };
+                    }
+                    continue;
+                }
+
+                // 2. 'ich' / 'Ich' kontrolü (Cümle başında 'Ich', cümle ortasında 'ich' olmalı)
+                if (tWord.toLowerCase() === 'ich') {
+                    // Tek kelimelik boşluk doldurmada (sentenceContext varsa) boşluğun cümle başında olup olmadığına bak
+                    const isStartOfSentence = sentenceContext
+                        ? sentenceContext.trim().startsWith('_____')
+                        : (i === 0);
+
+                    if (isStartOfSentence && uWord !== 'Ich') {
+                        return {
+                            ok: false,
+                            warn: ` (Dikkat: Cümle başında 'Ich' büyük harfle yazılmalıdır!)`
+                        };
+                    }
+                    if (!isStartOfSentence && uWord !== 'ich') {
+                        return {
+                            ok: false,
+                            warn: ` (Dikkat: Almancada cümle ortasında 'ich' küçük harfle yazılır, İngilizce 'I' gibi büyük yazılmaz!)`
+                        };
+                    }
+                    continue;
+                }
+
+                // 3. Diğer tüm kelimelerde büyük-küçük harf duyarsız kontrol
+                if (normalizeText(uWord) !== normalizeText(tWord)) {
+                    return { ok: false, warn: '' };
+                }
+            }
+
+            return { ok: true, warn: '' };
+        }
+
         function checkExercise(idx) {
             const card = document.getElementById(`ex-card-${idx}`);
             const input = document.getElementById(`ex-input-${idx}`);
@@ -785,26 +842,19 @@
             
             const rawUserVal = input.value.replace(/\s+/g, ' ').trim();
             const correctVal = exercisesData[idx].answer.replace(/\s+/g, ' ').trim();
+            const sentenceContext = exercisesData[idx].sentence || '';
 
-            const formalPronouns = ['Sie', 'Ihnen', 'Ihr', 'Ihre'];
-            const isFormalCaseSensitive = formalPronouns.includes(correctVal);
-
-            const isMatch = isFormalCaseSensitive
-                ? rawUserVal === correctVal
-                : normalizeText(rawUserVal) === normalizeText(correctVal);
+            const result = validatePronounCasing(rawUserVal, correctVal, sentenceContext);
 
             feedback.classList.remove('hidden', 'text-emerald-700', 'text-rose-700');
             card.classList.remove('border-slate-200', 'border-emerald-300', 'bg-emerald-50/40', 'border-rose-300', 'bg-rose-50/40');
 
-            if (isMatch) {
+            if (result.ok) {
                 feedback.innerText = `✅ Doğru! (${exercisesData[idx].answer})`;
                 feedback.classList.add('text-emerald-700');
                 card.classList.add('border-emerald-300', 'bg-emerald-50/40');
             } else {
-                const extraWarn = (isFormalCaseSensitive && rawUserVal.toLowerCase() === correctVal.toLowerCase())
-                    ? ` (Dikkat: Nezaket formu '${correctVal}' büyük harfle yazılmalıdır!)`
-                    : '';
-                feedback.innerText = `❌ Doğru yanıt: "${exercisesData[idx].answer}" olmalıydı.${extraWarn}`;
+                feedback.innerText = `❌ Doğru yanıt: "${exercisesData[idx].answer}" olmalıydı.${result.warn}`;
                 feedback.classList.add('text-rose-700');
                 card.classList.add('border-rose-300', 'bg-rose-50/40');
             }
@@ -912,9 +962,22 @@
             const feedback = document.getElementById(`sent-feedback-${idx}`);
             const item = sentenceBuildersData[idx];
 
-            const userNorm = normalizeText(input.value);
+            const rawUserVal = input.value.replace(/\s+/g, ' ').trim();
             const acceptedAnswers = [item.answer, ...(item.alt_answers || [])];
-            const isMatch = acceptedAnswers.some(ans => normalizeText(ans) === userNorm);
+
+            let isMatch = false;
+            let bestWarn = '';
+
+            for (const ans of acceptedAnswers) {
+                const res = validatePronounCasing(rawUserVal, ans.replace(/\s+/g, ' ').trim());
+                if (res.ok) {
+                    isMatch = true;
+                    break;
+                }
+                if (res.warn && !bestWarn) {
+                    bestWarn = res.warn;
+                }
+            }
 
             feedback.classList.remove('hidden', 'text-emerald-700', 'text-rose-700');
             card.classList.remove('border-slate-200', 'border-emerald-300', 'bg-emerald-50/40', 'border-rose-300', 'bg-rose-50/40');
@@ -924,7 +987,7 @@
                 feedback.classList.add('text-emerald-700');
                 card.classList.add('border-emerald-300', 'bg-emerald-50/40');
             } else {
-                feedback.innerHTML = `❌ Doğru cümle: <b>"${item.answer}"</b> olmalıydı.<br><span class="text-slate-600 font-normal">💡 ${item.exp}</span>`;
+                feedback.innerHTML = `❌ Doğru cümle: <b>"${item.answer}"</b> olmalıydı.${bestWarn}<br><span class="text-slate-600 font-normal">💡 ${item.exp}</span>`;
                 feedback.classList.add('text-rose-700');
                 card.classList.add('border-rose-300', 'bg-rose-50/40');
             }
