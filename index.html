@@ -19,14 +19,18 @@
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 gap-2.5 w-full">
                 <!-- Logo & SVG Almanya Bayrağı -->
                 <div class="flex items-center space-x-2.5 min-w-0">
-                    <span class="text-2xl shrink-0">🇩🇪</span>
+                    <svg class="w-8 h-6 rounded shadow-sm shrink-0 border border-white/20" viewBox="0 0 5 3" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="5" height="3" y="0" fill="#000"/>
+                        <rect width="5" height="2" y="1" fill="#D00"/>
+                        <rect width="5" height="1" y="2" fill="#FFCE00"/>
+                    </svg>
                     <div class="min-w-0">
                         <span class="font-bold text-base sm:text-xl tracking-tight block leading-tight truncate">Almanca A1 Çalışma Portalı</span>
                         <span class="text-[11px] sm:text-xs text-indigo-200 block truncate" id="header-subtitle">Menschen A1 • Yükleniyor...</span>
                     </div>
                 </div>
 
-                <!-- Hafta Seçici Dropdown (Mobilde Tam Genişlik, Taşma Yapmaz) -->
+                <!-- Hafta Seçici Dropdown -->
                 <div class="w-full sm:w-auto sm:max-w-xs md:max-w-md min-w-0">
                     <select id="week-select" onchange="loadSelectedWeek(this.value)" class="w-full bg-indigo-800 text-white text-xs sm:text-sm font-semibold px-3 py-2 rounded-lg border border-indigo-500 focus:outline-none focus:ring-2 focus:ring-amber-400 cursor-pointer truncate">
                         <option value="">Haftalar yükleniyor...</option>
@@ -50,6 +54,9 @@
                 </button>
                 <button onclick="switchTab('exercises')" class="nav-btn px-3 py-2 rounded-lg transition-colors hover:bg-indigo-600 text-indigo-100 whitespace-nowrap shrink-0" id="nav-exercises">
                     ✍️ Alıştırmalar (<span id="count-ex">0</span>)
+                </button>
+                <button onclick="switchTab('sentences')" class="nav-btn px-3 py-2 rounded-lg transition-colors hover:bg-indigo-600 text-indigo-100 whitespace-nowrap shrink-0" id="nav-sentences">
+                    🧩 Cümle Kurma (<span id="count-sent">0</span>)
                 </button>
                 <button onclick="switchTab('quiz')" class="nav-btn px-3 py-2 rounded-lg transition-colors hover:bg-indigo-600 text-indigo-100 whitespace-nowrap shrink-0" id="nav-quiz">
                     📝 Sınav (<span id="count-quiz">0</span>)
@@ -75,13 +82,13 @@
                     <span class="text-xs font-semibold text-slate-500" id="summary-date">📅 Tarih</span>
                 </div>
                 <h1 class="text-lg sm:text-2xl font-bold text-slate-900 mt-2 leading-snug" id="summary-title">Hafta Başlığı</h1>
-                <p class="text-slate-600 text-xs sm:text-sm mt-1">Haftanın kapsamlı notları, gramer kuralları, diyalog kalıpları ve sayılar.</p>
+                <p class="text-slate-600 text-xs sm:text-sm mt-1">Haftanın kapsamlı notları, gramer kuralları, diyalog kalıpları ve tablolar.</p>
             </div>
 
             <!-- Kritik İpuçları & Kurallar -->
             <div id="notes-box" class="bg-amber-50 border border-amber-200 rounded-2xl p-4 sm:p-5 hidden">
                 <h3 class="text-sm font-bold text-amber-900 flex items-center gap-2 mb-2.5">
-                    <span>💡</span> Kritik Kurallar & İpuçları
+                    <span>💡</span> Kritik Kurallar & Defter Düzeltme Notları
                 </h3>
                 <ul class="space-y-2 text-xs sm:text-sm text-amber-800" id="notes-list"></ul>
             </div>
@@ -92,14 +99,14 @@
             <!-- Temel Diyalog Kalıpları -->
             <div id="dialogs-box" class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 hidden">
                 <h2 class="text-base sm:text-lg font-bold text-indigo-700 mb-3 sm:mb-4 flex items-center gap-2">
-                    <span>💬</span> Temel Diyaloglar ve Soru-Cevap Kalıpları
+                    <span>💬</span> Temel Diyaloglar, Saatler ve Soru-Cevap Kalıpları
                 </h2>
                 <div class="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
                     <table class="w-full text-left text-xs sm:text-sm border-collapse min-w-[540px]">
                         <thead>
                             <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
-                                <th class="p-3 font-semibold">Soru Kalıbı (Almanca)</th>
-                                <th class="p-3 font-semibold">Örnek Yanıt</th>
+                                <th class="p-3 font-semibold">Soru / İfade (Almanca)</th>
+                                <th class="p-3 font-semibold">Örnek Yanıt / Karşılık</th>
                                 <th class="p-3 font-semibold">Türkçe Karşılığı & Detay</th>
                             </tr>
                         </thead>
@@ -108,25 +115,25 @@
                 </div>
             </div>
 
-            <!-- Zamirler / Hâller ve Sayılar Grid -->
+            <!-- Zamirler / Hâller ve Sayılar/Saatler Grid -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
-                <!-- Zamirler / Hâller -->
+                <!-- Zamirler / Tablo -->
                 <div id="pronouns-box" class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 hidden">
                     <h2 class="text-base sm:text-lg font-bold text-indigo-700 mb-3 sm:mb-4 flex items-center gap-2">
-                        <span>👤</span> Zamirler & Artikel Tablosu
+                        <span>👤</span> Zamirler, Günler & Zaman Tablosu
                     </h2>
                     <div class="space-y-2.5" id="pronouns-list"></div>
                 </div>
 
-                <!-- Sayılar (Die Zahlen) -->
+                <!-- Sayılar / Saat Örnekleri -->
                 <div id="numbers-box" class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 hidden">
                     <div class="flex flex-wrap items-center justify-between gap-2 mb-3 sm:mb-4">
                         <h2 class="text-base sm:text-lg font-bold text-indigo-700 flex items-center gap-2">
-                            <span>🔢</span> Sayılar (Die Zahlen)
+                            <span>🔢</span> Sayılar & Saat Söyleme Örnekleri
                         </h2>
-                        <span class="text-[11px] bg-rose-50 text-rose-700 border border-rose-200 px-2.5 py-1 rounded-full font-semibold">⚠️ İstisna Yazılışlar</span>
+                        <span class="text-[11px] bg-rose-50 text-rose-700 border border-rose-200 px-2.5 py-1 rounded-full font-semibold">⚠️ Dikkat Edilecekler</span>
                     </div>
-                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs sm:text-sm max-h-96 overflow-y-auto custom-scrollbar pr-1" id="numbers-grid"></div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm max-h-96 overflow-y-auto custom-scrollbar pr-1" id="numbers-grid"></div>
                 </div>
             </div>
         </section>
@@ -136,7 +143,7 @@
             <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div>
                     <h1 class="text-lg sm:text-2xl font-bold text-slate-900">Fiil Çekim Rehberi</h1>
-                    <p class="text-slate-600 text-xs sm:text-sm">Derste öğrenilen fiillerin tüm şahıslara göre çekimleri.</p>
+                    <p class="text-slate-600 text-xs sm:text-sm">Modal fiiller (ich ve er/sie/es aynı çekimlenir!) ve haftanın diğer fiilleri.</p>
                 </div>
                 <div class="w-full sm:w-72">
                     <input type="text" id="verb-search" oninput="searchVerbs()" placeholder="Fiil veya Türkçe anlam ara..." class="w-full px-3.5 py-2 border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
@@ -151,14 +158,13 @@
             <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div>
                     <h1 class="text-lg sm:text-2xl font-bold text-slate-900">Genel Almanca - Türkçe Sözlük</h1>
-                    <p class="text-slate-600 text-xs sm:text-sm">Tüm haftalarda işlenen kelimeler ve kalıplar.</p>
+                    <p class="text-slate-600 text-xs sm:text-sm">Tüm haftalarda işlenen kelimeler ve kalıplar (Türkçe İ/ı/İnsan/insan duyarlı arama).</p>
                 </div>
                 <div class="w-full sm:w-80 relative">
-                    <input type="text" id="dict-search" oninput="renderDictionary()" placeholder="Almanca veya Türkçe ara (ör: insan, stuhl)..." class="w-full px-3.5 py-2 border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    <input type="text" id="dict-search" oninput="renderDictionary()" placeholder="Almanca veya Türkçe ara (ör: insan, montag)..." class="w-full px-3.5 py-2 border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500">
                 </div>
             </div>
 
-            <!-- Dinamik Sözlük Kategori Butonları -->
             <div class="flex flex-wrap gap-2 text-xs" id="dict-cat-buttons"></div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4" id="dict-grid"></div>
@@ -177,7 +183,6 @@
             <div class="max-w-xl mx-auto px-1">
                 <div class="perspective-1000 w-full h-72 sm:h-80 cursor-pointer select-none" onclick="toggleCardFlip()">
                     <div id="flashcard-inner" class="relative w-full h-full transform-style-3d transition-transform duration-500 rounded-2xl shadow-md border border-slate-200">
-                        <!-- Ön Yüz -->
                         <div class="absolute inset-0 w-full h-full bg-white rounded-2xl p-5 sm:p-8 flex flex-col justify-between items-center text-center backface-hidden">
                             <span class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full" id="fc-category">Soru Kartı</span>
                             <div class="my-auto overflow-y-auto max-h-44 px-1">
@@ -185,7 +190,6 @@
                             </div>
                             <p class="text-xs text-slate-400">💡 Cevabı görmek için karta dokunun</p>
                         </div>
-                        <!-- Arka Yüz -->
                         <div class="absolute inset-0 w-full h-full bg-indigo-900 text-white rounded-2xl p-5 sm:p-8 flex flex-col justify-between items-center text-center backface-hidden rotate-y-180">
                             <span class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-indigo-200 bg-indigo-800 px-3 py-1 rounded-full">Doğru Yanıt & Açıklama</span>
                             <div class="my-auto space-y-2 overflow-y-auto max-h-48 px-1">
@@ -210,7 +214,7 @@
             <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div>
                     <h1 class="text-lg sm:text-2xl font-bold text-slate-900">Boşluk Doldurma Alıştırmaları</h1>
-                    <p class="text-slate-600 text-xs sm:text-sm">Cevabı yazıp Enter'a basın veya Kontrol butonuna dokunun. ('Sie' hariç küçük harf kontrolü aktiftir)</p>
+                    <p class="text-slate-600 text-xs sm:text-sm">Cevabı yazıp Enter'a basın veya Kontrol butonuna dokunun. ('Sie' hariç büyük-küçük harf duyarsızdır)</p>
                 </div>
                 <div class="flex gap-2 w-full sm:w-auto">
                     <button onclick="resetExercises()" class="flex-1 sm:flex-none px-4 py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-700 font-semibold rounded-xl text-xs sm:text-sm transition whitespace-nowrap">🔄 Temizle</button>
@@ -221,7 +225,26 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="exercises-container"></div>
         </section>
 
-        <!-- SEKME 6: HAFTA SONU SINAVI & PERFORMANS ANALİZİ -->
+        <!-- SEKME 6: CÜMLE KURMA (SATZBAU - KARIŞIK KELİMELERDEN CÜMLE OLUŞTURMA) -->
+        <section id="tab-sentences" class="tab-content hidden space-y-5 sm:space-y-6">
+            <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div>
+                    <h1 class="text-lg sm:text-2xl font-bold text-slate-900">Karışık Kelimelerle Cümle Kurma (Satzbau)</h1>
+                    <p class="text-slate-600 text-xs sm:text-sm">Üstte verilen karışık kelimeleri doğru Almanca dizilimine (Modal fiil 2. sırada, ana fiil mastar olarak en sonda!) göre çekimleyip cümleyi kurun.</p>
+                </div>
+                <div class="flex gap-2 w-full sm:w-auto">
+                    <button onclick="resetSentences()" class="flex-1 sm:flex-none px-4 py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-700 font-semibold rounded-xl text-xs sm:text-sm transition whitespace-nowrap">🔄 Temizle</button>
+                    <button onclick="checkAllSentences()" class="flex-1 sm:flex-none px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl text-xs sm:text-sm transition whitespace-nowrap">✅ Tümünü Kontrol Et</button>
+                </div>
+            </div>
+
+            <!-- Cümle Türü Filtre Butonları -->
+            <div class="flex flex-wrap gap-2 text-xs" id="sent-cat-buttons"></div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4" id="sentences-container"></div>
+        </section>
+
+        <!-- SEKME 7: HAFTA SONU SINAVI & PERFORMANS ANALİZİ -->
         <section id="tab-quiz" class="tab-content hidden space-y-6 sm:space-y-8">
             <div class="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div>
@@ -310,6 +333,7 @@
         let globalDictData = [];
         let allFlashcards = [];
         let exercisesData = [];
+        let sentenceBuildersData = [];
         let quizQuestions = [];
 
         const fcCatNames = {
@@ -325,29 +349,33 @@
             fiyat: '💶 Fiyat & Alışveriş',
             sifat: '🎨 Sıfat & Malzeme',
             cumle: '✍️ Cümle Dönüşümü',
-            mobilya: '🛋️ Mobilya & Eşyalar'
+            mobilya: '🛋️ Mobilya & Eşyalar',
+            modal: '🚀 Modal Fiiller',
+            zaman: '📅 Günler, Aylar & Vakitler',
+            saat: '⏰ Analog & Digital Saatler'
         };
 
         let currentCardIndex = 0;
         let filteredCards = [];
         let isFlipped = false;
         let currentDictCat = 'all';
+        let currentSentCat = 'all';
         let userQuizAnswers = {};
         let currentQuizFilter = 'all';
         let doughnutChartInstance = null;
         let barChartInstance = null;
 
-        // Tüm arama ve alıştırma inputları için Türkçe + Almanca karakter duyarsız normalizasyon
+        // Tüm arama ve input kontrolleri için Türkçe + Almanca karakter duyarsız normalizasyon
         function normalizeText(str) {
             if (!str) return '';
             return str
                 .toLocaleLowerCase('tr-TR')
                 .replace(/ß/g, 'ss')
+                .replace(/[.?!,]+$/g, '')
                 .replace(/\s+/g, ' ')
                 .trim();
         }
 
-        // Sayfa Yüklendiğinde Hem data/index.json Hem de data/sozluk.json Dosyalarını Çek
         document.addEventListener('DOMContentLoaded', async () => {
             try {
                 const [indexRes, dictRes] = await Promise.all([
@@ -402,11 +430,13 @@
                 verbsData = currentWeekData.verbs || [];
                 allFlashcards = currentWeekData.flashcards || [];
                 exercisesData = currentWeekData.exercises || [];
+                sentenceBuildersData = currentWeekData.sentence_builders || [];
                 quizQuestions = currentWeekData.quiz || [];
 
                 currentCardIndex = 0;
                 filteredCards = [...allFlashcards];
                 isFlipped = false;
+                currentSentCat = 'all';
                 userQuizAnswers = {};
                 currentQuizFilter = 'all';
 
@@ -455,6 +485,7 @@
             document.getElementById('count-dict').innerText = globalDictData.length;
             document.getElementById('count-cards').innerText = allFlashcards.length;
             document.getElementById('count-ex').innerText = exercisesData.length;
+            document.getElementById('count-sent').innerText = sentenceBuildersData.length;
             document.getElementById('count-quiz').innerText = quizQuestions.length;
 
             document.getElementById('summary-book').innerText = currentWeekData.book;
@@ -564,6 +595,7 @@
             renderFlashcard();
 
             renderExercises();
+            renderSentencesSection();
 
             document.getElementById('stat-total').innerText = quizQuestions.length;
             document.getElementById('quiz-heading-count').innerText = quizQuestions.length;
@@ -589,7 +621,7 @@
             }
         }
 
-        // Fiil Rehberi (Büyük-küçük harf & Türkçe karakter duyarsız arama)
+        // Fiil Rehberi
         function renderVerbs(verbs) {
             const grid = document.getElementById('verb-grid');
             if (verbs.length === 0) {
@@ -603,7 +635,7 @@
                             <h3 class="text-lg sm:text-xl font-bold text-indigo-700">${v.name}</h3>
                             <p class="text-xs font-semibold text-slate-500">${v.tr}</p>
                         </div>
-                        <span class="text-[11px] px-2.5 py-1 rounded-full font-bold shrink-0 ${v.type.includes('Düzensiz') ? 'bg-amber-100 text-amber-800' : 'bg-emerald-100 text-emerald-800'}">
+                        <span class="text-[11px] px-2.5 py-1 rounded-full font-bold shrink-0 ${v.type.includes('Modal') ? 'bg-purple-100 text-purple-800' : v.type.includes('Düzensiz') ? 'bg-amber-100 text-amber-800' : 'bg-emerald-100 text-emerald-800'}">
                             ${v.type}
                         </span>
                     </div>
@@ -627,7 +659,7 @@
             ));
         }
 
-        // Genel Sözlük (Büyük-küçük harf & Türkçe İ/ı/İnsan/insan duyarsız arama)
+        // Genel Sözlük
         function setDictCat(cat, btnEl) {
             currentDictCat = cat;
             document.querySelectorAll('.dict-cat-btn').forEach(b => {
@@ -715,7 +747,7 @@
             renderFlashcard();
         }
 
-        // Boşluk Doldurma Alıştırmaları (Büyük-küçük harf duyarsız, ancak 'Sie / Ihnen / Ihr' nezaket zamirleri büyük harf duyarlı)
+        // Boşluk Doldurma Alıştırmaları
         function renderExercises() {
             const container = document.getElementById('exercises-container');
             container.innerHTML = exercisesData.map((ex, i) => `
@@ -728,10 +760,10 @@
                     <div class="flex flex-wrap gap-1.5 items-center pt-1">
                         <input type="text" id="ex-input-${i}" onkeydown="if(event.key==='Enter') checkExercise(${i})" placeholder="Cevabınızı yazın..." class="flex-grow min-w-[130px] px-3 py-2 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
                         <div class="flex gap-1">
-                            <button type="button" onclick="insertChar(${i}, 'ß')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded text-xs font-bold">ß</button>
-                            <button type="button" onclick="insertChar(${i}, 'ä')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded text-xs font-bold">ä</button>
-                            <button type="button" onclick="insertChar(${i}, 'ö')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded text-xs font-bold">ö</button>
-                            <button type="button" onclick="insertChar(${i}, 'ü')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded text-xs font-bold">ü</button>
+                            <button type="button" onclick="insertChar('ex-input-${i}', 'ß')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded text-xs font-bold">ß</button>
+                            <button type="button" onclick="insertChar('ex-input-${i}', 'ä')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded text-xs font-bold">ä</button>
+                            <button type="button" onclick="insertChar('ex-input-${i}', 'ö')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded text-xs font-bold">ö</button>
+                            <button type="button" onclick="insertChar('ex-input-${i}', 'ü')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded text-xs font-bold">ü</button>
                             <button type="button" onclick="checkExercise(${i})" class="px-3 py-2 bg-slate-800 hover:bg-slate-900 text-white text-xs font-semibold rounded-lg">Kontrol</button>
                         </div>
                     </div>
@@ -740,8 +772,8 @@
             `).join('');
         }
 
-        function insertChar(idx, char) {
-            const input = document.getElementById(`ex-input-${idx}`);
+        function insertChar(inputId, char) {
+            const input = document.getElementById(inputId);
             input.value += char;
             input.focus();
         }
@@ -754,7 +786,6 @@
             const rawUserVal = input.value.replace(/\s+/g, ' ').trim();
             const correctVal = exercisesData[idx].answer.replace(/\s+/g, ' ').trim();
 
-            // Nezaket zamirleri (Sie, Ihnen, Ihr, Ihre) anlam farkı yarattığı için büyük-küçük harf kontrolüne tabidir; diğer tüm kelimelerde büyük/küçük harf fark etmez
             const formalPronouns = ['Sie', 'Ihnen', 'Ihr', 'Ihre'];
             const isFormalCaseSensitive = formalPronouns.includes(correctVal);
 
@@ -785,6 +816,130 @@
 
         function resetExercises() {
             renderExercises();
+        }
+
+        // SEKME 6: CÜMLE KURMA (SATZBAU)
+        function setSentCat(cat, btnEl) {
+            currentSentCat = cat;
+            document.querySelectorAll('.sent-cat-btn').forEach(b => {
+                b.classList.remove('bg-indigo-600', 'text-white');
+                b.classList.add('bg-slate-200', 'text-slate-700');
+            });
+            btnEl.classList.add('bg-indigo-600', 'text-white');
+            btnEl.classList.remove('bg-slate-200', 'text-slate-700');
+            renderSentencesList();
+        }
+
+        function renderSentencesSection() {
+            const container = document.getElementById('sentences-container');
+            const btnContainer = document.getElementById('sent-cat-buttons');
+
+            if (!sentenceBuildersData || sentenceBuildersData.length === 0) {
+                btnContainer.innerHTML = '';
+                container.innerHTML = `
+                    <div class="col-span-full bg-white p-8 rounded-2xl border border-slate-200 text-center text-slate-500 text-sm">
+                        Bu hafta için henüz karışık kelime cümle kurma alıştırması eklenmedi. (3. Hafta seçiliyken tüm cümle kurma pratikleri aktif olur!)
+                    </div>
+                `;
+                return;
+            }
+
+            const categories = [...new Set(sentenceBuildersData.map(s => s.cat))];
+            btnContainer.innerHTML = `
+                <button onclick="setSentCat('all', this)" class="sent-cat-btn px-3 py-1.5 rounded-full ${currentSentCat === 'all' ? 'bg-indigo-600 text-white' : 'bg-slate-200 text-slate-700'} font-semibold transition">
+                    Tümü (${sentenceBuildersData.length})
+                </button>
+                ${categories.map(cat => `
+                    <button onclick="setSentCat('${cat.replace(/'/g, "\\'")}', this)" class="sent-cat-btn px-3 py-1.5 rounded-full ${currentSentCat === cat ? 'bg-indigo-600 text-white' : 'bg-slate-200 text-slate-700'} font-semibold hover:bg-slate-300 transition">
+                        ${cat}
+                    </button>
+                `).join('')}
+            `;
+            renderSentencesList();
+        }
+
+        function appendWordToSentence(idx, word) {
+            const input = document.getElementById(`sent-input-${idx}`);
+            const current = input.value.trim();
+            input.value = current ? `${current} ${word}` : word;
+            input.focus();
+        }
+
+        function renderSentencesList() {
+            const container = document.getElementById('sentences-container');
+            const items = sentenceBuildersData
+                .map((item, originalIdx) => ({ ...item, originalIdx }))
+                .filter(item => currentSentCat === 'all' || item.cat === currentSentCat);
+
+            container.innerHTML = items.map(item => {
+                const i = item.originalIdx;
+                return `
+                    <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3 transition-colors" id="sent-card-${i}">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <span class="text-xs font-bold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-full">Cümle #${i + 1} • ${item.cat}</span>
+                            <span class="text-[11px] font-medium text-slate-500">🇹🇷 ${item.tr}</span>
+                        </div>
+
+                        <!-- Karışık Kelime Rozetleri (Tıklanarak kutuya eklenebilir) -->
+                        <div class="flex flex-wrap gap-1.5 p-3 bg-slate-50 rounded-xl border border-slate-200/80">
+                            ${item.words.map(w => `
+                                <button type="button" onclick="appendWordToSentence(${i}, '${w.replace(/'/g, "\\'")}')" title="Kutuya eklemek için dokun" class="px-2.5 py-1 bg-white hover:bg-indigo-50 active:bg-indigo-100 text-slate-800 font-semibold text-xs sm:text-sm rounded-lg border border-slate-300 shadow-2xs transition cursor-pointer">
+                                    ${w}
+                                </button>
+                            `).join('')}
+                        </div>
+
+                        <div class="flex flex-wrap gap-1.5 items-center">
+                            <input type="text" id="sent-input-${i}" onkeydown="if(event.key==='Enter') checkSentence(${i})" placeholder="Fiili çekimleyip doğru cümleyi kurun..." class="flex-grow min-w-[180px] px-3.5 py-2 text-sm border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            <div class="flex gap-1">
+                                <button type="button" onclick="insertChar('sent-input-${i}', 'ß')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded-lg text-xs font-bold">ß</button>
+                                <button type="button" onclick="insertChar('sent-input-${i}', 'ä')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded-lg text-xs font-bold">ä</button>
+                                <button type="button" onclick="insertChar('sent-input-${i}', 'ö')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded-lg text-xs font-bold">ö</button>
+                                <button type="button" onclick="insertChar('sent-input-${i}', 'ü')" class="px-2.5 py-2 bg-slate-100 hover:bg-slate-200 rounded-lg text-xs font-bold">ü</button>
+                                <button type="button" onclick="checkSentence(${i})" class="px-3.5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold rounded-xl">Kontrol</button>
+                            </div>
+                        </div>
+
+                        <p id="sent-feedback-${i}" class="text-xs font-semibold hidden"></p>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function checkSentence(idx) {
+            const card = document.getElementById(`sent-card-${idx}`);
+            const input = document.getElementById(`sent-input-${idx}`);
+            const feedback = document.getElementById(`sent-feedback-${idx}`);
+            const item = sentenceBuildersData[idx];
+
+            const userNorm = normalizeText(input.value);
+            const acceptedAnswers = [item.answer, ...(item.alt_answers || [])];
+            const isMatch = acceptedAnswers.some(ans => normalizeText(ans) === userNorm);
+
+            feedback.classList.remove('hidden', 'text-emerald-700', 'text-rose-700');
+            card.classList.remove('border-slate-200', 'border-emerald-300', 'bg-emerald-50/40', 'border-rose-300', 'bg-rose-50/40');
+
+            if (isMatch) {
+                feedback.innerHTML = `✅ Harika! Doğru kurulum: <b>${item.answer}</b>`;
+                feedback.classList.add('text-emerald-700');
+                card.classList.add('border-emerald-300', 'bg-emerald-50/40');
+            } else {
+                feedback.innerHTML = `❌ Doğru cümle: <b>"${item.answer}"</b> olmalıydı.<br><span class="text-slate-600 font-normal">💡 ${item.exp}</span>`;
+                feedback.classList.add('text-rose-700');
+                card.classList.add('border-rose-300', 'bg-rose-50/40');
+            }
+        }
+
+        function checkAllSentences() {
+            sentenceBuildersData.forEach((_, i) => {
+                if (document.getElementById(`sent-input-${i}`)) {
+                    checkSentence(i);
+                }
+            });
+        }
+
+        function resetSentences() {
+            renderSentencesList();
         }
 
         // Hafta Sonu Sınavı

@@ -1,0 +1,647 @@
+{
+  "id": 3,
+  "title": "3. Hafta: Modal Fiiller (Modalverben), Haftanın Günleri, Aylar, Günün Vakitleri ve Analog / Digital Saatler",
+  "week": 3,
+  "date": "16.11.2026 - 20.11.2026",
+  "book": "Menschen A1 (Modul 1-2)",
+  "summary": {
+    "dialogs": [
+      {
+        "q": "Wie spät ist es? / Wie viel Uhr ist es? (18:40)",
+        "a": "Analog: Es ist zwanzig vor sieben. | Digital: Es ist achtzehn Uhr vierzig.",
+        "tr": "Saat kaç? (Günlük/Analog kullanımda 12'lik sistem + vor/nach/halb; Resmi/Digital kullanımda 24'lük sistem + Uhr kullanılır)"
+      },
+      {
+        "q": "Wie spät ist es um 07:30 und 17:30?",
+        "a": "07:30 -> Es ist halb acht (Analog) / sieben Uhr dreißig (Digital). | 17:30 -> Es ist halb sechs / siebzehn Uhr dreißig.",
+        "tr": "KURAL: 'halb' (buçuk) kalıbı SADECE Analog (günlük) saatlerde kullanılır ve daima BİR SONRAKİ saat söylenir!"
+      },
+      {
+        "q": "Was bedeuten 'kurz nach' und 'kurz vor'?",
+        "a": "18:01 -> Es ist kurz nach sechs. | 08:59 -> Es ist kurz vor neun. | 12:59 -> Es ist kurz vor eins.",
+        "tr": "kurz nach = biraz geçe (1-3 dk) | kurz vor = az kala (57-59. dk). Dikkat: 12:59 için 'eins' (ein Uhr değil) kullanılır!"
+      },
+      {
+        "q": "Wann hast du Deutschkurs? / Wann fliegst du nach Berlin?",
+        "a": "Ich habe am Montag und am Freitag Deutschkurs. Ich fliege im Januar nach Berlin.",
+        "tr": "Günlerde 'am' (an + dem), aylarda ise 'im' (in + dem) edatı kullanılır."
+      },
+      {
+        "q": "Was musst du morgen machen? / Was möchtest du heute Abend essen?",
+        "a": "Ich muss morgen nach Koblenz reisen. / Ich möchte heute Abend mit meinem Mann Pizza essen.",
+        "tr": "Modal fiil (muss / möchte) 2. sırada özneye göre çekimlenir, asıl fiil (reisen / essen) mastar olarak EN SONA gider!"
+      },
+      {
+        "q": "Wollt ihr mit uns nach Spanien reisen? / Können wir zusammen bleiben?",
+        "a": "Ja, wir wollen gern mit euch reisen! / Ja, wir können am Wochenende bei Oma zusammen bleiben.",
+        "tr": "Evet/Hayır sorularında Modal fiil 1. sıraya (cümle başına) gelir, asıl fiil yine en sonda mastar kalır."
+      }
+    ],
+    "grammar_topics": [
+      {
+        "title": "1. Modal Fiiller (Modalverben) ve Cümle Dizilimi (Satzklammer)",
+        "content": "• Almancada 7 temel modal fiil vardır ve hepsi özel anlam katar:\n  - müssen: zorunluluk (mecbur olmak - %100 şart)\n  - sollen: tavsiye / görev (-meli, -malı - başkasının isteği/öğüdü)\n  - dürfen: izin / yasak (izinli olmak; olumsuzda yasak!)\n  - können: yetenek / olasılık (-ebilmek, yapabilmek)\n  - wollen: kesin istek / niyet (istemek)\n  - möchten: kibar istek (istemek / arzu etmek - 'mögen' fiilinin kibar hâli)\n  - mögen: hoşlanmak / sevmek (genellikle tek başına isimle: Ich mag Kaffee.)\n• KRİTİK KURAL: Modal fiillerde 'ich' (ben) ve 'er/sie/es' (o) çekimleri BİREBİR AYNIDIR ve sonlarına '-e' veya '-t' ALMAZLAR! (ich muss = er muss, ich kann = er kann, ich will = er will, ich darf = er darf, ich soll = er soll, ich mag = er mag, ich möchte = er möchte).\n• Cümle Yapısı: Özne (1) + Çekimli Modal Fiil (2) + Zaman/Yer/Nesne + Asıl Fiil MASTAR (En Sonda)!"
+      },
+      {
+        "title": "2. Saatler: Analog (Inoffiziell) ve Digital (Offiziell) Ayrımı",
+        "content": "• 1. Digital / Resmi Saat (Offizielle Uhrzeit - 24 Saatlik Sistem):\n  - Tren, uçak, radyo ve resmi duyurularda kullanılır. 'halb, vor, nach, Viertel' KULLANILMAZ!\n  - Kalıp: [Saat] + Uhr + [Dakika] -> 15:05 = fünfzehn Uhr fünf | 19:45 = neunzehn Uhr fünfundvierzig | 22:30 = zweiundzwanzig Uhr dreißig.\n  - Tam Saatler: 09:00 = neun Uhr | 21:00 = einundzwanzig Uhr | 01:00 = ein Uhr ('eins' değil!).\n• 2. Analog / Günlük Saat (Inoffizielle Uhrzeit - 12 Saatlik Sistem):\n  - nach = geçe (5 nach, 10 nach, Viertel nach = çeyrek geçe, 20 nach, kurz nach = biraz geçe)\n  - vor = kala (5 vor, 10 vor, Viertel vor = çeyrek kala, 20 vor, kurz vor = az kala)\n  - halb = buçuk (DAİMA bir sonraki saat söylenir: 07:30 = halb acht | 10:30 = halb elf)\n  - 25 ve 35. Dakikalar (Buçuğa göre!): 02:25 = fünf vor halb drei (3 buçuğa 5 kala) | 02:35 = fünf nach halb drei (3 buçuğu 5 geçe)!"
+      },
+      {
+        "title": "3. Haftanın Günleri (Die Wochentage) ve Günün Vakitleri (Die Tageszeiten)",
+        "content": "• Haftanın Günleri (TÜM günlerin artikeli 'der'dir!):\n  - der Montag (Pazartesi), der Dienstag (Salı), der Mittwoch (Çarşamba), der Donnerstag (Perşembe), der Freitag (Cuma), der Samstag (Cumartesi), der Sonntag (Pazar)\n  - Edat Kuralı: 'an + dem = am' -> am Montag (Pazartesi günü), am Wochenende (hafta sonunda - das Wochenende).\n• Günün Vakitleri (Die Tageszeiten):\n  - der Morgen (sabah) -> am Morgen | der Vormittag (öğleden önce) -> am Vormittag\n  - der Mittag (öğle) -> am Mittag | der Nachmittag (öğleden sonra) -> am Nachmittag\n  - der Abend (akşam) -> am Abend | die Nacht (gece) -> İSTİSNA: in der Nacht! (Geceleyin) | die Mitternacht (gece yarısı) -> um Mitternacht.\n• Zaman Zarfları: vorgestern (evvelsi gün) -> gestern (dün) -> heute (bugün) -> morgen (yarın) -> übermorgen (öbür gün) | jetzt (şimdi) | später (daha sonra)."
+      },
+      {
+        "title": "4. Aylar (Die Monate) ve Mevsimler",
+        "content": "• 12 Ay (TÜM ayların artikeli 'der'dir ve 'in + dem = im' edatı ile kullanılır!):\n  - im Januar (Ocak), im Februar (Şubat), im März (Mart), im April (Nisan)\n  - im Mai (Mayıs), im Juni (Haziran), im Juli (Temmuz), im August (Ağustos)\n  - im September (Eylül), im Oktober (Ekim), im November (Kasım), im Dezember (Aralık)\n• Örnek Cümleler:\n  - 'Wann hast du Geburtstag?' -> 'Ich habe im Mai Geburtstag.' (Mayıs'ta doğum günüm var.)\n  - 'Der Kurs beginnt im November.' (Kurs Kasım'da başlıyor.)\n  - Gün + Ay birlikte söylenirse 'am' kullanılır: 'am 5. Mai' (5 Mayıs'ta)."
+      },
+      {
+        "title": "5. Kişi Zamirleri (Personalpronomen) ve Fiil Çekim Hatırlatması",
+        "content": "• İsimlerin Yerine Zamir Kullanımı:\n  - der Mann -> er (Er kommt aus Deutschland.)\n  - die Frau -> sie (Sie wohnt in Bremen.)\n  - das Kind -> es (Es spricht noch nicht.)\n  - Çoğul isimler (die Schüler, die Kinder) -> sie (Plural: Sie lernen Deutsch.)\n• Kök Sesli Değişimi Olan Fiiller (du & er/sie/es):\n  - sprechen (e -> i): ich spreche, du sprichst, er/sie/es spricht, wir sprechen, ihr sprecht, sie sprechen\n  - essen (e -> i): ich esse, du isst, er/sie/es isst, wir essen, ihr esst, sie essen\n  - fahren (a -> ä): ich fahre, du fährst, er/sie/es fährt, wir fahren, ihr fahrt, sie fahren\n  - arbeiten / antworten ('-t' köklü fiiller du/er/ihr çekiminde kaynaştırma '-e-' alır): du arbeitest, er arbeitet, ihr arbeitet | sie antwortet."
+      }
+    ],
+    "pronouns": [
+      { "de": "der Wochentag -> am", "tr": "am Montag, am Dienstag...", "poss": "am Wochenende", "note": "Günlerde ve hafta sonunda 'am' kullanılır" },
+      { "de": "die Tageszeiten -> am", "tr": "am Morgen, am Vormittag", "poss": "am Mittag, am Abend", "note": "İSTİSNA: in der Nacht (geceleyin)!" },
+      { "de": "der Monat -> im", "tr": "im Januar, im Mai...", "poss": "im November, im Dezember", "note": "Aylarda 'im', tam tarihte 'am 5. Mai'" },
+      { "de": "Modalverben (ich = er)", "tr": "muss / soll / darf", "poss": "kann / will / möchte / mag", "note": "ich ve er/sie/es çekimleri birebir aynıdır" },
+      { "de": "Zaman Çizelgesi", "tr": "vorgestern / gestern", "poss": "heute / morgen / übermorgen", "note": "evvelsi gün / dün / bugün / yarın / öbür gün" },
+      { "de": "Analog vs. Digital", "tr": "halb acht (07:30)", "poss": "sieben Uhr dreißig", "note": "Analog: 12'lik + vor/nach/halb | Digital: 24'lük + Uhr" }
+    ],
+    "numbers": [
+      { "num": "02:00", "de": "Analog: zwei Uhr (Punkt zwei) | Digital: zwei Uhr" },
+      { "num": "02:03", "de": "Analog: kurz nach zwei | Digital: zwei Uhr drei" },
+      { "num": "02:15", "de": "Analog: Viertel nach zwei | Digital: zwei Uhr fünfzehn" },
+      { "num": "02:25", "de": "Analog: fünf vor halb drei ⚠️ | Digital: zwei Uhr fünfundzwanzig" },
+      { "num": "02:30", "de": "Analog: halb drei ⚠️ | Digital: zwei Uhr dreißig" },
+      { "num": "02:35", "de": "Analog: fünf nach halb drei ⚠️ | Digital: zwei Uhr fünfunddreißig" },
+      { "num": "02:45", "de": "Analog: Viertel vor drei | Digital: zwei Uhr fünfundvierzig" },
+      { "num": "02:57", "de": "Analog: kurz vor drei | Digital: zwei Uhr siebenundfünfzig" },
+      { "num": "12:59", "de": "Analog: kurz vor eins ⚠️ | Digital: zwölf Uhr neunundfünfzig" },
+      { "num": "15:05", "de": "Analog: fünf nach drei | Digital: fünfzehn Uhr fünf" },
+      { "num": "17:30", "de": "Analog: halb sechs ⚠️ | Digital: siebzehn Uhr dreißig" },
+      { "num": "18:40", "de": "Analog: zwanzig vor sieben | Digital: achtzehn Uhr vierzig" },
+      { "num": "19:15", "de": "Analog: Viertel nach sieben | Digital: neunzehn Uhr fünfzehn" },
+      { "num": "19:45", "de": "Analog: Viertel vor acht | Digital: neunzehn Uhr fünfundvierzig" },
+      { "num": "21:00", "de": "Analog: neun Uhr | Digital: einundzwanzig Uhr" },
+      { "num": "22:30", "de": "Analog: halb elf ⚠️ | Digital: zweiundzwanzig Uhr dreißig" }
+    ],
+    "notes": [
+      "Çalışma Kağıdı Düzeltmesi (Modalverben #4): 'ich • Pizza • heute Abend • möchten...' cümlesinde özne 'ich' olduğu için 'ich möchten' DEĞİL, 'Ich möchte heute Abend mit meinem Mann Pizza zum Abendessen essen.' olmalıdır!",
+      "Çalışma Kağıdı Düzeltmesi (Modalverben #9): 'uns • Spanien • wollen • ihr • mit • nach • reisen ?' soru cümlesinde 'ihr' çekimi çift 'l' ile 'Wollt ihr mit uns nach Spanien reisen?' şeklinde yazılır.",
+      "Saatlerde '25 ve 35' Kuralı: Analog saatte 25. dakikalar 'fünf vor halb [sonraki saat]', 35. dakikalar ise 'fünf nach halb [sonraki saat]' olarak söylenir (Örn: 07:35 = fünf nach halb acht).",
+      "Günün Vakitleri İstisnası: Sabah, öğle ve akşam için 'am' (am Morgen, am Abend) kullanılırken, gece için 'in der Nacht' kullanılır!"
+    ]
+  },
+  "verbs": [
+    {
+      "name": "müssen",
+      "tr": "zorunda olmak / mecbur olmak",
+      "type": "Modal Fiil (ü -> u)",
+      "conj": { "ich": "muss", "du": "musst", "er": "muss", "wir": "müssen", "ihr": "müsst", "sie": "müssen" }
+    },
+    {
+      "name": "können",
+      "tr": "-ebilmek / yapabilmek (yetenek)",
+      "type": "Modal Fiil (ö -> a)",
+      "conj": { "ich": "kann", "du": "kannst", "er": "kann", "wir": "können", "ihr": "könnt", "sie": "können" }
+    },
+    {
+      "name": "wollen",
+      "tr": "istemek (kesin niyet/istek)",
+      "type": "Modal Fiil (o -> i)",
+      "conj": { "ich": "will", "du": "willst", "er": "will", "wir": "wollen", "ihr": "wollt", "sie": "wollen" }
+    },
+    {
+      "name": "sollen",
+      "tr": "-meli / -malı (tavsiye, görev)",
+      "type": "Modal Fiil",
+      "conj": { "ich": "soll", "du": "sollst", "er": "soll", "wir": "sollen", "ihr": "sollt", "sie": "sollen" }
+    },
+    {
+      "name": "dürfen",
+      "tr": "izinli olmak (-ebilir)",
+      "type": "Modal Fiil (ü -> a)",
+      "conj": { "ich": "darf", "du": "darfst", "er": "darf", "wir": "dürfen", "ihr": "dürft", "sie": "dürfen" }
+    },
+    {
+      "name": "möchten",
+      "tr": "istemek / arzu etmek (kibar)",
+      "type": "Modal Fiil",
+      "conj": { "ich": "möchte", "du": "möchtest", "er": "möchte", "wir": "möchten", "ihr": "möchtet", "sie": "möchten" }
+    },
+    {
+      "name": "mögen",
+      "tr": "hoşlanmak / sevmek",
+      "type": "Modal Fiil (ö -> a)",
+      "conj": { "ich": "mag", "du": "magst", "er": "mag", "wir": "mögen", "ihr": "mögt", "sie": "mögen" }
+    },
+    {
+      "name": "reisen",
+      "tr": "seyahat etmek",
+      "type": "Düzenli",
+      "conj": { "ich": "reise", "du": "reist", "er": "reist", "wir": "reisen", "ihr": "reist", "sie": "reisen" }
+    },
+    {
+      "name": "bleiben",
+      "tr": "kalmak (evde/bir yerde)",
+      "type": "Düzenli",
+      "conj": { "ich": "bleibe", "du": "bleibst", "er": "bleibt", "wir": "bleiben", "ihr": "bleibt", "sie": "bleiben" }
+    },
+    {
+      "name": "fahren",
+      "tr": "gitmek (araçla) / sürmek",
+      "type": "Düzensiz (a -> ä)",
+      "conj": { "ich": "fahre", "du": "fährst", "er": "fährt", "wir": "fahren", "ihr": "fahrt", "sie": "fahren" }
+    },
+    {
+      "name": "essen",
+      "tr": "yemek yemek",
+      "type": "Düzensiz (e -> i)",
+      "conj": { "ich": "esse", "du": "isst", "er": "isst", "wir": "essen", "ihr": "esst", "sie": "essen" }
+    },
+    {
+      "name": "trinken",
+      "tr": "içmek",
+      "type": "Düzenli",
+      "conj": { "ich": "trinke", "du": "trinkst", "er": "trinkt", "wir": "trinken", "ihr": "trinkt", "sie": "trinken" }
+    },
+    {
+      "name": "spielen",
+      "tr": "oynamak / enstrüman çalmak",
+      "type": "Düzenli",
+      "conj": { "ich": "spiele", "du": "spielst", "er": "spielt", "wir": "spielen", "ihr": "spielt", "sie": "spielen" }
+    },
+    {
+      "name": "abholen",
+      "tr": "bir yerden almak / karşılamak",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "hole ab", "du": "holst ab", "er": "holt ab", "wir": "holen ab", "ihr": "holt ab", "sie": "holen ab" }
+    },
+    {
+      "name": "aussehen",
+      "tr": "görünmek",
+      "type": "Düzensiz (Ayrılabilen e -> ie)",
+      "conj": { "ich": "sehe aus", "du": "siehst aus", "er": "sieht aus", "wir": "sehen aus", "ihr": "seht aus", "sie": "sehen aus" }
+    },
+    {
+      "name": "verstehen",
+      "tr": "anlamak",
+      "type": "Düzenli (Ayrılmaz)",
+      "conj": { "ich": "verstehe", "du": "verstehst", "er": "versteht", "wir": "verstehen", "ihr": "versteht", "sie": "verstehen" }
+    },
+    {
+      "name": "antworten",
+      "tr": "cevap vermek",
+      "type": "Düzenli (-e eklemeli)",
+      "conj": { "ich": "antworte", "du": "antwortest", "er": "antwortet", "wir": "antworten", "ihr": "antwortet", "sie": "antworten" }
+    }
+  ],
+  "dictionary": [],
+  "flashcards": [
+    {
+      "cat": "modal",
+      "q": "Modal fiillerin çekiminde 'ich' ve 'er/sie/es' şahıslarının en büyük ortak özelliği nedir?",
+      "a": "Her ikisi de BİREBİR AYNI çekimlenir ve sonlarına '-e' veya '-t' almazlar!",
+      "exp": "Örnek: ich muss / er muss | ich kann / er kann | ich will / er will | ich darf / er darf."
+    },
+    {
+      "cat": "modal",
+      "q": "Modal fiilli bir düz cümlede Modal Fiil ve Asıl Fiil nerede durur?",
+      "a": "Çekimli Modal Fiil 2. sırada, Asıl Fiil ise MASTAR olarak cümlenin EN SONUNDA durur.",
+      "exp": "Örnek: Ich muss (2) morgen nach Koblenz reisen (En son)."
+    },
+    {
+      "cat": "modal",
+      "q": "7 Modal fiilin (müssen, sollen, dürfen, können, wollen, möchten, mögen) temel anlamları nelerdir?",
+      "a": "müssen: zorunluluk | sollen: tavsiye/görev | dürfen: izin | können: yetenek | wollen: kesin istek | möchten: kibar istek | mögen: sevmek/hoşlanmak",
+      "exp": "Örnek: Du bist krank, du sollst einen Tee trinken. (Tavsiye: sollen)"
+    },
+    {
+      "cat": "saat",
+      "q": "Analog (günlük) ve Digital (resmi) saat arasındaki temel fark nedir?",
+      "a": "Analog: 12'lik sistem + vor / nach / halb / Viertel | Digital: 24'lük sistem + saat + Uhr + dakika",
+      "exp": "Örnek (18:40): Analog = zwanzig vor sieben | Digital = achtzehn Uhr vierzig."
+    },
+    {
+      "cat": "saat",
+      "q": "Almancada '02:25' ve '02:35' saatleri Analog (günlük) dilde nasıl söylenir?",
+      "a": "02:25 = fünf vor halb drei | 02:35 = fünf nach halb drei",
+      "exp": "Buçuğa 5 kala 'fünf vor halb...', buçuğu 5 geçe 'fünf nach halb...' kalıbı kullanılır."
+    },
+    {
+      "cat": "saat",
+      "q": "'kurz nach' ve 'kurz vor' ne demektir? 12:59 analog olarak nasıl söylenir?",
+      "a": "kurz nach = biraz geçe | kurz vor = az kala. 12:59 = Es ist kurz vor eins.",
+      "exp": "Dikkat: Analog saatte 'Uhr' kullanılmadığında 1 sayısı 'eins' olarak söylenir (kurz vor eins)."
+    },
+    {
+      "cat": "zaman",
+      "q": "Haftanın günleri ve aylar hangi edatlarla (Präpositionen) kullanılır?",
+      "a": "Günlerde 'am' (am Montag) | Aylarda 'im' (im Januar, im Mai)",
+      "exp": "Tüm günlerin ve ayların artikeli 'der'dir (an + dem = am, in + dem = im)."
+    },
+    {
+      "cat": "zaman",
+      "q": "Günün vakitlerinde (Tageszeiten) 'am' almayan tek istisna hangisidir?",
+      "a": "die Nacht -> in der Nacht (geceleyin)",
+      "exp": "Diğerleri 'am' alır: am Morgen, am Vormittag, am Mittag, am Nachmittag, am Abend."
+    },
+    {
+      "cat": "zaman",
+      "q": "'Evvelsi gün - Dün - Bugün - Yarın - Öbür gün' sıralamasının Almancası nedir?",
+      "a": "vorgestern - gestern - heute - morgen - übermorgen",
+      "exp": "Örnek: Heute ist Donnerstag, morgen ist Freitag, übermorgen ist Samstag."
+    },
+    {
+      "cat": "zaman",
+      "q": "'müde sein', 'krank', 'draußen', 'zusammen' ve 'gesund' kelimelerinin anlamları nelerdir?",
+      "a": "müde sein = yorgun olmak | krank = hasta | draußen = dışarıda | zusammen = birlikte | gesund = sağlıklı",
+      "exp": "Örnek: Die Kinder wollen draußen zusammen spielen."
+    }
+  ],
+  "exercises": [
+    { "sentence": "Herr Klimm _____ morgen nach Koblenz reisen. (müssen)", "answer": "muss", "hint": "er/Herr Klimm için müssen çekimi" },
+    { "sentence": "Robert ist sehr krank, er _____ zu Hause bleiben. (sollen)", "answer": "soll", "hint": "er için sollen çekimi" },
+    { "sentence": "Mein Sohn _____ mit seinen Freunden nach Paris reisen. (dürfen)", "answer": "darf", "hint": "er/mein Sohn için dürfen çekimi" },
+    { "sentence": "Ich _____ heute Abend mit meinem Mann Pizza essen. (möchten)", "answer": "möchte", "hint": "ich için möchten çekimi (-n yok!)" },
+    { "sentence": "Die Kinder _____ draußen zusammen spielen. (wollen)", "answer": "wollen", "hint": "çoğul özne (die Kinder)" },
+    { "sentence": "Du bist sehr krank, du _____ einen Tee trinken. (sollen)", "answer": "sollst", "hint": "du için sollen çekimi" },
+    { "sentence": "_____ ihr dieses Wochenende nach Lindau reisen? (möchten)", "answer": "Möchtet", "hint": "ihr için möchten çekimi" },
+    { "sentence": "Ich und du _____ dieses Wochenende bei Oma bleiben. (können)", "answer": "können", "hint": "ich und du = wir (çoğul)" },
+    { "sentence": "_____ ihr mit uns nach Spanien reisen? (wollen)", "answer": "Wollt", "hint": "ihr için wollen çekimi" },
+    { "sentence": "Meine Söhne _____ am Abend ein gesundes Essen essen. (mögen)", "answer": "mögen", "hint": "çoğul özne (meine Söhne)" },
+    { "sentence": "_____ du oder arbeitest du? (studieren)", "answer": "Studierst", "hint": "du için studieren çekimi" },
+    { "sentence": "Melanie _____ gern mit Markus. (sprechen)", "answer": "spricht", "hint": "e -> i değişimi olur" },
+    { "sentence": "Ich frage oft die Lehrerin und sie _____. (antworten)", "answer": "antwortet", "hint": "sie (kadın) tekil çekimi" },
+    { "sentence": "Wir _____ in Çubuk, bei Ankara. (leben)", "answer": "leben", "hint": "wir için leben çekimi" },
+    { "sentence": "Haftanın günü edatı: Ich habe _____ Montag Deutschkurs.", "answer": "am", "hint": "günlerde kullanılan edat" },
+    { "sentence": "Ay edatı: Ich habe _____ Mai Geburtstag.", "answer": "im", "hint": "aylarda kullanılan edat" },
+    { "sentence": "İstisna vakit edatı: _____ der Nacht schlafe ich.", "answer": "In", "hint": "geceleyin derken kullanılan edat" },
+    { "sentence": "18:40 (Analog): Es ist zwanzig _____ sieben.", "answer": "vor", "hint": "7'ye 20 kala" },
+    { "sentence": "17:15 (Analog): Es ist _____ nach fünf.", "answer": "Viertel", "hint": "çeyrek anlamındaki kelime" },
+    { "sentence": "02:35 (Analog): Es ist fünf _____ halb drei.", "answer": "nach", "hint": "3 buçuğu 5 geçe" },
+    { "sentence": "02:25 (Analog): Es ist fünf _____ halb drei.", "answer": "vor", "hint": "3 buçuğa 5 kala" },
+    { "sentence": "08:02 (Analog): Es ist _____ nach acht.", "answer": "kurz", "hint": "biraz geçe" },
+    { "sentence": "21:00 (Digital): Es ist _____ Uhr.", "answer": "einundzwanzig", "hint": "21 sayısının Almancası" },
+    { "sentence": "Zaman zarfı: Heute ist Dienstag, _____ ist Mittwoch. (yarın)", "answer": "morgen", "hint": "yarın anlamındaki kelime" },
+    { "sentence": "Zaman zarfı: Heute ist Dienstag, _____ war Montag. (dün)", "answer": "gestern", "hint": "dün anlamındaki kelime" }
+  ],
+  "sentence_builders": [
+    {
+      "cat": "Modal Fiiller (Düz Cümle)",
+      "words": ["müssen", "am Montag", "ich", "früh", "aufstehen"],
+      "answer": "Ich muss am Montag früh aufstehen.",
+      "alt_answers": ["Am Montag muss ich früh aufstehen."],
+      "tr": "Pazartesi günü erken kalkmak zorundayım.",
+      "exp": "'müssen' 2. sırada 'ich'e göre 'muss' olarak çekimlenir; ayrılabilen fiil 'aufstehen' mastar olarak en sona gider."
+    },
+    {
+      "cat": "Modal Fiiller (Düz Cümle)",
+      "words": ["können", "sehr gut", "mein Bruder", "Deutsch", "sprechen"],
+      "answer": "Mein Bruder kann sehr gut Deutsch sprechen.",
+      "alt_answers": ["Deutsch kann mein Bruder sehr gut sprechen."],
+      "tr": "Erkek kardeşim çok iyi Almanca konuşabiliyor.",
+      "exp": "'mein Bruder' (er) için 'können' -> 'kann' olur, 'sprechen' mastar olarak cümle sonunda kalır."
+    },
+    {
+      "cat": "Modal Fiiller (Düz Cümle)",
+      "words": ["sollen", "du", "müde", "sein", "früh", "schlafen"],
+      "answer": "Du bist müde, du sollst früh schlafen.",
+      "alt_answers": [],
+      "tr": "Yorgunsun, erken uyumalısın.",
+      "exp": "'du' için 'sein' -> 'bist', 'sollen' -> 'sollst' şeklinde çekimlenir."
+    },
+    {
+      "cat": "Modal Fiiller (Düz Cümle)",
+      "words": ["dürfen", "im Unterricht", "man", "nicht", "telefonieren"],
+      "answer": "Man darf im Unterricht nicht telefonieren.",
+      "alt_answers": ["Im Unterricht darf man nicht telefonieren."],
+      "tr": "Derste telefonla konuşulmaz (izin yoktur).",
+      "exp": "'man' (3. tekil şahıs gibi çekimlenir) için 'dürfen' -> 'darf' olur."
+    },
+    {
+      "cat": "Modal Fiiller (Düz Cümle)",
+      "words": ["möchten", "im Juli", "wir", "nach Antalya", "fliegen"],
+      "answer": "Wir möchten im Juli nach Antalya fliegen.",
+      "alt_answers": ["Im Juli möchten wir nach Antalya fliegen."],
+      "tr": "Temmuz ayında Antalya'ya uçmak istiyoruz.",
+      "exp": "Aylarda 'im' kullanılır; 'wir möchten' 2. sırada, 'fliegen' en sondadır."
+    },
+    {
+      "cat": "Modal Fiiller (Düz Cümle)",
+      "words": ["wollen", "am Wochenende", "meine Freunde", "Fußball", "spielen"],
+      "answer": "Meine Freunde wollen am Wochenende Fußball spielen.",
+      "alt_answers": ["Am Wochenende wollen meine Freunde Fußball spielen."],
+      "tr": "Arkadaşlarım hafta sonunda futbol oynamak istiyorlar.",
+      "exp": "'Meine Freunde' çoğul olduğu için 'wollen' olarak kalır."
+    },
+    {
+      "cat": "Modal Fiiller (Düz Cümle)",
+      "words": ["mögen", "am Morgen", "ich", "Kaffee", "trinken"],
+      "answer": "Ich mag am Morgen Kaffee trinken.",
+      "alt_answers": ["Am Morgen mag ich Kaffee trinken."],
+      "tr": "Sabahları kahve içmeyi severim.",
+      "exp": "'ich' için 'mögen' -> 'mag' olarak çekimlenir."
+    },
+    {
+      "cat": "Modal Fiiller (Soru Cümlesi)",
+      "words": ["können", "du", "um halb acht", "mich", "abholen", "?"],
+      "answer": "Kannst du mich um halb acht abholen?",
+      "alt_answers": [],
+      "tr": "Beni saat yedi buçukta alabilir misin?",
+      "exp": "Evet/Hayır sorularında çekimli modal fiil ('Kannst') 1. sıraya gelir, 'abholen' en sonda mastar kalır."
+    },
+    {
+      "cat": "Modal Fiiller (Soru Cümlesi)",
+      "words": ["wollen", "ihr", "am Freitag", "ins Kino", "gehen", "?"],
+      "answer": "Wollt ihr am Freitag ins Kino gehen?",
+      "alt_answers": [],
+      "tr": "Cuma günü sinemaya gitmek istiyor musunuz?",
+      "exp": "'ihr' için 'wollen' -> 'Wollt' olur ve soru cümlesinin başına geçer."
+    },
+    {
+      "cat": "Modal Fiiller (Soru Cümlesi)",
+      "words": ["dürfen", "ich", "hier", "parken", "?"],
+      "answer": "Darf ich hier parken?",
+      "alt_answers": [],
+      "tr": "Buraya park edebilir miyim (iznim var mı)?",
+      "exp": "'ich' için 'dürfen' -> 'Darf' olarak başa gelir."
+    },
+    {
+      "cat": "Modal Fiiller (Soru Cümlesi)",
+      "words": ["möchten", "Sie", "am Abend", "einen Tee", "trinken", "?"],
+      "answer": "Möchten Sie am Abend einen Tee trinken?",
+      "alt_answers": [],
+      "tr": "Akşam bir çay içmek ister misiniz?",
+      "exp": "Nezaket formu 'Sie' ile 'Möchten Sie ...?' kalıbı kullanılır."
+    },
+    {
+      "cat": "Ana Fiiller & Günlük Hayat",
+      "words": ["fahren", "mein Vater", "am Samstag", "nach Bursa"],
+      "answer": "Mein Vater fährt am Samstag nach Bursa.",
+      "alt_answers": ["Am Samstag fährt mein Vater nach Bursa."],
+      "tr": "Babam Cumartesi günü Bursa'ya gidiyor.",
+      "exp": "'fahren' fiili 3. tekil şahısta (mein Vater) Umlaut alır: 'fährt'."
+    },
+    {
+      "cat": "Ana Fiiller & Günlük Hayat",
+      "words": ["essen", "du", "was", "gern", "?"],
+      "answer": "Was isst du gern?",
+      "alt_answers": [],
+      "tr": "Ne yemeyi seversin?",
+      "exp": "W-sorularında soru kelimesi ('Was') 1. sırada, çekimli fiil ('isst') 2. sıradadır."
+    },
+    {
+      "cat": "Ana Fiiller & Günlük Hayat",
+      "words": ["arbeiten", "in der Nacht", "die Ärztin", "im Krankenhaus"],
+      "answer": "Die Ärztin arbeitet in der Nacht im Krankenhaus.",
+      "alt_answers": ["In der Nacht arbeitet die Ärztin im Krankenhaus."],
+      "tr": "Kadın doktor geceleyin hastanede çalışıyor.",
+      "exp": "Gece için 'in der Nacht' kullanılır; 'arbeiten' 3. tekil şahısta 'arbeitet' olur."
+    },
+    {
+      "cat": "Ana Fiiller & Günlük Hayat",
+      "words": ["lernen", "die Schüler", "oft", "neue Wörter"],
+      "answer": "Die Schüler lernen oft neue Wörter.",
+      "alt_answers": [],
+      "tr": "Öğrenciler sık sık yeni kelimeler öğreniyorlar.",
+      "exp": "'Die Schüler' çoğul olduğu için 'lernen' fiili '-en' ile çekimlenir."
+    },
+    {
+      "cat": "Ana Fiiller & Günlük Hayat",
+      "words": ["beginnen", "der Deutschkurs", "um Viertel vor neun"],
+      "answer": "Der Deutschkurs beginnt um Viertel vor neun.",
+      "alt_answers": ["Um Viertel vor neun beginnt der Deutschkurs."],
+      "tr": "Almanca kursu 9'a çeyrek kala (08:45) başlıyor.",
+      "exp": "Kesin saatlerin önünde 'um' edatı kullanılır."
+    },
+    {
+      "cat": "Ana Fiiller & Günlük Hayat",
+      "words": ["haben", "im Oktober", "wir", "Urlaub"],
+      "answer": "Wir haben im Oktober Urlaub.",
+      "alt_answers": ["Im Oktober haben wir Urlaub."],
+      "tr": "Ekim ayında tatilimiz var.",
+      "exp": "Ayların önünde 'im' edatı kullanılır."
+    },
+    {
+      "cat": "Ana Fiiller & Günlük Hayat",
+      "words": ["aussehen", "heute", "du", "sehr glücklich"],
+      "answer": "Du siehst heute sehr glücklich aus.",
+      "alt_answers": ["Heute siehst du sehr glücklich aus."],
+      "tr": "Bugün çok mutlu görünüyorsun.",
+      "exp": "'aussehen' ayrılabilen fiildir: çekimli kök ('siehst') 2. sırada, 'aus' en sondadır."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Aşağıdaki modal fiil çekimlerinden hangisi YANLIŞTIR?",
+      "options": ["ich muss", "er kannt", "sie darf", "wir wollen"],
+      "correct": "er kannt",
+      "cat": "Modal Fiiller",
+      "exp": "Modal fiillerde 'ich' ve 'er/sie/es' çekimleri aynıdır ve sonuna '-t' almaz: doğrusu 'er kann'dır."
+    },
+    {
+      "q": "\"Herr Klimm _____ morgen nach Koblenz _____. \" cümlesi nasıl doğru tamamlanır?",
+      "options": ["müsst / reist", "muss / reisen", "müssen / reisen", "muss / reist"],
+      "correct": "muss / reisen",
+      "cat": "Modal Fiiller",
+      "exp": "3. tekil şahısta modal fiil 'muss' olarak çekimlenir, cümle sonundaki asıl fiil ('reisen') mastar kalır."
+    },
+    {
+      "q": "\"Ich _____ heute Abend mit meinem Mann Pizza _____. \" boşluklarına hangisi gelmelidir?",
+      "options": ["möchten / essen", "möchte / essen", "möchte / esst", "magst / essen"],
+      "correct": "möchte / essen",
+      "cat": "Modal Fiiller",
+      "exp": "Özne 'ich' olduğu için 'möchten' fiili 'möchte' olarak çekimlenir; asıl fiil 'essen' en sonda mastardır."
+    },
+    {
+      "q": "\"_____ ihr mit uns nach Spanien reisen?\" soru cümlesinde boşluğa hangi çekim gelir?",
+      "options": ["Wollen", "Willst", "Wollt", "Woltet"],
+      "correct": "Wollt",
+      "cat": "Modal Fiiller",
+      "exp": "'wollen' fiilinin 2. çoğul şahıs ('ihr') çekimi 'wollt' şeklindedir."
+    },
+    {
+      "q": "\"Robert ist sehr krank, er _____ zu Hause bleiben.\" (tavsiye / doktor öğüdü) boşluğuna ne gelir?",
+      "options": ["darf", "soll", "mag", "kannst"],
+      "correct": "soll",
+      "cat": "Modal Fiiller",
+      "exp": "Hastalık durumunda verilen tavsiye ve görevlerde 'sollen' -> 'er soll' kullanılır."
+    },
+    {
+      "q": "\"Die Kinder _____ draußen zusammen _____. \" boşluklarına hangisi gelmelidir?",
+      "options": ["wollt / spielen", "wollen / spielen", "will / spielt", "wollen / spielt"],
+      "correct": "wollen / spielen",
+      "cat": "Modal Fiiller",
+      "exp": "'Die Kinder' çoğul olduğu için 'wollen' çekimi kullanılır ve 'spielen' mastar kalır."
+    },
+    {
+      "q": "\"Ich und du _____ dieses Wochenende bei Oma bleiben.\" boşluğuna ne gelir?",
+      "options": ["kannst", "könnt", "können", "kann"],
+      "correct": "können",
+      "cat": "Modal Fiiller",
+      "exp": "'Ich und du' = 'wir' (biz) öznesine karşılık gelir, bu nedenle 'können' kullanılır."
+    },
+    {
+      "q": "\"Meine Söhne _____ am Abend ein gesundes Essen _____. \" boşluklarına hangisi gelir?",
+      "options": ["mag / essen", "mögen / essen", "mögt / esst", "mögen / isst"],
+      "correct": "mögen / essen",
+      "cat": "Modal Fiiller",
+      "exp": "'Meine Söhne' (oğullarım) çoğul olduğu için 'mögen' kullanılır."
+    },
+    {
+      "q": "\"18:40\" saatinin Analog (günlük) ve Digital (resmi) söylenişi hangi seçenekte doğru verilmiştir?",
+      "options": [
+        "Analog: zwanzig nach sechs | Digital: achtzehn Uhr vierzig",
+        "Analog: zwanzig vor sieben | Digital: achtzehn Uhr vierzig",
+        "Analog: zwanzig vor sechs | Digital: sechs Uhr vierzig",
+        "Analog: Viertel vor sieben | Digital: achtzehn Uhr vierzig"
+      ],
+      "correct": "Analog: zwanzig vor sieben | Digital: achtzehn Uhr vierzig",
+      "cat": "Analog & Digital Saatler",
+      "exp": "18:40 = 7'ye 20 var (zwanzig vor sieben) ve resmi dilde achtzehn Uhr vierzig."
+    },
+    {
+      "q": "\"02:35\" saati Analog (günlük) konuşma dilinde nasıl ifade edilir?",
+      "options": [
+        "Es ist fünf nach halb zwei.",
+        "Es ist fünf vor halb drei.",
+        "Es ist fünf nach halb drei.",
+        "Es ist fünfunddreißig nach zwei."
+      ],
+      "correct": "Es ist fünf nach halb drei.",
+      "cat": "Analog & Digital Saatler",
+      "exp": "02:30 'halb drei' olduğu için 02:35 '3 buçuğu 5 geçe' yani 'fünf nach halb drei' olur."
+    },
+    {
+      "q": "\"06:25\" saati Analog (günlük) konuşma dilinde nasıl söylenir?",
+      "options": [
+        "Es ist fünf vor halb sieben.",
+        "Es ist fünf vor halb sechs.",
+        "Es ist fünf nach halb sieben.",
+        "Es ist fünfundzwanzig nach sechs."
+      ],
+      "correct": "Es ist fünf vor halb sieben.",
+      "cat": "Analog & Digital Saatler",
+      "exp": "06:30 'halb sieben' olduğu için 06:25 '7 buçuğa 5 kala' yani 'fünf vor halb sieben'dir."
+    },
+    {
+      "q": "\"12:59\" saati Analog olarak nasıl ifade edilir?",
+      "options": [
+        "Es ist kurz nach zwölf.",
+        "Es ist kurz vor zwölf.",
+        "Es ist kurz vor eins.",
+        "Es ist kurz vor ein Uhr."
+      ],
+      "correct": "Es ist kurz vor eins.",
+      "cat": "Analog & Digital Saatler",
+      "exp": "Saat 1'e 1 dakika kaldığı için 'kurz vor eins' ('Uhr' yoksa 'eins' kullanılır) denir."
+    },
+    {
+      "q": "\"17:30\" saatinin Analog ve Digital karşılıkları sırasıyla hangileridir?",
+      "options": [
+        "halb fünf / siebzehn Uhr dreißig",
+        "halb sechs / siebzehn Uhr dreißig",
+        "halb sechs / fünf Uhr dreißig",
+        "Viertel nach fünf / siebzehn Uhr dreißig"
+      ],
+      "correct": "halb sechs / siebzehn Uhr dreißig",
+      "cat": "Analog & Digital Saatler",
+      "exp": "17:30 günlük dilde 'halb sechs' (6'ya yarım kala), resmi dilde 'siebzehn Uhr dreißig'dir."
+    },
+    {
+      "q": "\"19:45\" saati Analog (günlük) olarak nasıl söylenir?",
+      "options": [
+        "Es ist Viertel nach sieben.",
+        "Es ist Viertel vor sieben.",
+        "Es ist Viertel vor acht.",
+        "Es ist zwanzig vor acht."
+      ],
+      "correct": "Es ist Viertel vor acht.",
+      "cat": "Analog & Digital Saatler",
+      "exp": "19:45 = 8'e çeyrek kala -> Es ist Viertel vor acht."
+    },
+    {
+      "q": "Haftanın günlerinin ortak artikeli ve önünde kullanılan edat (Präposition) hangisidir?",
+      "options": ["die / im", "der / am", "das / um", "der / in der"],
+      "correct": "der / am",
+      "cat": "Günler, Aylar & Vakitler",
+      "exp": "Tüm günlerin artikeli 'der'dir ve 'an + dem = am' edatıyla kullanılır (am Montag)."
+    },
+    {
+      "q": "Aşağıdaki günün vakitlerinden hangisi 'am' edatı ALMAZ?",
+      "options": ["Morgen", "Vormittag", "Abend", "Nacht"],
+      "correct": "Nacht",
+      "cat": "Günler, Aylar & Vakitler",
+      "exp": "'die Nacht' dişil olduğu için istisna olarak 'in der Nacht' (geceleyin) şeklinde kullanılır."
+    },
+    {
+      "q": "\"Heute ist Mittwoch. _____ ist Freitag.\" (Öbür gün Cuma) boşluğuna ne gelmelidir?",
+      "options": ["Gestern", "Vorgestern", "Morgen", "Übermorgen"],
+      "correct": "Übermorgen",
+      "cat": "Günler, Aylar & Vakitler",
+      "exp": "Bugün Çarşamba ise yarın (morgen) Perşembe, öbür gün (übermorgen) Cuma'dır."
+    },
+    {
+      "q": "\"Wann hast du Geburtstag?\" — \"Ich habe _____ Januar Geburtstag.\" boşluğuna hangi edat gelir?",
+      "options": ["am", "um", "im", "in der"],
+      "correct": "im",
+      "cat": "Günler, Aylar & Vakitler",
+      "exp": "Ayların önünde 'in + dem = im' edatı kullanılır (im Januar, im Mai)."
+    },
+    {
+      "q": "Aşağıdaki ayların Almanca yazılışlarından hangisi DOĞRUDUR?",
+      "options": ["Jannuar / Febuar", "März / Oktober", "Agust / Dezamber", "Jüni / Jüli"],
+      "correct": "März / Oktober",
+      "cat": "Günler, Aylar & Vakitler",
+      "exp": "Doğru yazılışlar: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember."
+    },
+    {
+      "q": "\"Das Kind heißt Jenny. _____ spricht noch nicht.\" boşluğuna hangi kişi zamiri gelmelidir?",
+      "options": ["Er", "Sie", "Es", "Wir"],
+      "correct": "Es",
+      "cat": "Fiil Çekimi & Zamirler",
+      "exp": "'das Kind' nötr artikelli olduğu için yerine 'es' zamiri kullanılır."
+    },
+    {
+      "q": "\"Melanie _____ gern mit Markus.\" (sprechen) cümlesinde boşluğa hangisi gelir?",
+      "options": ["sprecht", "sprichst", "spricht", "spreche"],
+      "correct": "spricht",
+      "cat": "Fiil Çekimi & Zamirler",
+      "exp": "'sprechen' fiili 3. tekil şahısta (Melanie = sie) kök sesli değişimiyle 'spricht' olur."
+    },
+    {
+      "q": "\"Was _____ du gern?\" (essen) sorusunda boşluğa hangi fiil çekimi gelir?",
+      "options": ["esst", "isst", "esse", "essen"],
+      "correct": "isst",
+      "cat": "Fiil Çekimi & Zamirler",
+      "exp": "'essen' fiili 'du' şahsında 'isst' olarak çekimlenir."
+    },
+    {
+      "q": "\"Ich frage oft die Lehrerin und sie _____. \" (antworten) boşluğuna ne gelir?",
+      "options": ["antwortet", "antwortst", "antworten", "antworte"],
+      "correct": "antwortet",
+      "cat": "Fiil Çekimi & Zamirler",
+      "exp": "Kökü '-t' ile biten 'antworten' fiili 3. tekil şahısta kaynaştırma '-e-' alarak 'antwortet' olur."
+    },
+    {
+      "q": "\"Die Schüler _____ Deutsch.\" (lernen) cümlesinde boşluğa hangi çekim gelmelidir?",
+      "options": ["lernt", "lernen", "lernst", "lerne"],
+      "correct": "lernen",
+      "cat": "Fiil Çekimi & Zamirler",
+      "exp": "'Die Schüler' (öğrenciler) çoğul özne olduğu için fiil 'lernen' şeklinde çekimlenir."
+    },
+    {
+      "q": "Defter kelimelerinde 'müde sein', 'abholen' ve 'manchmal' sırasıyla ne anlama gelir?",
+      "options": [
+        "hasta olmak / gitmek / sık sık",
+        "yorgun olmak / bir yerden almak / bazen",
+        "mutlu olmak / beklemek / her zaman",
+        "yorgun olmak / vermek / yarın"
+      ],
+      "correct": "yorgun olmak / bir yerden almak / bazen",
+      "cat": "Kelime Bilgisi",
+      "exp": "müde sein = yorgun olmak, abholen = bir yerden almak/karşılamak, manchmal = bazen."
+    }
+  ]
+}

@@ -9,6 +9,11 @@
       "id": 2,
       "file": "hafta2.json",
       "shortTitle": "2. Hafta: Artikeller, Eşyalar, Renkler, Saatler & Sayılar"
+    },
+    {
+      "id": 3,
+      "file": "hafta3.json",
+      "shortTitle": "3. Hafta: Modal Fiiller, Günler, Aylar, Analog/Digital Saatler & Cümle Kurma"
     }
   ]
 }

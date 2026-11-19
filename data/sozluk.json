@@ -823,6 +823,403 @@
       "tr": "Saat ...'da (Örn: um 10 Uhr)",
       "cat": "Saatler & Zaman (Uhrzeit)",
       "week": 2
+    },
+    {
+      "de": "der Montag / am Montag",
+      "tr": "Pazartesi / Pazartesi günü",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Dienstag / am Dienstag",
+      "tr": "Salı / Salı günü",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Mittwoch / am Mittwoch",
+      "tr": "Çarşamba / Çarşamba günü",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Donnerstag / am Donnerstag",
+      "tr": "Perşembe / Perşembe günü",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Freitag / am Freitag",
+      "tr": "Cuma / Cuma günü",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Samstag / am Samstag",
+      "tr": "Cumartesi / Cumartesi günü",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Sonntag / am Sonntag",
+      "tr": "Pazar / Pazar günü",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Tag / die Woche / das Wochenende",
+      "tr": "Gün / Hafta / Hafta sonu (am Wochenende)",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "vorgestern / gestern / heute / morgen / übermorgen",
+      "tr": "Evvelsi gün / Dün / Bugün / Yarın / Öbür gün",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "jetzt / später",
+      "tr": "Şimdi / Daha sonra",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Morgen / der Vormittag",
+      "tr": "Sabah / Öğleden önce (am Morgen / am Vormittag)",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Mittag / der Nachmittag",
+      "tr": "Öğle / Öğleden sonra (am Mittag / am Nachmittag)",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "der Abend / die Nacht / die Mitternacht",
+      "tr": "Akşam (am Abend) / Gece (in der Nacht!) / Gece yarısı",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "Januar / Februar / März / April",
+      "tr": "Ocak / Şubat / Mart / Nisan (im + Ay)",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "Mai / Juni / Juli / August",
+      "tr": "Mayıs / Haziran / Temmuz / Ağustos (im + Ay)",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "September / Oktober / November / Dezember",
+      "tr": "Eylül / Ekim / Kasım / Aralık (im + Ay)",
+      "cat": "Günler, Aylar & Zaman",
+      "week": 3
+    },
+    {
+      "de": "müssen / sollen / dürfen",
+      "tr": "Zorunda olmak / -meli -malı (tavsiye) / İzinli olmak",
+      "cat": "Modal Fiiller & Eylemler",
+      "week": 3
+    },
+    {
+      "de": "können / wollen / möchten / mögen",
+      "tr": "-ebilmek / İstemek (kesin) / İstemek (kibar) / Sevmek",
+      "cat": "Modal Fiiller & Eylemler",
+      "week": 3
+    },
+    {
+      "de": "reisen / bleiben / fahren",
+      "tr": "Seyahat etmek / Kalmak / Araçla gitmek, sürmek",
+      "cat": "Modal Fiiller & Eylemler",
+      "week": 3
+    },
+    {
+      "de": "abholen / aussehen",
+      "tr": "Bir yerden almak, karşılamak / Görünmek",
+      "cat": "Modal Fiiller & Eylemler",
+      "week": 3
+    },
+    {
+      "de": "müde sein / krank / gesund",
+      "tr": "Yorgun olmak / Hasta / Sağlıklı",
+      "cat": "Sıfatlar & Zarflar (3. Hafta)",
+      "week": 3
+    },
+    {
+      "de": "sehr / oft / manchmal / gern",
+      "tr": "Çok / Sık sık / Bazen / Memnuniyetle, severek",
+      "cat": "Sıfatlar & Zarflar (3. Hafta)",
+      "week": 3
+    },
+    {
+      "de": "draußen / zusammen / zu Hause",
+      "tr": "Dışarıda / Birlikte / Evde",
+      "cat": "Sıfatlar & Zarflar (3. Hafta)",
+      "week": 3
+    },
+    {
+      "de": "die Blume / die Blumen",
+      "tr": "Çiçek / Çiçekler",
+      "cat": "Günlük Kelimeler (3. Hafta)",
+      "week": 3
+    },
+    {
+      "de": "der Garten / das Rad (das Fahrrad)",
+      "tr": "Bahçe / Bisiklet",
+      "cat": "Günlük Kelimeler (3. Hafta)",
+      "week": 3
+    },
+    {
+      "de": "das Kompliment / die Komplimente",
+      "tr": "İltifat / İltifatlar",
+      "cat": "Günlük Kelimeler (3. Hafta)",
+      "week": 3
+    },
+    {
+      "de": "das Abendessen / das Lieblingstier / die Lieblingsfarbe",
+      "tr": "Akşam yemeği / En sevilen hayvan / En sevilen renk",
+      "cat": "Günlük Kelimeler (3. Hafta)",
+      "week": 3
+    },
+    {
+      "de": "das Hobby / die Hobbys / zeichnen / Gitarre spielen",
+      "tr": "Hobi / Hobiler / Çizmek / Gitar çalmak",
+      "cat": "Günlük Kelimeler (3. Hafta)",
+      "week": 3
+    }
+    ,
+    {
+      "de": "wer",
+      "tr": "Kim? (Nominativ - Özne sorusu)",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "wen / wem",
+      "tr": "Kimi? (Akkusativ) / Kime? (Dativ - Örn: Wem gehört das?)",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "was",
+      "tr": "Ne? (Örn: Was machst du? / Was kostet das?)",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "wo / woher / wohin",
+      "tr": "Nerede? / Nereden? / Nereye?",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "wann / wie spät / wie viel Uhr",
+      "tr": "Ne zaman? / Saat kaç? (Örn: Wann kommst du?)",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "wie / wie alt / wie viele",
+      "tr": "Nasıl? / Kaç yaşında? / Kaç tane?",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "welcher / welche / welches",
+      "tr": "Hangi? (Artikellere göre değişir: Welche Farbe? Welcher Tag?)",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "warum / wieso / weshalb",
+      "tr": "Neden? / Niçin?",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "wessen",
+      "tr": "Kimin? (Genitiv - Aidiyet sorusu)",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "wie lange / wie oft",
+      "tr": "Ne kadar süre? / Ne sıklıkla?",
+      "cat": "Soru Kelimeleri (W-Fragen)",
+      "week": 3
+    },
+    {
+      "de": "schön / wunderschön / hübsch",
+      "tr": "Güzel / Harika güzel / Hoş, alımlı",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "super / toll / prima / klasse",
+      "tr": "Süper / Harika / Müthiş / Birinci sınıf",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "wunderbar / fantastisch / großartig",
+      "tr": "Harikulade / Fantastik / Muhteşem",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "nett / sympathisch / freundlich",
+      "tr": "Kibar, hoş / Sempatik / Güleryüzlü, dost canlısı",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "klug / intelligent / fleißig",
+      "tr": "Akıllı / Zeki / Çalışkan",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "hilfsbereit / geduldig / höflich",
+      "tr": "Yardımsever / Sabırlı / Nazik",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "lustig / humorvoll / cool",
+      "tr": "Eğlenceli, komik / Esprili / Havalı",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "elegant / schick / modern / sportlich",
+      "tr": "Zarif / Şık / Modern / Sportif",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "Du siehst toll aus! / Das steht dir gut!",
+      "tr": "Harika görünüyorsun! / Bu sana çok yakışmış!",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "Du bist sehr nett! / Das ist sehr lieb von dir!",
+      "tr": "Çok naziksin! / Bu senin çok büyük inceliğin!",
+      "cat": "İltifatlar (Komplimente)",
+      "week": 3
+    },
+    {
+      "de": "Musik hören / singen / tanzen",
+      "tr": "Müzik dinlemek / Şarkı söylemek / Dans etmek",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Gitarre spielen / Klavier spielen / Geige spielen",
+      "tr": "Gitar çalmak / Piyano çalmak / Keman çalmak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "malen / zeichnen / fotografieren",
+      "tr": "Resim yapmak (boyamak) / Çizim yapmak / Fotoğraf çekmek",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Bücher lesen / schreiben / basteln",
+      "tr": "Kitap okumak / Yazı yazmak / El işi yapmak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "kochen / backen / grillen",
+      "tr": "Yemek pişirmek / Hamur işi-pasta pişirmek / Mangal yapmak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "reisen / wandern / campen",
+      "tr": "Seyahat etmek / Doğa yürüyüşü yapmak / Kamp yapmak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "ins Kino gehen / Theater gehen / Konzerte besuchen",
+      "tr": "Sinemaya gitmek / Tiyatroya gitmek / Konserlere gitmek",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Freunde treffen / ausgehen / feiern",
+      "tr": "Arkadaşlarla buluşmak / Dışarı çıkmak / Eğlenmek-kutlamak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "fernsehen / Filme schauen / Serien schauen",
+      "tr": "Televizyon izlemek / Film izlemek / Dizi izlemek",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Computerspiele spielen / Schach spielen",
+      "tr": "Bilgisayar oyunları oynamak / Satranç oynamak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Sport treiben / joggen / laufen",
+      "tr": "Spor yapmak / Hafif tempo koşmak / Koşmak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "schwimmen / tauchen / surfen",
+      "tr": "Yüzmek / Dalış yapmak / Sörf yapmak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Rad fahren / Ski fahren / Motorrad fahren",
+      "tr": "Bisiklet sürmek / Kayak yapmak / Motosiklet sürmek",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Fußball spielen / Basketball spielen / Volleyball spielen",
+      "tr": "Futbol oynamak / Basketbol oynamak / Voleybol oynamak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Tennis spielen / Tischtennis spielen / Badminton spielen",
+      "tr": "Tenis oynamak / Masa tenisi oynamak / Badminton oynamak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "boxen / trainieren / ins Fitnessstudio gehen",
+      "tr": "Boks yapmak / Antrenman yapmak / Spor salonuna gitmek",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "Yoga machen / gymnastik machen / spazieren gehen",
+      "tr": "Yoga yapmak / Jimnastik yapmak / Yürüyüşe çıkmak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
+    },
+    {
+      "de": "angeln / gärtnern / einkaufen (shoppen)",
+      "tr": "Balık tutmak / Bahçe işleriyle uğraşmak / Alışveriş yapmak",
+      "cat": "Hobiler & Sporlar (Hobbys)",
+      "week": 3
     }
   ]
 }
