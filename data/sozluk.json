@@ -1220,6 +1220,180 @@
       "tr": "Balık tutmak / Bahçe işleriyle uğraşmak / Alışveriş yapmak",
       "cat": "Hobiler & Sporlar (Hobbys)",
       "week": 3
+    },
+    {
+      "de": "aufmachen / ausmachen",
+      "tr": "Açmak (kapı, pencere) / Kapatmak (ışık, TV)",
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "week": 4
+    },
+    {
+      "de": "abfahren / ankommen",
+      "tr": "Hareket etmek (araç) / Varmak, ulaşmak",
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "week": 4
+    },
+    {
+      "de": "einsteigen / aussteigen / umsteigen",
+      "tr": "Binmek / İnmek / Aktarma yapmak",
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "week": 4
+    },
+    {
+      "de": "aufstehen / fernsehen / einkaufen",
+      "tr": "Kalkmak / Televizyon izlemek / Alışveriş yapmak",
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "week": 4
+    },
+    {
+      "de": "mitkommen / mitbringen",
+      "tr": "Birlikte gelmek / Yanında getirmek",
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "week": 4
+    },
+    {
+      "de": "einladen / anrufen / abholen",
+      "tr": "Davet etmek / Telefonla aramak / Bir yerden almak",
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "week": 4
+    },
+    {
+      "de": "wegfahren / weitergeben / ausdenken",
+      "tr": "Yola çıkmak / İletmek / Planlamak, tasarlamak",
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "week": 4
+    },
+    {
+      "de": "herkommen / loskommen / absehen",
+      "tr": "Buraya gelmek / Kurtulmak / Öngörmek",
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "week": 4
+    },
+    {
+      "de": "die Tischdecke / die Haustür / die Autotür",
+      "tr": "Masa örtüsü / Ev kapısı / Araba kapısı",
+      "cat": "Birleşik İsimler (Komposita)",
+      "week": 4
+    },
+    {
+      "de": "der Schuhladen / die Gartenmöbel / das Gartenhaus",
+      "tr": "Ayakkabı dükkanı / Bahçe mobilyası / Bahçe evi",
+      "cat": "Birleşik İsimler (Komposita)",
+      "week": 4
+    },
+    {
+      "de": "die Abendschule / das Schulzimmer / der Schullehrer",
+      "tr": "Akşam okulu / Sınıf (derslik) / Okul öğretmeni",
+      "cat": "Birleşik İsimler (Komposita)",
+      "week": 4
+    },
+    {
+      "de": "das Kinderbuch / der Volkswagen / die Wasserflasche",
+      "tr": "Çocuk kitabı / Halk arabası / Su şişesi",
+      "cat": "Birleşik İsimler (Komposita)",
+      "week": 4
+    },
+    {
+      "de": "das Frühstück / frühstücken",
+      "tr": "Kahvaltı / Kahvaltı yapmak",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "das Brot / das Brötchen / der Toast",
+      "tr": "Ekmek / Küçük sandviç ekmeği (poğaça) / Tost ekmeği",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "der Käse / die Butter / das Ei (die Eier)",
+      "tr": "Peynir / Tereyağı / Yumurta (Yumurtalar)",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "die Marmelade / der Honig / die Schokolade",
+      "tr": "Reçel / Bal / Çikolata",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "die Olive / die Tomate / die Gurke",
+      "tr": "Zeytin / Domates / Salatalık",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "die Wurst / der Schinken / das Müsli / der Joghurt",
+      "tr": "Sucuk-sosis / Jambon / Müsli / Yoğurt",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "der Kaffee / der Tee / die Milch",
+      "tr": "Kahve / Çay / Süt",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "der Orangensaft / der Apfelsaft / das Eis",
+      "tr": "Portakal suyu / Elma suyu / Dondurma",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "Hunger haben / Durst haben / Angst haben",
+      "tr": "Acıkmak / Susamak / Korkmak",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "Es gibt (+Akkusativ) / schmecken / lecker",
+      "tr": "Var, mevcut / Tadı güzel olmak / Lezzetli",
+      "cat": "Kahvaltı & Yiyecekler (Frühstück)",
+      "week": 4
+    },
+    {
+      "de": "der Zug / die S-Bahn / die U-Bahn / die Straßenbahn",
+      "tr": "Tren / Banliyö treni / Metro / Tramvay",
+      "cat": "Ulaşım & İstasyon (Verkehr)",
+      "week": 4
+    },
+    {
+      "de": "der Bus / der Schulbus / das Auto / das Taxi",
+      "tr": "Otobüs / Okul otobüsü / Araba / Taksi",
+      "cat": "Ulaşım & İstasyon (Verkehr)",
+      "week": 4
+    },
+    {
+      "de": "das Flugzeug / das Schiff / das Motorrad / zu Fuß",
+      "tr": "Uçak / Gemi / Motosiklet / Yürüyerek",
+      "cat": "Ulaşım & İstasyon (Verkehr)",
+      "week": 4
+    },
+    {
+      "de": "der Bahnhof / der Hauptbahnhof / der Flughafen",
+      "tr": "Tren istasyonu / Ana tren istasyonu / Havalimanı",
+      "cat": "Ulaşım & İstasyon (Verkehr)",
+      "week": 4
+    },
+    {
+      "de": "die Haltestelle / der Bahnsteig / das Gleis",
+      "tr": "Durak / Peron / Ray, peron hattı",
+      "cat": "Ulaşım & İstasyon (Verkehr)",
+      "week": 4
+    },
+    {
+      "de": "die Fahrkarte / das Ticket / der Verkehr / tanken",
+      "tr": "Bilet / Bilet / Trafik / Yakıt-benzin almak",
+      "cat": "Ulaşım & İstasyon (Verkehr)",
+      "week": 4
+    },
+    {
+      "de": "kennen / Tut mir leid! / fast / immer",
+      "tr": "Tanımak, bilmek / Üzgünüm! / Neredeyse / Her zaman",
+      "cat": "Günlük Kelimeler (4. Hafta)",
+      "week": 4
     }
   ]
 }

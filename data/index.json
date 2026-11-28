@@ -14,6 +14,11 @@
       "id": 3,
       "file": "hafta3.json",
       "shortTitle": "3. Hafta: Modal Fiiller, Günler, Aylar, Analog/Digital Saatler & Cümle Kurma"
+    },
+    {
+      "id": 4,
+      "file": "hafta4.json",
+      "shortTitle": "4. Hafta: Ayrılabilen Fiiller, Birleşik İsimler, Kahvaltı & Ulaşım"
     }
   ]
 }

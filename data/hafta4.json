@@ -1,0 +1,621 @@
+{
+  "id": 4,
+  "title": "4. Hafta: Ayrılabilen Fiiller (Trennbare Verben), Birleşik İsimler (Nomen + Nomen), Kahvaltı & Ulaşım",
+  "week": 4,
+  "date": "23.11.2026 - 28.11.2026",
+  "book": "Menschen A1 (Modul 2)",
+  "summary": {
+    "dialogs": [
+      {
+        "q": "Wann fährt der Schulbus ab? / Wann kommt der Zug an?",
+        "a": "Der Schulbus fährt morgens um 06:30 Uhr ab. / Der Zug kommt um 08:15 Uhr auf Gleis 3 an.",
+        "tr": "Okul otobüsü saat kaçta hareket ediyor? / Tren saat kaçta varıyor? (abfahren & ankommen ayrılabilen fiillerdir; ön ek en sona gider)"
+      },
+      {
+        "q": "Wo muss ich einsteigen, umsteigen und aussteigen?",
+        "a": "Du steigst am Hauptbahnhof ein, in Köln um und an der Haltestelle 'Zentrum' aus.",
+        "tr": "Nerede binmeli, aktarma yapmalı ve inmeliyim? (einsteigen = binmek, umsteigen = aktarma yapmak, aussteigen = inmek)"
+      },
+      {
+        "q": "Kommst du mit? / Bringst du Kuchen mit?",
+        "a": "Ja, ich komme gern mit! / Ja, ich bringe einen Kuchen und Apfelsaft mit.",
+        "tr": "Benimle/bizimle geliyor musun? / Yanında pasta getiriyor musun? (mitkommen = birlikte gelmek, mitbringen = yanında getirmek)"
+      },
+      {
+        "q": "Was möchtest du zum Frühstück? / Hast du Hunger oder Durst?",
+        "a": "Ich habe großen Hunger! Ich möchte Brötchen mit Käse, Marmelade, ein Ei und Kaffee.",
+        "tr": "Kahvaltıda ne istersin? / Aç mısın susadın mı? (Hunger haben = acıkmak, Durst haben = susamak)"
+      },
+      {
+        "q": "Was gibt es zum Frühstück? / Schmeckt der Kaffee?",
+        "a": "Es gibt Brot, Butter, Honig, Oliven und Tee. — Ja, der Kaffee schmeckt sehr gut!",
+        "tr": "Kahvaltıda ne var? / Kahvenin tadı güzel mi? ('Es gibt + Akkusativ' = Var; schmecken = tadı güzel olmak)"
+      },
+      {
+        "q": "Möchtest du Apfelsaft? / Magst du Schokolade?",
+        "a": "Ja, ich möchte gern Apfelsaft. / Nein, ich möchte nicht. — Ja, ich mag Schokolade!",
+        "tr": "Elma suyu ister misin? / Çikolata sever misin? (möchten = anlık kibar istek, mögen = genel beğeni/sevgi)"
+      },
+      {
+        "q": "Darf ich hier das Fenster aufmachen? / Wann stehst du auf?",
+        "a": "Ja, du darfst es aufmachen. / Ich stehe um 6 Uhr auf. (Ich muss morgen früh aufstehen.)",
+        "tr": "Pencereyi açabilir miyim? / Saat kaçta kalkıyorsun? (Modal fiil varsa ayrılabilen fiil BİTİŞİK ve MASTAR olarak en sona gider!)"
+      }
+    ],
+    "grammar_topics": [
+      {
+        "title": "1. Ayrılabilen Fiiller (Trennbare Verben) ve Cümle İçi Konumları",
+        "content": "• Ayrılabilen fiiller bir ön ek (Präfix: ab-, an-, auf-, aus-, ein-, fern-, her-, los-, mit-, weg-, weiter-, um-) ve bir ana fiilden oluşur.\n• KURAL 1 (Normal Düz & Soru Cümlesi): Ana fiil 2. sırada (soruda 1. sırada) özneye göre çekimlenir, ayrılan ön ek ise CÜMLENİN EN SONUNA atılır!\n  - Örnek: 'Der Schulbus fährt morgens um 06:30 ab.' (abfahren)\n  - Örnek: 'Ich stehe um 6 Uhr auf.' (aufstehen) | 'Kommst du mit?' (mitkommen)\n• KURAL 2 (Modal Fiil Varsa - Satzklammer): Cümlede müssen, können, dürfen, wollen, möchten, sollen varsa modal fiil 2. sırada çekimlenir, ayrılabilen fiil AYRILMADAN BİTİŞİK ve MASTAR olarak en sona gider!\n  - Örnek: 'Ich muss morgen früh aufstehen.' | 'Wir dürfen heute Abend fernsehen.' | 'Er will dich später anrufen.'"
+      },
+      {
+        "title": "2. Birleşik İsimler (Wortbildung: Nomen + Nomen) ve Artikel Kuralı",
+        "content": "• Almancada iki veya daha fazla isim birleşerek yeni bir isim oluşturur ve BİTİŞİK yazılır.\n• KRİTİK KURAL: Birleşik ismin artikeli HER ZAMAN EN SONDAKİ KELİMENİN (Temel İsim / Grundwort) artikelidir!\n  - der Tisch + die Decke -> die Tischdecke (masa örtüsü)\n  - das Haus + die Tür -> die Haustür (ev kapısı)\n  - der Schuh + der Laden -> der Schuhladen (ayakkabı dükkanı)\n  - der Garten + die Möbel -> die Gartenmöbel (bahçe mobilyası)\n  - der Abend + die Schule -> die Abendschule (akşam okulu)\n  - die Kinder + das Buch -> das Kinderbuch (çocuk kitabı)\n  - das Volk + der Wagen -> der Volkswagen (halk arabası)\n  - die Schule + das Zimmer -> das Schulzimmer (sınıf / derslik)\n  - das Wasser + die Flasche -> die Wasserflasche (su şişesi)\n  - die Schule + der Lehrer -> der Schullehrer (okul öğretmeni)\n  - das Auto + die Tür -> die Autotür (araba kapısı)\n  - der Garten + das Haus -> das Gartenhaus (bahçe evi)"
+      },
+      {
+        "title": "3. Kahvaltı (Das Frühstück) ve 'Es gibt + Akkusativ' Kalıbı",
+        "content": "• 'Es gibt ...' (Var / Mevcut): Daima tekil 'gibt' ile kullanılır ve ardından gelen ismi AKKUSATIV (-i hâli) yapar!\n  - Örnek: 'Es gibt keinen Kaffee.' (der Kaffee -> keinen Kaffee) | 'Es gibt einen Kuchen.' (der Kuchen -> einen Kuchen)\n  - Dişil/Nötr/Çoğul değişmez: 'Es gibt eine Marmelade, ein Ei und Brötchen.'\n• Önemli Kalıplar:\n  - Hunger haben (acıkmak) / Durst haben (susamak) / Angst haben (korkmak)\n  - schmecken (tadı güzel olmak): 'Die Brötchen schmecken lecker.' (Çoğulda schmecken, tekilde schmeckt)\n  - Tut mir leid! (Üzgünüm / Özür dilerim) | fast (neredeyse) | immer (her zaman) | kennen (tanımak, bilmek)"
+      },
+      {
+        "title": "4. Ulaşım Araçları (Verkehrsmittel) ve İstasyon/Durak Edatları",
+        "content": "• Ulaşım Araçları:\n  - der Zug (tren), die S-Bahn (banliyö treni), die U-Bahn (metro), die Straßenbahn (tramvay), der Bus (otobüs), das Auto (araba), das Taxi (taksi), das Flugzeug (uçak), das Schiff (gemi), das Fahrrad / das Rad (bisiklet), das Motorrad (motosiklet).\n• Edatlar (Präpositionen):\n  - Araç ile gitmek ('mit + Dativ'): mit dem Zug, mit dem Bus, mit dem Auto, mit der U-Bahn, mit dem Flugzeug (Yürüyerek: zu Fuß!).\n  - İstasyon & Durak ('an + dem = am' / 'an + der = an der'): am Bahnhof (tren istasyonunda), am Flughafen (havalimanında), an der Haltestelle (durakta), auf Gleis 5 (5. peronda).\n  - Hareket Fiilleri: einsteigen (binmek - in + Akk), aussteigen (inmek - aus + Dat), umsteigen (aktarma yapmak), abfahren (hareket etmek), ankommen (varmak), tanken (yakıt/benzin almak)."
+      }
+    ],
+    "pronouns": [
+      { "de": "trennbare Verben (Düz)", "tr": "Ich stehe um 6 Uhr auf.", "poss": "Ön ek EN SONA gider", "note": "aufstehen, abfahren, ankommen, mitkommen" },
+      { "de": "trennbare Verben (Modal)", "tr": "Ich muss früh aufstehen.", "poss": "BİTİŞİK ve MASTAR kalır", "note": "Modal fiil varsa ön ek ayrılmaz!" },
+      { "de": "Nomen + Nomen", "tr": "der Tisch + die Decke", "poss": "= die Tischdecke", "note": "Artikeli daima SON kelime belirler" },
+      { "de": "Es gibt + Akkusativ", "tr": "Es gibt einen Tee.", "poss": "Es gibt keinen Saft.", "note": "der -> den / einen / keinen olur" },
+      { "de": "Verkehrsmittel (mit)", "tr": "mit dem Bus / Zug", "poss": "mit der U-Bahn", "note": "mit edatı daima Dativ alır (zu Fuß = yürüyerek)" },
+      { "de": "mögen vs. möchten", "tr": "Ich mag Schokolade.", "poss": "Ich möchte ein Eis.", "note": "mögen = genel sevgi, möchten = anlık istek" }
+    ],
+    "numbers": [
+      { "num": "aufmachen", "de": "açmak (Ich mache das Fenster auf.)" },
+      { "num": "ausmachen", "de": "kapatmak - cihaz/ışık (Mach das Licht aus!)" },
+      { "num": "einsteigen", "de": "binmek - araca (Ich steige in den Bus ein.)" },
+      { "num": "aussteigen", "de": "inmek - araçtan (Wir steigen hier aus.)" },
+      { "num": "umsteigen", "de": "aktarma yapmak (Du musst in Berlin umsteigen.)" },
+      { "num": "abfahren", "de": "hareket etmek (Der Zug fährt um 8 Uhr ab.)" },
+      { "num": "ankommen", "de": "varmak (Wann kommt der Bus an?)" },
+      { "num": "mitkommen", "de": "birlikte gelmek (Kommst du mit?)" },
+      { "num": "mitbringen", "de": "yanında getirmek (Ich bringe Brot mit.)" },
+      { "num": "abholen", "de": "bir yerden almak (Ich hole dich ab.)" },
+      { "num": "anrufen", "de": "telefonla aramak (Er ruft dich an.)" },
+      { "num": "einladen", "de": "davet etmek (Ich lade ihn zum Kaffee ein.)" },
+      { "num": "einkaufen", "de": "alışveriş yapmak (Wir kaufen im Supermarkt ein.)" },
+      { "num": "fernsehen", "de": "televizyon izlemek (Er sieht gern fern.)" },
+      { "num": "wegfahren", "de": "yola çıkmak / uzaklaşmak" },
+      { "num": "weitergeben", "de": "iletmek / aktarmak" },
+      { "num": "ausdenken", "de": "planlamak / tasarlamak / uydurmak" },
+      { "num": "herkommen", "de": "buraya gelmek" },
+      { "num": "loskommen", "de": "kurtulmak / ayrılabilmek" },
+      { "num": "absehen", "de": "öngörmek / kestirmek" }
+    ],
+    "notes": [
+      "Defter Düzeltmesi (#1 - möchten): 'Ich möchte ihm zum Kaffee einladen' cümlesinde 'einladen' fiili Akkusativ alır; bu nedenle 'ihm' (Dativ) yerine 'ihn' (Akkusativ) kullanılmalıdır: 'Ich möchte ihn zum Kaffee einladen.'",
+      "Defter Düzeltmesi (#2 - Birleşik İsimler): İki isim birleşirken bazı kelimelerde kaynaştırma harfi gelir veya son harf düşer: 'die Kinder + das Buch = das Kinderbuch', 'die Schule + das Zimmer = das Schulzimmer', 'die Schule + der Lehrer = der Schullehrer', 'der Abend + die Schule = die Abendschule', 'das Gartenhaus'.",
+      "Ayrılabilen Fiillerde Modal Kuralı: 'Ich stehe auf' cümlesinde ön ek sona giderken, araya modal fiil girdiğinde ('Ich muss aufstehen') fiil ayrılmaz ve bitişik yazılır!",
+      "'Ich mag dich' Anlamı: 'mögen' fiili nesnelerle 'sevmek/hoşlanmak' (Ich mag Kaffee), insanlarla kullanıldığında ise 'Senden hoşlanıyorum / Seni seviyorum' anlamına gelir."
+    ]
+  },
+  "verbs": [
+    {
+      "name": "abfahren",
+      "tr": "hareket etmek / yola çıkmak (araç)",
+      "type": "Düzensiz (Ayrılabilen a -> ä)",
+      "conj": { "ich": "fahre ab", "du": "fährst ab", "er": "fährt ab", "wir": "fahren ab", "ihr": "fahrt ab", "sie": "fahren ab" }
+    },
+    {
+      "name": "ankommen",
+      "tr": "varmak / ulaşmak",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "komme an", "du": "kommst an", "er": "kommt an", "wir": "kommen an", "ihr": "kommt an", "sie": "kommen an" }
+    },
+    {
+      "name": "einsteigen",
+      "tr": "binmek (otobüs, tren vb.)",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "steige ein", "du": "steigst ein", "er": "steigt ein", "wir": "steigen ein", "ihr": "steigt ein", "sie": "steigen ein" }
+    },
+    {
+      "name": "aussteigen",
+      "tr": "inmek (otobüs, tren vb.)",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "steige aus", "du": "steigst aus", "er": "steigt aus", "wir": "steigen aus", "ihr": "steigt aus", "sie": "steigen aus" }
+    },
+    {
+      "name": "umsteigen",
+      "tr": "aktarma yapmak",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "steige um", "du": "steigst um", "er": "steigt um", "wir": "steigen um", "ihr": "steigt um", "sie": "steigen um" }
+    },
+    {
+      "name": "aufstehen",
+      "tr": "kalkmak / uyanıp yataktan kalkmak",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "stehe auf", "du": "stehst auf", "er": "steht auf", "wir": "stehen auf", "ihr": "steht auf", "sie": "stehen auf" }
+    },
+    {
+      "name": "aufmachen",
+      "tr": "açmak (kapı, pencere, kutu)",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "mache auf", "du": "machst auf", "er": "macht auf", "wir": "machen auf", "ihr": "macht auf", "sie": "machen auf" }
+    },
+    {
+      "name": "ausmachen",
+      "tr": "kapatmak (ışık, TV, cihaz)",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "mache aus", "du": "machst aus", "er": "macht aus", "wir": "machen aus", "ihr": "macht aus", "sie": "machen aus" }
+    },
+    {
+      "name": "mitkommen",
+      "tr": "birlikte gelmek / katılmak",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "komme mit", "du": "kommst mit", "er": "kommt mit", "wir": "kommen mit", "ihr": "kommt mit", "sie": "kommen mit" }
+    },
+    {
+      "name": "mitbringen",
+      "tr": "yanında getirmek / birlikte getirmek",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "bringe mit", "du": "bringst mit", "er": "bringt mit", "wir": "bringen mit", "ihr": "bringt mit", "sie": "bringen mit" }
+    },
+    {
+      "name": "einladen",
+      "tr": "davet etmek (+Akkusativ)",
+      "type": "Düzensiz (Ayrılabilen a -> ä)",
+      "conj": { "ich": "lade ein", "du": "lädst ein", "er": "lädt ein", "wir": "laden ein", "ihr": "ladet ein", "sie": "laden ein" }
+    },
+    {
+      "name": "anrufen",
+      "tr": "telefonla aramak (+Akkusativ)",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "rufe an", "du": "rufst an", "er": "ruft an", "wir": "rufen an", "ihr": "ruft an", "sie": "rufen an" }
+    },
+    {
+      "name": "einkaufen",
+      "tr": "alışveriş yapmak",
+      "type": "Düzenli (Ayrılabilen)",
+      "conj": { "ich": "kaufe ein", "du": "kaufst ein", "er": "kauft ein", "wir": "kaufen ein", "ihr": "kauft ein", "sie": "kaufen ein" }
+    },
+    {
+      "name": "fernsehen",
+      "tr": "televizyon izlemek",
+      "type": "Düzensiz (Ayrılabilen e -> ie)",
+      "conj": { "ich": "sehe fern", "du": "siehst fern", "er": "sieht fern", "wir": "sehen fern", "ihr": "seht fern", "sie": "sehen fern" }
+    },
+    {
+      "name": "kennen",
+      "tr": "tanımak / bilmek (+Akkusativ)",
+      "type": "Düzenli",
+      "conj": { "ich": "kenne", "du": "kennst", "er": "kennt", "wir": "kennen", "ihr": "kennt", "sie": "kennen" }
+    },
+    {
+      "name": "schmecken",
+      "tr": "tadı güzel olmak / lezzetli gelmek",
+      "type": "Düzenli",
+      "conj": { "ich": "schmecke", "du": "schmeckst", "er": "schmeckt", "wir": "schmecken", "ihr": "schmeckt", "sie": "schmecken" }
+    },
+    {
+      "name": "tanken",
+      "tr": "yakıt / benzin doldurmak",
+      "type": "Düzenli",
+      "conj": { "ich": "tanke", "du": "tankst", "er": "tankt", "wir": "tanken", "ihr": "tankt", "sie": "tanken" }
+    }
+  ],
+  "dictionary": [],
+  "flashcards": [
+    {
+      "cat": "trennbar",
+      "q": "Ayrılabilen bir fiil (örn. abfahren, aufstehen) düz cümlede nasıl kullanılır?",
+      "a": "Ana fiil 2. sırada çekimlenir, ön ek (ab, auf) ise cümlenin EN SONUNA gider.",
+      "exp": "Örnek: Der Bus fährt (2) um 06:30 Uhr ab (En son). | Ich stehe um 6 Uhr auf."
+    },
+    {
+      "cat": "trennbar",
+      "q": "Cümlede Modal Fiil (müssen, dürfen, wollen vb.) varsa ayrılabilen fiil ayrılır mı?",
+      "a": "HAYIR! Modal fiil 2. sırada çekimlenir, ayrılabilen fiil BİTİŞİK ve MASTAR olarak en sona gider.",
+      "exp": "Örnek: Ich muss morgen früh aufstehen. | Wir dürfen heute Abend fernsehen."
+    },
+    {
+      "cat": "komposita",
+      "q": "Birleşik isimlerde (Nomen + Nomen) kelimenin artikelini hangisi belirler?",
+      "a": "Her zaman EN SONDAKİ kelime (Grundwort) artikeli belirler!",
+      "exp": "Örnek: der Tisch + die Decke = die Tischdecke | das Haus + die Tür = die Haustür."
+    },
+    {
+      "cat": "komposita",
+      "q": "'der Schuh + der Laden', 'die Kinder + das Buch' ve 'die Schule + das Zimmer' birleşimleri nelerdir?",
+      "a": "der Schuhladen (ayakkabı dükkanı), das Kinderbuch (çocuk kitabı), das Schulzimmer (sınıf)",
+      "exp": "Ayrıca: die Abendschule (akşam okulu), der Schullehrer (okul öğretmeni), das Gartenhaus (bahçe evi)."
+    },
+    {
+      "cat": "ulasim",
+      "q": "Ulaşımda 'binmek', 'inmek', 'aktarma yapmak', 'hareket etmek' ve 'varmak' fiilleri nelerdir?",
+      "a": "einsteigen (binmek), aussteigen (inmek), umsteigen (aktarma yapmak), abfahren (hareket etmek), ankommen (varmak)",
+      "exp": "Tümü ayrılabilen fiildir: Ich steige ein. / Der Zug kommt an."
+    },
+    {
+      "cat": "ulasim",
+      "q": "'Tren istasyonu', 'Durak', 'Peron' ve 'Ray/Hat' kelimelerinin Almancaları nelerdir?",
+      "a": "der Bahnhof (tren istasyonu), die Haltestelle (durak), der Bahnsteig (peron), das Gleis (ray/peron hattı)",
+      "exp": "Örnek: Der Zug fährt auf Gleis 4 ab. | Ich warte an der Haltestelle."
+    },
+    {
+      "cat": "kahvalti",
+      "q": "'Acıkmak', 'Susamak' ve 'Korkmak' kalıpları Almancada hangi fiille kurulur?",
+      "a": "'haben' fiiliyle: Hunger haben (acıkmak), Durst haben (susamak), Angst haben (korkmak)",
+      "exp": "Örnek: Ich habe Hunger und Durst! (Acıktım ve susadım!)"
+    },
+    {
+      "cat": "kahvalti",
+      "q": "'Es gibt ...' kalıbı ne anlama gelir ve ardından gelen ismi hangi hâle sokar?",
+      "a": "'Var / Mevcut' demektir ve ardından gelen ismi AKKUSATIV yapar.",
+      "exp": "Örnek: Zum Frühstück gibt es einen Käse, eine Marmelade, ein Ei und Brötchen."
+    },
+    {
+      "cat": "trennbar",
+      "q": "'aufmachen / ausmachen', 'mitkommen / mitbringen' ve 'einladen / anrufen' ne demektir?",
+      "a": "aufmachen = açmak / ausmachen = kapatmak | mitkommen = birlikte gelmek / mitbringen = yanında getirmek | einladen = davet etmek / anrufen = aramak",
+      "exp": "Örnek: Er will dich später anrufen. | Ich lade ihn zum Kaffee ein."
+    },
+    {
+      "cat": "kahvalti",
+      "q": "Temel kahvaltılıklar (ekmek, poğaça/sandviç ekmeği, peynir, tereyağı, yumurta, reçel, bal, zeytin) nelerdir?",
+      "a": "das Brot, das Brötchen, der Käse, die Butter, das Ei, die Marmelade, der Honig, die Olive",
+      "exp": "İçecekler: der Kaffee, der Tee, die Milch, der Orangensaft, der Apfelsaft, das Wasser."
+    }
+  ],
+  "exercises": [
+    { "sentence": "Der Schulbus _____ morgens um 06:30 Uhr ab. (abfahren)", "answer": "fährt", "hint": "abfahren fiili er/der Schulbus için a -> ä olur" },
+    { "sentence": "Wann _____ der Schulbus an? (ankommen)", "answer": "kommt", "hint": "ankommen fiilinin 3. tekil çekimi" },
+    { "sentence": "Ich _____ morgen früh um 6 Uhr auf. (aufstehen)", "answer": "stehe", "hint": "ich için aufstehen kökü" },
+    { "sentence": "Ich muss morgen früh _____. (aufstehen - modal fiil var!)", "answer": "aufstehen", "hint": "Modal fiil varsa bitişik ve mastar kalır" },
+    { "sentence": "_____ du heute mit? (mitkommen)", "answer": "Kommst", "hint": "du için mitkommen kökü (cümle başı)" },
+    { "sentence": "Wir dürfen heute Abend _____. (fernsehen - modal fiil var!)", "answer": "fernsehen", "hint": "Modal fiil olduğu için ayrılmaz" },
+    { "sentence": "Er will dich später _____. (anrufen - modal fiil var!)", "answer": "anrufen", "hint": "Modal fiil olduğu için en sonda mastar" },
+    { "sentence": "Wir _____ an der nächsten Haltestelle aus. (aussteigen)", "answer": "steigen", "hint": "wir için aussteigen kökü" },
+    { "sentence": "Du musst am Hauptbahnhof _____. (umsteigen)", "answer": "umsteigen", "hint": "aktarma yapmak (mastar)" },
+    { "sentence": "Ich _____ ihn zum Kaffee ein. (einladen)", "answer": "lade", "hint": "ich için einladen kökü" },
+    { "sentence": "Birleşik isim artikeli: der Tisch + die Decke = _____ Tischdecke", "answer": "die", "hint": "Son kelimenin (die Decke) artikeli" },
+    { "sentence": "Birleşik isim artikeli: das Haus + die Tür = _____ Haustür", "answer": "die", "hint": "Son kelimenin (die Tür) artikeli" },
+    { "sentence": "Birleşik isim artikeli: der Schuh + der Laden = _____ Schuhladen", "answer": "der", "hint": "Son kelimenin (der Laden) artikeli" },
+    { "sentence": "Birleşik isim artikeli: die Kinder + das Buch = _____ Kinderbuch", "answer": "das", "hint": "Son kelimenin (das Buch) artikeli" },
+    { "sentence": "Birleşik isim artikeli: das Volk + der Wagen = _____ Volkswagen", "answer": "der", "hint": "Son kelimenin (der Wagen) artikeli" },
+    { "sentence": "Ich _____ großen Hunger und Durst! (acıkmak/susamak fiili)", "answer": "habe", "hint": "Hunger haben kalıbı" },
+    { "sentence": "Zum Frühstück _____ es Kaffee, Käse und Brötchen. (Var)", "answer": "gibt", "hint": "Es gibt kalıbı" },
+    { "sentence": "Es gibt _____ Kaffee mehr. (der Kaffee / olumsuz + Akkusativ)", "answer": "keinen", "hint": "Es gibt Akkusativ alır: der -> keinen" },
+    { "sentence": "Der Kaffee _____ sehr gut! (schmecken - tekil)", "answer": "schmeckt", "hint": "der Kaffee tekil 3. şahıs" },
+    { "sentence": "Ich fahre mit _____ Zug nach Ankara. (der Zug / mit + Dativ)", "answer": "dem", "hint": "mit edatı Dativ alır: der -> dem" },
+    { "sentence": "Wir fahren mit _____ U-Bahn ins Zentrum. (die U-Bahn / mit + Dativ)", "answer": "der", "hint": "mit edatı Dativ alır: die -> der" },
+    { "sentence": "Ich _____ Schokolade und Eis! (mögen - tekil 'ich')", "answer": "mag", "hint": "ich için mögen çekimi" },
+    { "sentence": "Tut mir _____! (Üzgünüm / Özür dilerim)", "answer": "leid", "hint": "Tut mir leid kalıbı" },
+    { "sentence": "Mach bitte das Fenster _____! (aufmachen - aç!)", "answer": "auf", "hint": "aufmachen fiilinin ayrılan ön eki" },
+    { "sentence": "Mach bitte das Licht _____! (ausmachen - kapat!)", "answer": "aus", "hint": "ausmachen fiilinin ayrılan ön eki" }
+  ],
+  "sentence_builders": [
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["abfahren", "morgens", "der Schulbus", "um 06:30 Uhr"],
+      "answer": "Der Schulbus fährt morgens um 06:30 Uhr ab.",
+      "alt_answers": ["Morgens fährt der Schulbus um 06:30 Uhr ab."],
+      "tr": "Okul otobüsü sabahları saat 06:30'da hareket ediyor.",
+      "exp": "'abfahren' ayrılabilen ve düzensiz (a->ä) bir fiildir: 'fährt' 2. sırada, 'ab' en sondadır."
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["ankommen", "wann", "der Zug", "am Bahnhof", "?"],
+      "answer": "Wann kommt der Zug am Bahnhof an?",
+      "alt_answers": [],
+      "tr": "Tren istasyona ne zaman varıyor?",
+      "exp": "W-sorusunda 'Wann' 1. sırada, 'kommt' 2. sırada, ayrılan ön ek 'an' en sondadır."
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["aufstehen", "um 6 Uhr", "ich", "jeden Tag"],
+      "answer": "Ich stehe jeden Tag um 6 Uhr auf.",
+      "alt_answers": ["Ich stehe um 6 Uhr jeden Tag auf.", "Jeden Tag stehe ich um 6 Uhr auf."],
+      "tr": "Her gün saat 6'da kalkıyorum.",
+      "exp": "Cümle başında 'Ich' büyük harfle yazılır; 'stehe' 2. sırada, 'auf' en sondadır."
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["einsteigen", "wir", "am Hauptbahnhof", "in den Zug"],
+      "answer": "Wir steigen am Hauptbahnhof in den Zug ein.",
+      "alt_answers": ["Am Hauptbahnhof steigen wir in den Zug ein."],
+      "tr": "Ana tren istasyonunda trene biniyoruz.",
+      "exp": "'einsteigen' fiilinde 'steigen' 2. sırada, 'ein' en sondadır."
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["umsteigen", "du", "in Frankfurt", "müssen"],
+      "answer": "Du musst in Frankfurt umsteigen.",
+      "alt_answers": ["In Frankfurt musst du umsteigen."],
+      "tr": "Frankfurt'ta aktarma yapmak zorundasın.",
+      "exp": "Modal fiil ('musst') 2. sırada olduğu için 'umsteigen' AYRILMADAN mastar olarak en sona gider!"
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["aussteigen", "an der Haltestelle", "die Kinder"],
+      "answer": "Die Kinder steigen an der Haltestelle aus.",
+      "alt_answers": ["An der Haltestelle steigen die Kinder aus."],
+      "tr": "Çocuklar durakta iniyorlar.",
+      "exp": "'aussteigen' çoğul özne için 'steigen' olarak çekimlenir, 'aus' en sona gider."
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["einladen", "ihn", "ich", "zum Kaffee", "möchten"],
+      "answer": "Ich möchte ihn zum Kaffee einladen.",
+      "alt_answers": [],
+      "tr": "Onu kahveye davet etmek istiyorum.",
+      "exp": "Modal fiil ('möchte') 2. sıradadır, 'einladen' bitişik olarak en sona gider ve Akkusativ ('ihn') alır."
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["mitbringen", "du", "was", "zum Frühstück", "?"],
+      "answer": "Was bringst du zum Frühstück mit?",
+      "alt_answers": [],
+      "tr": "Kahvaltıya yanında ne getiriyorsun?",
+      "exp": "'mitbringen' fiilinde 'bringst' 2. sırada, 'mit' en sondadır."
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["anrufen", "er", "später", "wollen", "dich"],
+      "answer": "Er will dich später anrufen.",
+      "alt_answers": ["Später will er dich anrufen."],
+      "tr": "O seni daha sonra aramak istiyor.",
+      "exp": "Modal fiil ('will') 2. sırada olduğu için 'anrufen' ayrılmadan en sona gider."
+    },
+    {
+      "cat": "Ayrılabilen Fiiller (Trennbare Verben)",
+      "words": ["fernsehen", "wir", "heute Abend", "dürfen"],
+      "answer": "Wir dürfen heute Abend fernsehen.",
+      "alt_answers": ["Heute Abend dürfen wir fernsehen."],
+      "tr": "Bu akşam televizyon izlememize izin var.",
+      "exp": "'dürfen' 2. sırada çekimlenir, 'fernsehen' bitişik ve mastar olarak en sonda yer alır."
+    },
+    {
+      "cat": "Kahvaltı & Günlük Kalıplar",
+      "words": ["geben", "es", "zum Frühstück", "Käse", "und", "Oliven"],
+      "answer": "Zum Frühstück gibt es Käse und Oliven.",
+      "alt_answers": ["Es gibt zum Frühstück Käse und Oliven."],
+      "tr": "Kahvaltıda peynir ve zeytin var.",
+      "exp": "'Es gibt' kalıbı var olmak anlamında kullanılır."
+    },
+    {
+      "cat": "Kahvaltı & Günlük Kalıplar",
+      "words": ["haben", "ich", "großen Hunger", "und", "Durst"],
+      "answer": "Ich habe großen Hunger und Durst.",
+      "alt_answers": [],
+      "tr": "Çok acıktım ve susadım.",
+      "exp": "'Hunger haben' ve 'Durst haben' kalıpları 'haben' fiiliyle çekimlenir."
+    },
+    {
+      "cat": "Kahvaltı & Günlük Kalıplar",
+      "words": ["schmecken", "sehr lecker", "die Brötchen"],
+      "answer": "Die Brötchen schmecken sehr lecker.",
+      "alt_answers": [],
+      "tr": "Sandviç ekmeklerinin tadı çok lezzetli.",
+      "exp": "'Die Brötchen' çoğul olduğu için 'schmecken' kullanılır."
+    },
+    {
+      "cat": "Kahvaltı & Günlük Kalıplar",
+      "words": ["mögen", "keinen Verkehr", "ich", "am Morgen"],
+      "answer": "Ich mag am Morgen keinen Verkehr.",
+      "alt_answers": ["Am Morgen mag ich keinen Verkehr."],
+      "tr": "Sabahları trafiği hiç sevmem.",
+      "exp": "'mögen' fiili Akkusativ alır: 'der Verkehr' -> 'keinen Verkehr'."
+    },
+    {
+      "cat": "Ulaşım & Birleşik İsimler",
+      "words": ["fahren", "mit dem Zug", "mein Vater", "nach Istanbul"],
+      "answer": "Mein Vater fährt mit dem Zug nach Istanbul.",
+      "alt_answers": ["Mit dem Zug fährt mein Vater nach Istanbul."],
+      "tr": "Babam trenle İstanbul'a gidiyor.",
+      "exp": "'mit' edatı Dativ alır ('mit dem Zug'), 'fahren' 3. tekil şahısta 'fährt' olur."
+    },
+    {
+      "cat": "Ulaşım & Birleşik İsimler",
+      "words": ["sein", "die Tischdecke", "neu", "und", "schön"],
+      "answer": "Die Tischdecke ist neu und schön.",
+      "alt_answers": [],
+      "tr": "Masa örtüsü yeni ve güzel.",
+      "exp": "der Tisch + die Decke = die Tischdecke (son kelimenin artikeli 'die' kullanılır)."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "\"Der Schulbus _____ morgens um 06:30 Uhr _____. \" (abfahren) cümlesi nasıl doğru tamamlanır?",
+      "options": ["abfahrt / —", "fährt / ab", "fahrt / ab", "fährt / an"],
+      "correct": "fährt / ab",
+      "cat": "Ayrılabilen Fiiller",
+      "exp": "'abfahren' ayrılabilen ve düzensiz (a->ä) bir fiildir: 'fährt' 2. sırada, 'ab' en sondadır."
+    },
+    {
+      "q": "\"Ich _____ morgen früh _____. \" (müssen + aufstehen) cümlesinde doğru kullanım hangisidir?",
+      "options": [
+        "muss / stehe auf",
+        "muss / aufstehen",
+        "müsse / aufstehen",
+        "muss / aufstehe"
+      ],
+      "correct": "muss / aufstehen",
+      "cat": "Ayrılabilen Fiiller",
+      "exp": "Cümlede modal fiil ('muss') varsa ayrılabilen fiil ayrılmaz; bitişik ve mastar ('aufstehen') olarak en sona gider."
+    },
+    {
+      "q": "Aşağıdaki ayrılabilen fiil ve Türkçe anlamı eşleştirmelerinden hangisi YANLIŞTIR?",
+      "options": [
+        "einsteigen -> binmek",
+        "aussteigen -> inmek",
+        "umsteigen -> aktarma yapmak",
+        "abfahren -> varmak"
+      ],
+      "correct": "abfahren -> varmak",
+      "cat": "Ayrılabilen Fiiller",
+      "exp": "'abfahren' hareket etmek (araç), 'ankommen' ise varmak demektir."
+    },
+    {
+      "q": "\"Wir _____ heute Abend _____. \" (dürfen + fernsehen) boşluklarına sırasıyla ne gelir?",
+      "options": [
+        "dürfen / fernsehen",
+        "darf / sehen fern",
+        "dürft / fernsehen",
+        "dürfen / sehen fern"
+      ],
+      "correct": "dürfen / fernsehen",
+      "cat": "Ayrılabilen Fiiller",
+      "exp": "'wir' için 'dürfen' çekimlenir, modal fiil olduğu için 'fernsehen' bitişik olarak en sonda kalır."
+    },
+    {
+      "q": "\"Er _____ dich später _____. \" (wollen + anrufen) cümlesi nasıl doğru tamamlanır?",
+      "options": [
+        "wollt / anrufen",
+        "will / anrufen",
+        "will / ruft an",
+        "willst / anrufen"
+      ],
+      "correct": "will / anrufen",
+      "cat": "Ayrılabilen Fiiller",
+      "exp": "'er' için 'wollen' -> 'will' olur ve 'anrufen' mastar olarak en sona gider."
+    },
+    {
+      "q": "\"Ich _____ ihn zum Kaffee _____. \" (einladen - davet etmek) boşluklarına hangisi gelmelidir?",
+      "options": ["lade / ein", "lädt / ein", "einlade / —", "ladet / ein"],
+      "correct": "lade / ein",
+      "cat": "Ayrılabilen Fiiller",
+      "exp": "'ich' şahsında 'einladen' -> 'Ich lade ... ein' şeklinde ayrılır."
+    },
+    {
+      "q": "'aufmachen', 'ausmachen' ve 'mitbringen' fiillerinin anlamları sırasıyla hangileridir?",
+      "options": [
+        "kapatmak / açmak / birlikte gelmek",
+        "açmak / kapatmak / yanında getirmek",
+        "davet etmek / aramak / iletmek",
+        "planlamak / öngörmek / kurtulmak"
+      ],
+      "correct": "açmak / kapatmak / yanında getirmek",
+      "cat": "Ayrılabilen Fiiller",
+      "exp": "aufmachen = açmak, ausmachen = kapatmak, mitbringen = yanında/birlikte getirmek."
+    },
+    {
+      "q": "Birleşik isimlerde (Nomen + Nomen) kelimenin artikelini hangisi belirler?",
+      "options": [
+        "İlk kelimenin artikeli",
+        "Her zaman 'das' artikeli",
+        "En sondaki kelimenin (Grundwort) artikeli",
+        "Her zaman çoğul 'die'"
+      ],
+      "correct": "En sondaki kelimenin (Grundwort) artikeli",
+      "cat": "Birleşik İsimler (Komposita)",
+      "exp": "Almancada tüm birleşik isimlerin artikeli en sondaki temel ismin artikelidir."
+    },
+    {
+      "q": "'der Tisch' + 'die Decke' birleştiğinde oluşan kelime ve artikeli aşağıdakilerden hangisidir?",
+      "options": ["der Tischdecke", "das Tischdecke", "die Tischdecke", "die Decketisch"],
+      "correct": "die Tischdecke",
+      "cat": "Birleşik İsimler (Komposita)",
+      "exp": "Son kelime 'die Decke' olduğu için birleşik kelimenin artikeli 'die'dir: die Tischdecke."
+    },
+    {
+      "q": "Aşağıdaki birleşik isim ve artikeli eşleştirmelerinden hangisi DOĞRUDUR?",
+      "options": [
+        "der Haustür (das Haus + die Tür)",
+        "das Kinderbuch (die Kinder + das Buch)",
+        "die Schuhladen (der Schuh + der Laden)",
+        "das Volkswagen (das Volk + der Wagen)"
+      ],
+      "correct": "das Kinderbuch (die Kinder + das Buch)",
+      "cat": "Birleşik İsimler (Komposita)",
+      "exp": "Doğruları: die Haustür, das Kinderbuch, der Schuhladen, der Volkswagen."
+    },
+    {
+      "q": "'die Schule + das Zimmer' ve 'die Schule + der Lehrer' birleşik isimlerinin doğru yazılışı hangisidir?",
+      "options": [
+        "das Schulezimmer / der Schulelehrer",
+        "das Schulzimmer / der Schullehrer",
+        "die Schulzimmer / die Schullehrer",
+        "der Schulzimmer / das Schullehrer"
+      ],
+      "correct": "das Schulzimmer / der Schullehrer",
+      "cat": "Birleşik İsimler (Komposita)",
+      "exp": "'Schule' birleşik isim oluştururken sonundaki '-e' düşer: das Schulzimmer, der Schullehrer."
+    },
+    {
+      "q": "\"Zum Frühstück _____ es _____ Kaffee und Brötchen.\" boşluklarına sırasıyla ne gelir?",
+      "options": ["geben / ein", "gibt / einen", "gibt / ein", "ist / einen"],
+      "correct": "gibt / einen",
+      "cat": "Kahvaltı & Yiyecekler",
+      "exp": "'Es gibt' daima tekil 'gibt' ile kullanılır ve ardından gelen 'der Kaffee'yi Akkusativ ('einen Kaffee') yapar."
+    },
+    {
+      "q": "Almancada 'Acıktım' ve 'Susadım' ifadeleri nasıl söylenir?",
+      "options": [
+        "Ich bin Hunger und Durst.",
+        "Ich habe Hunger und Durst.",
+        "Ich möchte Hunger und Durst.",
+        "Es gibt Hunger und Durst."
+      ],
+      "correct": "Ich habe Hunger und Durst.",
+      "cat": "Kahvaltı & Yiyecekler",
+      "exp": "'Hunger haben' (acıkmak), 'Durst haben' (susamak) ve 'Angst haben' (korkmak) 'haben' fiiliyle kurulur."
+    },
+    {
+      "q": "Aşağıdaki kahvaltılık ve artikeli eşleştirmelerinden hangisi YANLIŞTIR?",
+      "options": ["das Ei", "der Käse", "die Butter", "der Marmelade"],
+      "correct": "der Marmelade",
+      "cat": "Kahvaltı & Yiyecekler",
+      "exp": "Reçel kelimesinin doğru artikeli 'die'dir: die Marmelade."
+    },
+    {
+      "q": "\"Die Brötchen _____ sehr lecker!\" (schmecken) boşluğuna hangi fiil çekimi gelir?",
+      "options": ["schmeckt", "schmecken", "schmeckst", "schmecke"],
+      "correct": "schmecken",
+      "cat": "Kahvaltı & Yiyecekler",
+      "exp": "'Die Brötchen' çoğul olduğu için 'schmecken' fiili çoğul çekimiyle kullanılır."
+    },
+    {
+      "q": "\"Ich fahre mit _____ Bus und meine Schwester fährt mit _____ U-Bahn.\" boşluklarına ne gelir?",
+      "options": ["der / die", "den / die", "dem / der", "dem / die"],
+      "correct": "dem / der",
+      "cat": "Ulaşım & İstasyon",
+      "exp": "'mit' edatı daima Dativ alır: der Bus -> dem Bus, die U-Bahn -> der U-Bahn."
+    },
+    {
+      "q": "Ulaşımda 'tren istasyonu', 'otobüs durağı' ve 'peron' kelimelerinin Almancaları sırasıyla hangileridir?",
+      "options": [
+        "die Haltestelle / der Bahnhof / das Auto",
+        "der Bahnhof / die Haltestelle / der Bahnsteig",
+        "der Flughafen / der Zug / die Straßenbahn",
+        "das Gleis / der Bus / das Taxi"
+      ],
+      "correct": "der Bahnhof / die Haltestelle / der Bahnsteig",
+      "cat": "Ulaşım & İstasyon",
+      "exp": "der Bahnhof = tren istasyonu, die Haltestelle = durak, der Bahnsteig = peron."
+    },
+    {
+      "q": "Defter notlarındaki 'Tut mir leid!', 'kennen' ve 'fast' kelimelerinin anlamları sırasıyla nedir?",
+      "options": [
+        "Teşekkürler / bilmek / her zaman",
+        "Üzgünüm / tanımak-bilmek / neredeyse",
+        "Hoşça kal / görmek / şimdi",
+        "Lütfen / sevmek / bazen"
+      ],
+      "correct": "Üzgünüm / tanımak-bilmek / neredeyse",
+      "cat": "Kelime & Kalıplar",
+      "exp": "Tut mir leid = Üzgünüm, kennen = tanımak/bilmek, fast = neredeyse (aşağı yukarı)."
+    },
+    {
+      "q": "\"Ich _____ dich.\" (Seni seviyorum / Senden hoşlanıyorum) cümlesinde boşluğa hangi fiil çekimi gelir?",
+      "options": ["möchte", "mag", "magst", "mögen"],
+      "correct": "mag",
+      "cat": "Kelime & Kalıplar",
+      "exp": "'ich' şahsında 'mögen' fiili 'mag' olarak çekimlenir: Ich mag dich."
+    },
+    {
+      "q": "\"Wir müssen an der nächsten Station _____. \" (inmek) boşluğuna hangi fiil gelir?",
+      "options": ["einsteigen", "aussteigen", "abfahren", "tanken"],
+      "correct": "aussteigen",
+      "cat": "Ulaşım & İstasyon",
+      "exp": "Durakta/istasyonda inmek için 'aussteigen' kullanılır."
+    }
+  ]
+}
